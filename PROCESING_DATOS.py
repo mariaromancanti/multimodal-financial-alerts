@@ -1,13 +1,3 @@
-### codigo para el procesamiento de los datos:
-
-# QUEREMOS FILTRAR TANTO EN FILAS: QUEDARNOS CON UNAS 2000 QUE CONTENGAN UNA CANTIDAD ELEVADA DE
-#  NER TAGS COMO EN COLUMNAS, QUEDARNOS SOLO CON UNAS 12 NER TAGS, LAS MAS IMPORTANTES
-# AQUI VAMOS A GENERAR:
-# train_reduced.jsonl
-# validation_reduced.jsonl
-# test_reduced.jsonl
-
-
 import pandas as pd
 from pathlib import Path
 
@@ -41,9 +31,6 @@ TARGET_ROWS = {
     "validation": 500,
     "test": 500,
 }
-
-OUTPUT_DIR = Path("reduced_data")
-OUTPUT_DIR.mkdir(exist_ok=True)
 
 
 def normalize_entity_name(entity: str) -> str:
@@ -82,7 +69,7 @@ def count_selected_spans(tags):
     return sum(tag.startswith("B-") for tag in tags)
 
 
-def process_split(split_name, input_path, output_rows, chunksize=50000):
+def process_split(split_name, input_path, output_rows, output_dir, chunksize=50000):
     selected_chunks = []
 
     for chunk in pd.read_json(input_path, lines=True, chunksize=chunksize):
@@ -112,12 +99,48 @@ def process_split(split_name, input_path, output_rows, chunksize=50000):
 
     df = df.drop(columns=["selected_token_count", "selected_span_count", "seq_len"])
 
-    output_path = OUTPUT_DIR / f"{split_name}_reduced.jsonl"
+    output_path = output_dir / f"{split_name}_reduced.jsonl"
     df.to_json(output_path, orient="records", lines=True, force_ascii=False)
 
     print(f"[{split_name}] guardado en {output_path} con {len(df)} filas")
 
 
+def generate_reduced_data(
+    input_dir=".",
+    output_dir="data",
+    force=False,
+    chunksize=50000,
+):
+    input_dir = Path(input_dir)
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    required_outputs = [
+        output_dir / "train_reduced.jsonl",
+        output_dir / "validation_reduced.jsonl",
+        output_dir / "test_reduced.jsonl",
+    ]
+
+    if not force and all(path.exists() for path in required_outputs):
+        print("Los datos reducidos ya existen. Se omite processing.")
+        return
+
+    for split_name, filename in INPUT_FILES.items():
+        input_path = input_dir / filename
+
+        if not input_path.exists():
+            raise FileNotFoundError(
+                f"No se encontró el archivo de entrada para '{split_name}': {input_path}"
+            )
+
+        process_split(
+            split_name=split_name,
+            input_path=input_path,
+            output_rows=TARGET_ROWS[split_name],
+            output_dir=output_dir,
+            chunksize=chunksize,
+        )
+
+
 if __name__ == "__main__":
-    for split_name, file_path in INPUT_FILES.items():
-        process_split(split_name, file_path, TARGET_ROWS[split_name])
+    generate_reduced_data()

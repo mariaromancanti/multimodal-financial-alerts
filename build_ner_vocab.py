@@ -1,107 +1,69 @@
+import os
 import json
-from pathlib import Path
 from collections import Counter
 
-# CONFIG
-SCRIPT_DIR = Path(__file__).resolve().parent
-DATA_PATH = SCRIPT_DIR / "reduced_data" / "train_reduced.jsonl"
-OUTPUT_DIR = SCRIPT_DIR / "vocabularies"
-OUTPUT_DIR.mkdir(exist_ok=True)
 
-MIN_FREQ = 1   # si luego queremos filtrar palabras raras, hay que subir esto a 2 o 3
-LOWERCASE = True
+def generate_vocab(data_dir="data", vocab_dir="vocab", force=False):
+    os.makedirs(vocab_dir, exist_ok=True)
 
-PAD_TOKEN = "<PAD>"
-UNK_TOKEN = "<UNK>"
+    token_path = os.path.join(vocab_dir, "token_to_idx.json")
+    char_path = os.path.join(vocab_dir, "char_to_idx.json")
+    tag_path = os.path.join(vocab_dir, "tag_to_idx.json")
 
+    # Si ya existen y no forzamos → salir
+    if not force and all(os.path.exists(p) for p in [token_path, char_path, tag_path]):
+        print("Vocabularios ya existen. Se omite build_vocab.")
+        return
 
-# LOAD DATA
-def load_jsonl(path: Path):
-    data = []
-    with open(path, "r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if line:
-                data.append(json.loads(line))
-    return data
+    print("Construyendo vocabularios...")
 
+    token_counter = Counter()
+    char_counter = Counter()
+    tag_set = set()
 
-# BUILD VOCABS
-def normalize_token(token: str) -> str:
-    return token.lower() if LOWERCASE else token
+    files = [
+        "train_reduced.jsonl",
+        "validation_reduced.jsonl",
+        "test_reduced.jsonl"
+    ]
 
-def build_word_vocab(data):
-    counter = Counter()
+    for fname in files:
+        path = os.path.join(data_dir, fname)
+        if not os.path.exists(path):
+            raise FileNotFoundError(f"No existe {path}")
 
-    for sample in data:
-        tokens = sample["tokens"]
-        for token in tokens:
-            counter[normalize_token(token)] += 1
+        with open(path, "r", encoding="utf-8") as f:
+            for line in f:
+                sample = json.loads(line)
 
-    # tokens especiales al principio
-    word2idx = {
-        PAD_TOKEN: 0,
-        UNK_TOKEN: 1,
-    }
+                tokens = sample["tokens"]
+                tags = sample["ner_tags"]
 
-    # añadimos el resto por frecuencia descendente
-    sorted_words = sorted(
-        [word for word, freq in counter.items() if freq >= MIN_FREQ],
-        key=lambda w: (-counter[w], w)
-    )
+                token_counter.update(tokens)
+                tag_set.update(tags)
 
-    for word in sorted_words:
-        if word not in word2idx:
-            word2idx[word] = len(word2idx)
+                for token in tokens:
+                    char_counter.update(token)
 
-    idx2word = {idx: word for word, idx in word2idx.items()}
-    return word2idx, idx2word, counter
+    # ===== VOCABULARIOS =====
+    token_to_idx = {"<PAD>": 0, "<UNK>": 1}
+    for token, _ in token_counter.items():
+        token_to_idx[token] = len(token_to_idx)
 
-def build_label_vocab(data):
-    labels = set()
+    char_to_idx = {"<PAD>": 0, "<UNK>": 1}
+    for char, _ in char_counter.items():
+        char_to_idx[char] = len(char_to_idx)
 
-    for sample in data:
-        for tag in sample["ner_tags"]:
-            labels.add(tag)
+    tag_to_idx = {tag: idx for idx, tag in enumerate(sorted(tag_set))}
 
-    # importante: O primero, luego el resto ordenado
-    sorted_labels = ["O"] + sorted(label for label in labels if label != "O")
+    # Guardar
+    with open(token_path, "w", encoding="utf-8") as f:
+        json.dump(token_to_idx, f)
 
-    label2idx = {label: idx for idx, label in enumerate(sorted_labels)}
-    idx2label = {idx: label for label, idx in label2idx.items()}
+    with open(char_path, "w", encoding="utf-8") as f:
+        json.dump(char_to_idx, f)
 
-    return label2idx, idx2label
+    with open(tag_path, "w", encoding="utf-8") as f:
+        json.dump(tag_to_idx, f)
 
-
-# SAVE
-def save_json(obj, path: Path):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(obj, f, ensure_ascii=False, indent=2)
-
-
-# MAIN
-def main():
-    data = load_jsonl(DATA_PATH)
-
-    word2idx, idx2word, counter = build_word_vocab(data)
-    label2idx, idx2label = build_label_vocab(data)
-
-    save_json(word2idx, OUTPUT_DIR / "word2idx.json")
-    save_json(idx2word, OUTPUT_DIR / "idx2word.json")
-    save_json(label2idx, OUTPUT_DIR / "label2idx.json")
-    save_json(idx2label, OUTPUT_DIR / "idx2label.json")
-
-    print("Vocabularios NER generados correctamente")
-    print(f"Guardados en: {OUTPUT_DIR}")
-    print(f"Tamaño vocabulario de palabras: {len(word2idx)}")
-    print(f"Número de etiquetas NER: {len(label2idx)}")
-    print("\nTop 20 palabras más frecuentes:")
-    for word, freq in counter.most_common(20):
-        print(f"  {word}: {freq}")
-
-    print("\nEtiquetas NER:")
-    for label, idx in label2idx.items():
-        print(f"  {label}: {idx}")
-
-if __name__ == "__main__":
-    main()
+    print("Vocabularios guardados en", vocab_dir)
