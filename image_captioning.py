@@ -11,7 +11,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
 # 2. Cargar imagen
-image_path = "imagen_prueba.jpg"  # cambia esto
+# image_path = "imagen_prueba.jpg"  # cambia esto
+image_path = "prueba_texto.jpeg"  
 image = Image.open(image_path).convert("RGB")
 
 # 3. Preprocesado
