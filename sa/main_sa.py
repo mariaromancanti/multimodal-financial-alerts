@@ -1,12 +1,12 @@
 import os
 import torch
 
-from build_sa_vocab import generate_sa_vocab
-from sa_data_utils import get_sa_dataloaders
-from sentiment_model_sa import SentimentBiLSTM
-from train_sa import run_sa_training
-from evaluate_sa import evaluate_sa_model, predict_sentiment
-from utils import load_json, files_exist
+from sa.build_sa_vocab import generate_sa_vocab
+from sa.sa_data_utils import get_sa_dataloaders
+from sa.sentiment_model_sa import SentimentBiLSTM
+from sa.train_sa import run_sa_training
+from sa.evaluate_sa import evaluate_sa_model, predict_sentiment
+from sa.utils import load_json, files_exist
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

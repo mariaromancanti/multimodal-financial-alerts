@@ -3,7 +3,7 @@ import torch
 from torch.utils.data import DataLoader
 from sklearn.metrics import accuracy_score, f1_score, classification_report, confusion_matrix
 
-from sa_data_utils import SADataset, collate_sa
+from sa.sa_data_utils import SADataset, collate_sa
 
 
 @torch.no_grad()
