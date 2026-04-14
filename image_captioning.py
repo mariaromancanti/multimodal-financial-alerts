@@ -1,26 +1,59 @@
-from transformers import VisionEncoderDecoderModel, ViTImageProcessor, AutoTokenizer
-import torch
-from PIL import Image
+import os
+import ollama
 
-# 1. Cargar modelo preentrenado
-model = VisionEncoderDecoderModel.from_pretrained("nlpconnect/vit-gpt2-image-captioning")
-processor = ViTImageProcessor.from_pretrained("nlpconnect/vit-gpt2-image-captioning")
-tokenizer = AutoTokenizer.from_pretrained("nlpconnect/vit-gpt2-image-captioning")
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-model.to(device)
+def generate_caption_with_ollama(
+    image_path: str,
+    model: str = "llama3.2-vision",
+    max_words: int = 18,
+) -> str:
+    """
+    Genera un caption para una imagen usando un modelo multimodal de Ollama.
 
-# 2. Cargar imagen
-# image_path = "imagen_prueba.jpg"  # cambia esto
-image_path = "prueba_texto.jpeg"  
-image = Image.open(image_path).convert("RGB")
+    Args:
+        image_path: ruta de la imagen.
+        model: modelo multimodal de Ollama.
+        max_words: longitud máxima deseada del caption.
 
-# 3. Preprocesado
-pixel_values = processor(images=image, return_tensors="pt").pixel_values
-pixel_values = pixel_values.to(device)
+    Returns:
+        Caption generado como string.
+    """
 
-# 4. Generar caption
-output_ids = model.generate(pixel_values, max_length=50, num_beams=4)
-caption = tokenizer.decode(output_ids[0], skip_special_tokens=True)
+    if not os.path.exists(image_path):
+        raise FileNotFoundError(f"No existe la imagen: {image_path}")
 
-print("Caption:", caption)
+    prompt = f"""
+You are an image captioning system.
+Generate ONE concise, natural caption for the image.
+
+Rules:
+- Output only the caption.
+- No lists.
+- No explanations.
+- No quotes.
+- Maximum {max_words} words.
+- Focus on the main visible scene.
+"""
+
+    response = ollama.chat(
+        model=model,
+        messages=[
+            {
+                "role": "user",
+                "content": prompt,
+                "images": [image_path],
+            }
+        ],
+        options={
+            "temperature": 0.2,
+        }
+    )
+
+    caption = response["message"]["content"].strip()
+    return caption
+
+
+if __name__ == "__main__":
+    image_path = "imagenes_generadas/train2P.png"
+    caption = generate_caption_with_ollama(image_path)
+    print("Caption:", caption)
