@@ -94,31 +94,64 @@ def unpack_examples(examples):
     return texts, ner_outputs, sa_outputs
 
 
+# def build_ner_model(device):
+#     token_vocab_path = PROJECT_ROOT / "vocab" / "token_to_idx.json"
+#     tag_vocab_path = PROJECT_ROOT / "vocab" / "tag_to_idx.json"
+#     model_path = PROJECT_ROOT / "ner" / "models" / "bilstm_ner.pt"
+
+#     ner_vocab, tag_to_idx, idx_to_tag = load_vocabularies(
+#         str(token_vocab_path),
+#         str(tag_vocab_path),
+#     )
+
+#     if "<OOV>" not in ner_vocab and "<UNK>" in ner_vocab:
+#         ner_vocab["<OOV>"] = ner_vocab["<UNK>"]
+
+#     model = BiLSTMNER(
+#         vocab_size=len(ner_vocab),
+#         embedding_dim=100,
+#         hidden_dim=128,
+#         tagset_size=len(tag_to_idx),
+#         dropout=0.2,
+#     ).to(device)
+#     model.load_state_dict(torch.load(model_path, map_location=device))
+#     model.eval()
+
+#     return model, ner_vocab, idx_to_tag
+
 def build_ner_model(device):
-    token_vocab_path = PROJECT_ROOT / "vocab" / "token_to_idx.json"
-    tag_vocab_path = PROJECT_ROOT / "vocab" / "tag_to_idx.json"
-    model_path = PROJECT_ROOT / "ner" / "models" / "bilstm_ner.pt"
+    import json
+    import torch
+    from ner.bidireccional_modelo import BiLSTMNER
 
-    ner_vocab, tag_to_idx, idx_to_tag = load_vocabularies(
-        str(token_vocab_path),
-        str(tag_vocab_path),
-    )
+    vocab_path = "vocab/token_to_idx.json"
+    tag_path = "vocab/tag_to_idx.json"
+    model_path = "ner/models/bilstm_ner.pt"
 
-    if "<OOV>" not in ner_vocab and "<UNK>" in ner_vocab:
-        ner_vocab["<OOV>"] = ner_vocab["<UNK>"]
+    with open(vocab_path, "r", encoding="utf-8") as f:
+        token_to_idx = json.load(f)
+
+    with open(tag_path, "r", encoding="utf-8") as f:
+        tag_to_idx = json.load(f)
+
+    idx_to_tag = {idx: tag for tag, idx in tag_to_idx.items()}
 
     model = BiLSTMNER(
-        vocab_size=len(ner_vocab),
+        vocab_size=len(token_to_idx),
         embedding_dim=100,
         hidden_dim=128,
         tagset_size=len(tag_to_idx),
-        dropout=0.2,
+        padding_idx=0,
+        dropout=0.2
     ).to(device)
+
     model.load_state_dict(torch.load(model_path, map_location=device))
     model.eval()
 
-    return model, ner_vocab, idx_to_tag
+    if "<OOV>" not in token_to_idx and "<UNK>" in token_to_idx:
+        token_to_idx["<OOV>"] = token_to_idx["<UNK>"]
 
+    return model, token_to_idx, idx_to_tag
 
 def build_sa_model(device):
     token_vocab_path = PROJECT_ROOT / "sa" / "vocab_sa" / "token_to_idx_sa.json"
