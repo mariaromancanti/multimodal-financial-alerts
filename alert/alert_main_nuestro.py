@@ -180,8 +180,12 @@ def main(
     val_json_path=None,
     processed_train_json_path=None,
     processed_val_json_path=None,
-    alert_model_name="distilgpt2",
+    predictions_val_json_path=None,
+    alert_model_name="qwen2.5:3b",
+    alert_model_dir=None,
     alert_device="cpu",
+    alert_backend="ollama",
+    ollama_url="http://127.0.0.1:11434/api/generate",
     do_train=False,
 ):
     ner_device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -195,6 +199,10 @@ def main(
         processed_train_json_path = str(PROJECT_ROOT / "data" / "alert_train_processed.json")
     if processed_val_json_path is None:
         processed_val_json_path = str(PROJECT_ROOT / "data" / "alert_val_processed.json")
+    if predictions_val_json_path is None:
+        predictions_val_json_path = str(PROJECT_ROOT / "data" / "alert_val_predictions_ollama_strict.json")
+    if alert_model_dir is None:
+        alert_model_dir = str(PROJECT_ROOT / "alert_generator")
 
     ner_model, ner_vocab, ner_idx_to_tag = build_ner_model(ner_device)
     sa_model, sa_token_to_idx, sa_idx_to_sentiment = build_sa_model(sa_device)
@@ -237,10 +245,41 @@ def main(
     train_texts, train_ner_outputs, train_sa_outputs = unpack_examples(train_examples)
     val_texts, val_ner_outputs, val_sa_outputs = unpack_examples(val_examples)
 
-    alert_generator = AlertGenerator(
-        model_name=alert_model_name,
-        device=alert_device,
-    )
+    if alert_backend == "ollama":
+        if do_train:
+            raise RuntimeError(
+                "Ollama backend does not require local fine-tuning in this pipeline. "
+                "Run with do_train=False."
+            )
+
+        alert_generator = AlertGenerator(
+            model_name=alert_model_name,
+            device=alert_device,
+            backend="ollama",
+            ollama_url=ollama_url,
+        )
+    elif do_train:
+        alert_generator = AlertGenerator(
+            model_name=alert_model_name,
+            device=alert_device,
+            backend="hf",
+        )
+    elif Path(alert_model_dir).exists():
+        print(f"Loading trained alert generator from: {alert_model_dir}")
+        alert_generator = AlertGenerator.from_pretrained(
+            model_path=alert_model_dir,
+            device=alert_device,
+        )
+    else:
+        print(
+            "No trained alert generator found. "
+            "Using base model; run with do_train=True to fine-tune it first."
+        )
+        alert_generator = AlertGenerator(
+            model_name=alert_model_name,
+            device=alert_device,
+            backend="hf",
+        )
 
     trainer = None
     train_processed = None
@@ -258,19 +297,38 @@ def main(
             val_sa_outputs=val_sa_outputs,
             use_text=False,
             max_entities=3,
+            output_dir=alert_model_dir,
         )
         print("Alert generator training finished.")
 
+    val_predictions = []
     if len(val_examples) > 0:
-        sample_example = val_examples[0]
-        prediction = predict_alert_from_outputs(
-            alert_generator=alert_generator,
-            text=sample_example["text"],
-            ner_output=sample_example["ner_output"],
-            sa_output=sample_example["sa_output"],
-            use_text=False,
-            max_entities=3,
-        )
+        print("Generating alerts for the full validation set...")
+        total_val_examples = len(val_examples)
+        for index, example in enumerate(val_examples, start=1):
+            if index == 1 or index % 10 == 0 or index == total_val_examples:
+                print(f"Generating validation alert {index}/{total_val_examples}...")
+
+            prediction = predict_alert_from_outputs(
+                alert_generator=alert_generator,
+                text=example["text"],
+                ner_output=example["ner_output"],
+                sa_output=example["sa_output"],
+                use_text=False,
+                max_entities=3,
+            )
+            val_predictions.append(prediction)
+
+            # Save incremental progress so long runs are observable and recoverable.
+            if index % 10 == 0 or index == total_val_examples:
+                os.makedirs(os.path.dirname(predictions_val_json_path), exist_ok=True)
+                with open(predictions_val_json_path, "w", encoding="utf-8") as f:
+                    json.dump(val_predictions, f, ensure_ascii=False, indent=2)
+
+        print(f"Validation predictions saved to: {predictions_val_json_path}")
+
+    if len(val_examples) > 0:
+        prediction = val_predictions[0]
 
         print("\n--- SAMPLE PREDICTION ---")
         print("TEXT:")
@@ -286,4 +344,4 @@ def main(
 
 
 if __name__ == "__main__":
-    main(do_train=False)
+    main()

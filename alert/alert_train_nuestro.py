@@ -34,6 +34,12 @@ def train_alert_generator(
     learning_rate=5e-5,
     weight_decay=0.01,
 ):
+    if getattr(alert_generator, "backend", "hf") != "hf":
+        raise RuntimeError(
+            "Training is only supported with the Hugging Face backend. "
+            "Use do_train=False with Ollama."
+        )
+
     train_prompts, train_alerts, train_processed = prepare_alert_dataset(
         texts=train_texts,
         ner_outputs=train_ner_outputs,
@@ -68,7 +74,6 @@ def train_alert_generator(
 
     training_args = TrainingArguments(
         output_dir=output_dir,
-        overwrite_output_dir=True,
         num_train_epochs=num_train_epochs,
         per_device_train_batch_size=train_batch_size,
         per_device_eval_batch_size=eval_batch_size,
@@ -91,5 +96,6 @@ def train_alert_generator(
     )
 
     trainer.train()
+    alert_generator.save_pretrained(output_dir)
 
     return alert_generator, trainer, train_processed, val_processed

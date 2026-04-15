@@ -1,0 +1,1048 @@
+[
+  {
+    "text": "30 Millions of Dollars Three Months Ended March 31 , 2020 Income Statement Conoco Phillips Conoco Phillips Company Burlington Resources LLC All Other Subsidiaries Consolidating Adjustments Total Consolidated Revenues and Other Income Sales and other operating revenues $ 2,903 3,255 6,158 Equity in earnings ( losses ) of affiliates ( 1,681 ) 120 ( 426 ) 233 1,988 234 Gain ( loss ) on dispositions 9 ( 51 ) ( 42 ) Other income ( loss ) ( 1 ) ( 1,646 ) 1 107 ( 1,539 ) Intercompany revenues 30 3 907 ( 940 ) Total Revenues and Other Income ( Loss ) ( 1,682 ) 1,416 ( 422 ) 4,451 1,048 4,811 Costs and Expenses Purchased commodities 2,612 946 ( 897 ) 2,661 Production and operating expenses 160 1 1,013 ( 1 ) 1,173 Selling , general and administrative expenses 2 ( 23 ) 23 ( 5 ) ( 3 ) Exploration expenses 25 163 188 Depreciation , depletion and amortization 147 1,264 1,411 Impairments 2 519 521 Taxes other than income taxes 48 202 250 Accretion on discounted liabilities 4 63 67 Interest and debt expense 70 107 33 29 ( 37 ) 202 Foreign currency transaction gains ( 1 ) ( 89 ) ( 90 ) Other expenses ( 6 )  ( 6 ) Total Costs and Expenses 72 3,075 4,133 ( 940 ) 6,374 Income ( loss ) before income taxes ( 1,754 ) ( 1,659 ) ( 456 ) 318 1,988 ( 1,563 ) Income tax provision ( benefit ) ( 15 ) 22 ( 6 ) 147 148 Net income ( loss ) ( 1,739 ) ( 1,681 ) ( 450 ) 171 1,988 ( 1,711 ) Less : net income attributable to noncontrolling interests  ( 28 ) ( 28 ) Net Income ( Loss ) Attributable to Conoco Phillips $ ( 1,739 ) ( 1,681 ) ( 450 ) 143 1,988 ( 1,739 ) Comprehensive Income ( Loss ) Attributable to Conoco Phillips $ ( 2,527 ) ( 2,469 ) ( 1,047 ) ( 649 ) 4,165 ( 2,527 ) Income Statement Three Months Ended March 31 , 2019 Revenues and Other Income Sales and other operating revenues $ 3,981 5,169 9,150 Equity in earnings of affiliates 1,890 1,622 473 186 ( 3,983 ) 188 Gain ( loss ) on dispositions ( 5 ) 22 17 Other income 1 508 193 702 Intercompany revenues 26 13 1,161 ( 1,200 ) Total Revenues and Other Income 1,891 6,132 486 6,731 ( 5,183 ) 10,057 Costs and Expenses Purchased commodities 3,497 1,304 ( 1,126 ) 3,675 Production and operating expenses 180 1 1,091 ( 1 ) 1,271 Selling , general and administrative expenses 4 129 25 ( 5 ) 153 Exploration expenses 47 63 110 Depreciation , depletion and amortization 136 1,410 1,546 Impairments  1 1 Taxes other than income taxes 46 229 275 Accretion on discounted liabilities 4 82 86 Interest and debt expense 69 149 33 50 ( 68 ) 233 Foreign currency transaction losses 6 6 12 Other expenses 12 ( 4 ) 8 Total Costs and Expenses 73 4,206 4,257 ( 1,200 ) 7,370 Income before income taxes 1,818 1,926 452 2,474 ( 3,983 ) 2,687 Income tax provision ( benefit ) ( 15 ) 36 ( 5 ) 825 841 Net income 1,833 1,890 457 1,649 ( 3,983 ) 1,846 Less : net income attributable to noncontrolling interests  ( 13 ) ( 13 ) Net Income Attributable to Conoco Phillips $ 1,833 1,890 457 1,636 ( 3,983 ) 1,833 Comprehensive Income Attributable to Conoco Phillips $ 2,022 2,079 581 1,816 ( 4,476 ) 2,022 See Notes to Consolidated Financial Statements .",
+    "entities": [
+      {
+        "text": "2,903",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "5",
+        "label": "AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount"
+      },
+      {
+        "text": "Expenses",
+        "label": "IncomeTaxExpenseBenefit"
+      }
+    ],
+    "sentiment": "negative",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 2,903 (RestructuringCharges), 5 (AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount), Expenses (IncomeTaxExpenseBenefit)\nSentiment: negative",
+    "target_alert": "Financial risk alert: negative context detected around 2,903, 5, Expenses.",
+    "generated_alert": "Financial risk alert: Expenses (IncomeTaxExpenseBenefit), 2,903 (RestructuringCharges), 5 (AntidilutiveSecuritiesExcludedFromComputationOf"
+  },
+  {
+    "text": "On March 13 , 2018 , the Credit Agreement was amended to ( 1 ) refinance the existing term loan A facility to include a $ 510 million ( US ) term loan A facility with a term expiring on March 13 , 2021 and a $ 500 million CAD term loan A facility and a $ 250 million AUD term loan A facility each with terms expiring on March 13 , 2023 ; ( 2 ) issue a new $ 600 million term loan B facility to institutional investors with a term expiring on March 13 , 2025 ; ( 3 ) increase the capacity of the Company ’ s revolving credit facility from $ 1.05 billion to $ 1.35 billion and extend its term until March 13 , 2023 ; ( 4 ) reduce the Company ’ s interest rate borrowing costs as follows : ( a ) the term loan B facility , at the Company ’ s election , Base Rate ( as defined in the Credit Agreement ) plus 0.75 % or Eurocurrency Rate ( as defined in the Credit Agreement ) plus 1.75 % , ( b ) the ( US ) term loan A facility , at the Company ’ s election , Base Rate plus 0.50 % or Eurocurrency Rate plus 1.50 % , and ( c ) the Canadian ( CAD ) term loan A facility , the Australian ( AUD ) term loan A facility , and the revolving credit facility , an initial rate of , at the Company ’ s election , Base Rate plus 0.75 % or Eurocurrency Rate plus 1.75 % , and after the end of the Company ’ s fiscal quarter ended June 30 , 2018 , Base Rate loans plus a margin ranging from 0.25 % to 1.00 % or Eurocurrency Rate plus a margin from 1.25 % to 2.00 % , based on the Consolidated Leverage Ratio ( as defined in the Credit Agreement ) ; ( 5 ) revise covenants including increasing the amounts available under the restricted payment negative covenant and revising the Maximum Consolidated Leverage Ratio ( as defined in the Credit Agreement ) to include a 4.5 leverage ratio through September 30 , 2019 after which the leverage ratio stepped down to 4.0 .",
+    "entities": [
+      {
+        "text": "510",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "500",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "250",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 510 (LineOfCreditFacilityMaximumBorrowingCapacity), 500 (LineOfCreditFacilityMaximumBorrowingCapacity), 250 (LineOfCreditFacilityMaximumBorrowingCapacity)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 510, 500, 250.",
+    "generated_alert": "Informational financial alert: 510 (LineOfCreditFacilityMaximumBorrowingCapacity), 500 (LineOfCreditFacilityMaximumBorrowingCapacity), 25"
+  },
+  {
+    "text": "D. Restructuring and Other Charges In the first quarter of 2020 , the Company recorded Restructuring and other charges of $ 21 ( $ 23 after - tax ) , which included $ 22 ( $ 17 after - tax ) for layoff costs , including the separation of approximately 460 employees ( 440 in the Engineered Products and Forgings segment and 20 in Corporate ) ; $ 12 ( $ 12 after - tax ) for impairment of assets associated with an agreement to sell an aerospace components business in the U.K. ; a $ 6 ( $ 6 after - tax ) post - closing adjustment related to the sale of the Company ’ s U.K. forgings business ; a $ 6 ( $ 6 after - tax ) loss on sale of the Company ’ s Brazilian rolling mill operations ; and a $ 6 ( $ 6 after - tax ) charge for other exit costs related to prior programs ; offset by a gain of $ 27 ( $ 20 after - tax ) on the sale of an extrusions business in South Korea ; a benefit of $ 2 ( $ 2 after - tax ) related to the reversal of a number of prior period programs ; and a gain of $ 2 ( $ 2 after - tax ) on the sale of assets . In the first quarter of 2019 , the Company recorded Restructuring and other charges of $ 12 ( $ 10 after - tax ) , which included $ 65 ( $ 51 after - tax ) for layoff costs , including the separation of approximately 800 employees ( 425 in Corporate , 211 in the Engineered Products and Forgings segment , and 164 in the Global Rolled Products segment ) ; a $ 2 ( $ 1 after - tax ) net charge for executive severance net of the benefit of forfeited executive stock compensation ; a pension settlement charge of $ 2 ( $ 2 after - tax ) ; and $ 1 ( $ 1 after - tax ) for other miscellaneous items ; offset by a benefit of $ 58 ( $ 45 after - tax ) related to the elimination of life insurance benefits for U.S. salaried and non - bargained hourly retirees of the Company and its subsidiaries . As of March 31 , 2020 , none of the 460 employees associated with the 2020 restructuring programs were separated .",
+    "entities": [
+      {
+        "text": "21",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "22",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "12",
+        "label": "RestructuringCharges"
+      }
+    ],
+    "sentiment": "negative",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 21 (RestructuringCharges), 22 (RestructuringCharges), 12 (RestructuringCharges)\nSentiment: negative",
+    "target_alert": "Financial risk alert: negative context detected around 21, 22, 12.",
+    "generated_alert": "Financial risk alert: Informational financial alert: 21 (RestructuringCharges), 22 (RestructuringCharges), 12 (RestructuringCharges)."
+  },
+  {
+    "text": "The Company used part of the net proceeds from these offerings , along with the $ 5 billion of Senior Notes issued in January 2019 ( discussed above ) primarily to fund the acquisition of JLT , including the payment of related fees and expenses , and to repay certain JLT indebtedness , as well as for general corporate purposes . In January 2019 , the Company issued $ 700 million of 3.50 % Senior Notes due 2020 , $ 1 billion of 3.875 % Senior Notes due 2024 , $ 1.25 billion of 4.375 % Senior Notes due 2029 , $ 500 million of 4.75 % Senior Notes due 2039 , $ 1.25 billion of 4.90 % Senior Notes due 2049 and $ 300 million of Floating Rate Senior Notes due 2021 .",
+    "entities": [
+      {
+        "text": "5",
+        "label": "LongTermDebt"
+      },
+      {
+        "text": "700",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "3.50",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 5 (LongTermDebt), 700 (DebtInstrumentFaceAmount), 3.50 (DebtInstrumentInterestRateStatedPercentage)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 5, 700, 3.50.",
+    "generated_alert": "Informational financial alert: LongTermDebt, DebtInstrumentFaceAmount, DebtInstrumentInterestRateStatedPercentage."
+  },
+  {
+    "text": "22 Table of Contents In February 2019 , we completed an offering of $ 4.300 billion in aggregate principal amount of senior notes comprised of $ 850 million of 3.450 % senior notes due March 2024 , $ 850 million of 3.750 % senior notes due March 2026 , $ 850 million of 4.000 % senior notes due March 2029 , $ 750 million of 4.550 % senior notes due March 2039 and $ 1.000 billion of 4.700 % senior notes due March 2049 .",
+    "entities": [
+      {
+        "text": "4.300",
+        "label": "LongTermDebt"
+      },
+      {
+        "text": "850",
+        "label": "LongTermDebt"
+      },
+      {
+        "text": "3.450",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 4.300 (LongTermDebt), 850 (LongTermDebt), 3.450 (DebtInstrumentInterestRateStatedPercentage)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 4.300, 850, 3.450.",
+    "generated_alert": "Informational financial alert: 4.300 (LongTermDebt), 850 (LongTermDebt), 3.450 (DebtInstrumentInterestRateSt"
+  },
+  {
+    "text": "We have an additional $ 3.0 billion in aggregate principal amount of senior unsecured notes consisting of the following : ( i ) $ 750 million aggregate principal amount of 3.800 % senior notes due 2021 ; ( ii ) $ 550 million aggregate principal amount of 3.750 % senior notes due 2023 ; ( iii ) $ 550 million aggregate principal amount of 4.000 % senior notes due 2023 ; ( iv ) $ 750 million aggregate principal amount of 4.800 % senior notes due 2026 ; and ( v ) $ 450 million aggregate principal amount of 4.450 % senior notes due 2028 .",
+    "entities": [
+      {
+        "text": "3.0",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "750",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "3.800",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 3.0 (DebtInstrumentFaceAmount), 750 (DebtInstrumentFaceAmount), 3.800 (DebtInstrumentInterestRateStatedPercentage)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 3.0, 750, 3.800.",
+    "generated_alert": "Informational financial alert: 3.0, 750, 3.800"
+  },
+  {
+    "text": "March 31 , December 31 , Bank debt ( 3.0 % ) $ 557,000 $ 477,000 Senior notes : 4.875 % senior notes due 2025 750,000 750,000 5.00 % senior notes due 2023 684,886 741,531 5.00 % senior notes due 2022 463,431 511,886 5.75 % senior notes due 2021 50,059 374,139 5.875 % senior notes due 2022 115,865 297,617 9.25 % senior notes due 2026 550,000 Other senior notes due 2022 490 590 Total senior notes 2,614,731 2,675,763 Senior subordinated notes : 5.00 % senior subordinated notes due 2023 7,712 7,712 5.00 % senior subordinated notes due 2022 19,054 19,054 5.75 % senior subordinated notes due 2021 22,214 22,214 Total senior subordinated notes 48,980 48,980 Total debt 3,220,711 3,201,743 Unamortized premium 1,305 3,013 Unamortized debt issuance costs ( 34,987 ) ( 31,819 ) Total debt net of debt issuance costs $ 3,187,029 $ 3,172,937 Bank Debt In April 2018 , we entered into an amended and restated revolving bank facility , which we refer to as our bank debt or our bank credit facility , which is secured by substantially all of our assets and has a maturity date of April 13 , 2023 .",
+    "entities": [
+      {
+        "text": "3.0",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      },
+      {
+        "text": "557,000",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "477,000",
+        "label": "DebtInstrumentFaceAmount"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 3.0 (DebtInstrumentInterestRateStatedPercentage), 557,000 (DebtInstrumentFaceAmount), 477,000 (DebtInstrumentFaceAmount)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 3.0, 557,000, 477,000.",
+    "generated_alert": "Informational financial alert: DebtInstrumentInterestRateStatedPercentage 3.0%, DebtInstrumentFaceAmount 477,000, DebtInstrumentFaceAmount 557,0"
+  },
+  {
+    "text": "There are no subsidiaries other than those listed above that guarantee the Aon Corporation Notes . In addition , in connection with the Ireland Reorganization , on April 1 , 2020 Aon Ireland and Aon Global Holdings Limited entered into various agreements pursuant to which they guaranteed the obligations of Aon UK arising under issued and outstanding debt securities , which were previously guaranteed solely by Aon Corporation , including the : 4.25 % Notes due December 2042 exchanged for Aon Corporation ’ s 8.205 % Notes due January 2027 ; 4.45 % Notes due May 2043 ; 4.00 % Notes due November 2023 ; 2.875 % Notes due May 2026 ; 3.50 % Notes due June 2024 ; 4.60 % Notes due June 2044 ; 4.75 % Notes due May 2045 ; 2.80 % Notes due March 2021 ; and 3.875 % Notes due December 2025 ( collectively , the “ Aon UK Notes ” ) .",
+    "entities": [
+      {
+        "text": "4.25",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      },
+      {
+        "text": "8.205",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      },
+      {
+        "text": "4.45",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 4.25 (DebtInstrumentInterestRateStatedPercentage), 8.205 (DebtInstrumentInterestRateStatedPercentage), 4.45 (DebtInstrumentInterestRateStatedPercentage)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 4.25, 8.205, 4.45.",
+    "generated_alert": "Informational financial alert: 4.25 (DebtInstrumentInterestRateStatedPercentage), 8.205 (DebtInstrumentInterestRateStatedPercentage), 4.4"
+  },
+  {
+    "text": "The Company ’ s obligations under the Credit Agreement are unconditionally guaranteed by its existing and subsequently acquired or organized direct and indirect domestic subsidiaries ( other than immaterial domestic subsidiaries , certain excluded subsidiaries and subsidiaries the Company designates as unrestricted subsidiaries , which includes 8th Avenue and its subsidiaries and Bell Ring Brands , Inc. and its subsidiaries ) and are secured by security interests in substantially all of the Company ’ s assets and the assets of its subsidiary guarantors , but excluding , in each case , real estate . Borrowings under the Revolving Credit Facility bear interest , at the option of the Company , at an annual rate equal to either ( a ) the Eurodollar rate or ( b ) the base rate determined by reference to the highest of ( i ) the prime rate , ( ii ) the federal funds rate plus 0.50 % per annum and ( iii ) the one - month Eurodollar rate plus 1.00 % per annum , in each case plus an applicable margin , which initially were 1.50 % for Eurodollar rate - based loans and 0.50 % for base rate - based loans , and thereafter , will be determined by reference to the secured net leverage ratio ( as defined in the Credit Agreement ) , with the applicable margin for Eurodollar rate loans and base rate loans being ( i ) 2.00 % and 1.00 % , respectively , if the secured net leverage ratio is greater than or equal to 3.00:1.00 , ( ii ) 1.75 % and 0.75 % , respectively , if the secured net leverage ratio is less than 3.00:1.00 and greater than or equal to 1.50:1.00 or ( iii ) 1.50 % and 0.50 % , respectively , if the secured net leverage ratio is less than 1.50:1.00 .",
+    "entities": [
+      {
+        "text": "0.50",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.00",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.50",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 0.50 (DebtInstrumentBasisSpreadOnVariableRate), 1.00 (DebtInstrumentBasisSpreadOnVariableRate), 1.50 (DebtInstrumentBasisSpreadOnVariableRate)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 0.50, 1.00, 1.50.",
+    "generated_alert": "Informational financial alert: 0.50, 1.00, 1.50 (DebtInstrumentBasisSpreadOnVariableRate)."
+  },
+  {
+    "text": "We had $ 40.0 million of borrowings and $ 11.6 million of borrowings outstanding under our Uncommitted Credit Facility as of March 31 , 2020 and December 31 , 2019 , respectively . As of April 30 , 2020 , we had $ 100.0 million of borrowings outstanding under our Uncommitted Credit Facility . Senior Notes and Debentures In February 2020 , we issued $ 600.0 million of 2.300 % senior notes due 2030 ( the 2.300 % Notes ) and $ 400.0 million of 3.050 % senior notes due 2050 ( the 3.050 % Notes ) .",
+    "entities": [
+      {
+        "text": "40.0",
+        "label": "LongTermDebt"
+      },
+      {
+        "text": "11.6",
+        "label": "LongTermDebt"
+      },
+      {
+        "text": "100.0",
+        "label": "LongTermDebt"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 40.0 (LongTermDebt), 11.6 (LongTermDebt), 100.0 (LongTermDebt)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 40.0, 11.6, 100.0.",
+    "generated_alert": "Informational financial alert: 40.0, 11.6, 100.0 (LongTermDebt)."
+  },
+  {
+    "text": "Stock - Based Compensation Aggregate stock - based compensation expense was $ 2.5 million and $ 4.2 million for the three months ended March 31 , 2020 and 2019 , respectively . Stock - based compensation expense related to stock options was $ 0.6 million and $ 0.7 million for the three months ended March 31 , 2020 and 2019 , respectively . Expense related to time - based restricted share units was $ 0.9 million and $ 2.3 million for the three months ended March 31 , 2020 and 2019 , respectively . Stock - based compensation expense related to performance - based restricted share units was $ 0.9 million and $ 1.2 million for the three months ended March 31 , 2020 and 2019 , respectively . Stock - based compensation expense related to our employee stock purchase plan ( “ ESPP ” ) was $ 0.1 million in the three months ended March 31 , 2020 .",
+    "entities": [
+      {
+        "text": "2.5",
+        "label": "AllocatedShareBasedCompensationExpense"
+      },
+      {
+        "text": "4.2",
+        "label": "AllocatedShareBasedCompensationExpense"
+      },
+      {
+        "text": "0.6",
+        "label": "AllocatedShareBasedCompensationExpense"
+      }
+    ],
+    "sentiment": "negative",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 2.5 (AllocatedShareBasedCompensationExpense), 4.2 (AllocatedShareBasedCompensationExpense), 0.6 (AllocatedShareBasedCompensationExpense)\nSentiment: negative",
+    "target_alert": "Financial risk alert: negative context detected around 2.5, 4.2, 0.6.",
+    "generated_alert": "Financial risk alert: Informational financial alert: 2.5 (AllocatedShareBasedCompensationExpense), 4.2 (AllocatedShareBasedCompensationExpense), 0.6 ("
+  },
+  {
+    "text": "Pursuant to the Fourth Restated Prudential Note Purchase Agreement , we agreed that our ( a ) 6.0 % Series A Guaranteed Senior Notes due February 25 , 2021 , in the original aggregate principal amount of $ 100,000,000 ( the “ Series A Notes ” ) , ( b ) 5.35 % Series B Guaranteed Senior Notes due June 2 , 2023 , in the original aggregate principal amount of $ 75,000,000 ( the “ Series B Notes ” ) , ( c ) 4.75 % Series C Guaranteed Senior Notes due February 25 , 2025 , in the aggregate principal amount of $ 50,000,000 ( the “ Series C Notes ” ) and ( d ) 5.47 % Series D Guaranteed Senior Notes due June 21 , 2028 , in the aggregate principal amount of $ 50,000,000 ( the “ Series D Notes ” ) that were outstanding under the existing senior note purchase agreement would continue to remain outstanding under the Fourth Restated Prudential Note Purchase Agreement and we authorized and issued our 3.52 % Series F Guaranteed Senior Notes due September 12 , 2029 , in the aggregate principal amount of $ 50,000,000 ( the “ Series F Notes ” and , together with the Series A Notes , Series B Notes , Series C Notes and Series D Notes , the “ Notes ” ) .",
+    "entities": [
+      {
+        "text": "6.0",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      },
+      {
+        "text": "100,000,000",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "5.35",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 6.0 (DebtInstrumentInterestRateStatedPercentage), 100,000,000 (DebtInstrumentFaceAmount), 5.35 (DebtInstrumentInterestRateStatedPercentage)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 6.0, 100,000,000, 5.35.",
+    "generated_alert": "Informational financial alert: 6.0%, 100,000,000, 5.35%."
+  },
+  {
+    "text": "The Second Amendment ( among other changes ) ( i ) increases the commitments under the Revolving Credit Facility from an aggregate principal amount of $ 180 million to an aggregate principal amount of $ 300 million , ( ii ) extends the final maturity date of the Revolving Credit Facility from January 31 , 2023 to April 3 , 2025 , ( iii ) reduces the interest margin applicable to the loans upon achievement of certain leverage ratios based on a leverage - based pricing grid , ( iv ) reduces the commitment fee based on a leverage - based pricing grid and limits commitment fees to be paid only on unused amounts of commitments , ( v ) increases the maximum letter of credit exposure permitted under the Revolving Credit Facility from $ 50 million to $ 90 million , ( vi ) increases the springing financial maintenance covenant from a Senior Secured Indebtedness to EBITDA Ratio of 4.75:1.00 to a Senior Secured Indebtedness to EBITDA Ratio of 5.00:1.00 and provides that the covenant shall not be tested unless at the end of a fiscal quarter the outstanding amount of loans and drawings under letters of credit which have not been reimbursed exceeds $ 105 million , ( vii ) adds covenant suspension upon achievement of an investment grade rating or a Total Indebtedness to EBITDA Ratio of 3.25:1.00 , and ( viii ) adds certain exceptions and increases certain baskets in connection with Acquisition Corp. ’ s negative covenants , including those related to the incurrence of indebtedness , liens and restricted payments . 25 WARNER MUSIC GROUP CORP . Supplementary Information Consolidating Financial Statements The Company is the direct parent of Holdings , which is the direct parent of Acquisition Corp. As of March 31 , 2020 Acquisition Corp. had issued and outstanding the 5.000 % Senior Secured Notes due 2023 , the 4.125 % Senior Secured Notes due 2024 , the 4.875 % Senior Secured Notes due 2024 , the 3.625 % Senior Secured Notes due 2026 and the 5.500 % Senior Notes due 2026 ( together , the “ Acquisition Corp. Notes ” ) . The Acquisition Corp. Notes are guaranteed by the Company and , in addition , are guaranteed by all of Acquisition Corp. ’ s domestic wholly - owned subsidiaries .",
+    "entities": [
+      {
+        "text": "180",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "300",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "50",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 180 (LineOfCreditFacilityMaximumBorrowingCapacity), 300 (LineOfCreditFacilityMaximumBorrowingCapacity), 50 (LineOfCreditFacilityMaximumBorrowingCapacity)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 180, 300, 50.",
+    "generated_alert": "Informational financial alert: 180 (LineOfCreditFacilityMaximumBorrowingCapacity), 300 (LineOfCreditFacilityMaximumBorrowingCapacity), 50"
+  },
+  {
+    "text": "All previously approved ongoing restructuring activities have been consolidated into Project Be Ready . The Company expects to incur total costs of approximately $ 40.0 million to $ 55.0 million related to Project Be Ready , including approximately $ 20.0 million to $ 25.0 million of employee separation costs , approximately $ 5.0 million to $ 10.0 million of facility consolidation expenses , and approximately $ 15.0 million to $ 20.0 million of third party and other costs .",
+    "entities": [
+      {
+        "text": "40.0",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "55.0",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "20.0",
+        "label": "RestructuringCharges"
+      }
+    ],
+    "sentiment": "negative",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 40.0 (RestructuringCharges), 55.0 (RestructuringCharges), 20.0 (RestructuringCharges)\nSentiment: negative",
+    "target_alert": "Financial risk alert: negative context detected around 40.0, 55.0, 20.0.",
+    "generated_alert": "Financial risk alert: Informational financial alert: 40.0, 55.0, 20.0 (RestructuringCharges)."
+  },
+  {
+    "text": "77 78 ( 1 ) Revenues for reportable segments include intersegment revenues of $ 1 million , $ 18 million , $ 29 million and $ 19 million for the three months ended March 31 , 2020 and $ 1 million , $ 17 million , $ 28 million and $ 93 million for the three months ended March 31 , 2019 for SDG & E , SoCalGas , Sempra Mexico and Sempra LNG , respectively . ITEM 2 .",
+    "entities": [
+      {
+        "text": "1",
+        "label": "Revenues"
+      },
+      {
+        "text": "18",
+        "label": "Revenues"
+      },
+      {
+        "text": "29",
+        "label": "Revenues"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 1 (Revenues), 18 (Revenues), 29 (Revenues)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 1, 18, 29.",
+    "generated_alert": "Informational financial alert: Revenues, 18(Revenues), 29(Revenues)."
+  },
+  {
+    "text": "77 78 ( 1 ) Revenues for reportable segments include intersegment revenues of $ 1 million , $ 18 million , $ 29 million and $ 19 million for the three months ended March 31 , 2020 and $ 1 million , $ 17 million , $ 28 million and $ 93 million for the three months ended March 31 , 2019 for SDG & E , SoCalGas , Sempra Mexico and Sempra LNG , respectively . ITEM 2 .",
+    "entities": [
+      {
+        "text": "1",
+        "label": "Revenues"
+      },
+      {
+        "text": "18",
+        "label": "Revenues"
+      },
+      {
+        "text": "29",
+        "label": "Revenues"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 1 (Revenues), 18 (Revenues), 29 (Revenues)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 1, 18, 29.",
+    "generated_alert": "Informational financial alert: Revenues, 18(Revenues), 29(Revenues)."
+  },
+  {
+    "text": "Thereafter , outstanding revolving loans accrue interest at either ( i ) a base rate plus a margin ranging from 0.50 % to 1.00 % per annum during the incremental period and 0.25 % to 0.75 % per annum thereafter , or ( ii ) LIBOR plus a margin ranging from 1.50 % to 2.00 % per annum during the incremental period and 1.25 % to 1.75 % per annum thereafter , in each case based on available credit .",
+    "entities": [
+      {
+        "text": "0.50",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.00",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "0.25",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 0.50 (DebtInstrumentBasisSpreadOnVariableRate), 1.00 (DebtInstrumentBasisSpreadOnVariableRate), 0.25 (DebtInstrumentBasisSpreadOnVariableRate)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 0.50, 1.00, 0.25.",
+    "generated_alert": "Informational financial alert: 0.50, 1.00, 0.25 (DebtInstrumentBasisSpreadOnVariableRate)."
+  },
+  {
+    "text": "77 78 ( 1 ) Revenues for reportable segments include intersegment revenues of $ 1 million , $ 18 million , $ 29 million and $ 19 million for the three months ended March 31 , 2020 and $ 1 million , $ 17 million , $ 28 million and $ 93 million for the three months ended March 31 , 2019 for SDG & E , SoCalGas , Sempra Mexico and Sempra LNG , respectively . ITEM 2 .",
+    "entities": [
+      {
+        "text": "1",
+        "label": "Revenues"
+      },
+      {
+        "text": "18",
+        "label": "Revenues"
+      },
+      {
+        "text": "29",
+        "label": "Revenues"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 1 (Revenues), 18 (Revenues), 29 (Revenues)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 1, 18, 29.",
+    "generated_alert": "Informational financial alert: Revenues, 18(Revenues), 29(Revenues)."
+  },
+  {
+    "text": "Following the Credit Facility Amendment , the applicable interest rate margin is based on a range from 0.45 % to 1.05 % per annum with respect to base rate borrowings under the Revolving Credit Facility , 1.45 % to 2.05 % per annum with respect to LIBOR borrowings under the Revolving Credit Facility , 0.40 % to 1.00 % per annum with respect to base rate borrowings under the Term Loan and 1.40 % to 2.00 % per annum with respect to LIBOR borrowings under the Term Loan .",
+    "entities": [
+      {
+        "text": "0.45",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.05",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.45",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 0.45 (DebtInstrumentBasisSpreadOnVariableRate), 1.05 (DebtInstrumentBasisSpreadOnVariableRate), 1.45 (DebtInstrumentBasisSpreadOnVariableRate)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 0.45, 1.05, 1.45.",
+    "generated_alert": "Informational financial alert: DebtInstrumentBasisSpreadOnVariableRate, DebtInstrumentBasisSpreadOnVariableRate, DebtInstrumentBasisSpreadOnVariableRate."
+  },
+  {
+    "text": "The LIBOR margins will range from 1.05 % to 1.50 % per annum for the unsecured revolving credit facility , 1.20 % to 1.70 % per annum for the $ 100.0 million term loan facility , 1.20 % to 1.70 % per annum for the $ 225.0 million term loan facility and 1.50 % to 2.20 % per annum for the $ 150 million term loan facility , depending on our leverage ratio , which is the ratio of our outstanding consolidated indebtedness to the value of our consolidated gross asset value , which is measured on a quarterly basis .",
+    "entities": [
+      {
+        "text": "1.05",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.50",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.20",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 1.05 (DebtInstrumentBasisSpreadOnVariableRate), 1.50 (DebtInstrumentBasisSpreadOnVariableRate), 1.20 (DebtInstrumentBasisSpreadOnVariableRate)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 1.05, 1.50, 1.20.",
+    "generated_alert": "Informational financial alert: DebtInstrumentBasisSpreadOnVariableRate, 1.20, 1.50."
+  },
+  {
+    "text": "The First Lien Revolver bears interest ( at Focus LLC ’ s 14 Table of Contents FOCUS FINANCIAL PARTNERS INC . Notes to unaudited condensed consolidated financial statements ( continued ) ( In thousands , except unit data , share and per share amounts ) option ) at LIBOR plus a margin of 2.00 % with step downs to 1.75 % , 1.50 % and 1.25 % or the lender ’ s Base Rate plus a margin of 1.00 % with step downs to 0.75 % , 0.50 % and 0.25 % , based on achievement of a specified First Lien Leverage Ratio .",
+    "entities": [
+      {
+        "text": "2.00",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.75",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.50",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 2.00 (DebtInstrumentBasisSpreadOnVariableRate), 1.75 (DebtInstrumentBasisSpreadOnVariableRate), 1.50 (DebtInstrumentBasisSpreadOnVariableRate)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 2.00, 1.75, 1.50.",
+    "generated_alert": "Informational financial alert: 2.00 (DebtInstrumentBasisSpreadOnVariableRate), 1.75 (DebtInstrumentBasisSpreadOnVariableRate), 1."
+  },
+  {
+    "text": "Fair Value - We estimated the fair value of debt , excluding finance leases , which consists of $ 250 million of 5.375 % senior notes due 2021 ( the \" 2021 Notes \" ) , $ 350 million of 3.375 % senior notes due 2023 ( the \" 2023 Notes \" ) , $ 400 million of 4.850 % senior notes due 2026 ( the \" 2026 Notes \" ) , and $ 400 million of 4.375 % senior notes due 2028 ( the \" 2028 Notes \" ) , collectively referred to as the \" Senior Notes , \" bonds , and other long - term debt .",
+    "entities": [
+      {
+        "text": "250",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "5.375",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      },
+      {
+        "text": "350",
+        "label": "DebtInstrumentFaceAmount"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 250 (DebtInstrumentFaceAmount), 5.375 (DebtInstrumentInterestRateStatedPercentage), 350 (DebtInstrumentFaceAmount)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 250, 5.375, 350.",
+    "generated_alert": "Informational financial alert: 250, 5.375, 350"
+  },
+  {
+    "text": "The 2019 Credit Agreement includes a letter of credit sublimit of $ 30.0 million and a swingline loan sublimit of $ 10.0 million . Borrowings under the 2019 Credit Agreement ( other than swingline loans ) bear interest , at the Company ’ s option , at ( i ) a base rate equal to the highest of ( a ) the prime rate , ( b ) the federal funds rate plus 0.50 % , and ( c ) an adjusted LIBOR rate for a one - month interest period plus 1.00 % , in each case plus a margin ranging from 0.25 % to 0.875 % or ( ii ) an adjusted LIBOR rate plus a margin ranging from 1.25 % to 1.875 % .",
+    "entities": [
+      {
+        "text": "30.0",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "10.0",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "0.50",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 30.0 (LineOfCreditFacilityMaximumBorrowingCapacity), 10.0 (LineOfCreditFacilityMaximumBorrowingCapacity), 0.50 (DebtInstrumentBasisSpreadOnVariableRate)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 30.0, 10.0, 0.50.",
+    "generated_alert": "Informational financial alert: LineOfCreditFacilityMaximumBorrowingCapacity, DebtInstrumentBasisSpreadOnVariableRate."
+  },
+  {
+    "text": "At the Company ’ s election , revolving loans under the Senior Credit Facility bear interest at annual rates equal to either ( a ) LIBOR for 1 , 2 , 3 or 6 month periods , as selected by the Company , plus an applicable margin ranging between 1.00 % and 1.75 % ( 1.125 % as of March 28 , 2020 ) , or ( b ) the higher of the Wells Fargo Bank , National Association prime rate , the Federal Funds rate plus 0.5 % , or the Eurocurrency Rate ( as defined in the Senior Credit Facility ) rate plus 1.0 % , plus an applicable margin ranging between 0.00 % and 0.75 % ( 0.125 % as of March 28 , 2020 ) .",
+    "entities": [
+      {
+        "text": "1.00",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.75",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.125",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 1.00 (DebtInstrumentBasisSpreadOnVariableRate), 1.75 (DebtInstrumentBasisSpreadOnVariableRate), 1.125 (DebtInstrumentBasisSpreadOnVariableRate)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 1.00, 1.75, 1.125.",
+    "generated_alert": "Informational financial alert: 1.00 (DebtInstrumentBasisSpreadOnVariableRate), 1.75 (DebtInstrumentBasisSpreadOnVariableRate), 1."
+  },
+  {
+    "text": "23 5 . Borrowings The following table is a summary of the Company ’ s borrowings at March 31 , 2020 and December 31 , 2019 : 24 Long - term Borrowings 2020 Notes On March 31 , 2020 , the Company issued $ 750 million aggregate principal amount of 3.625 % unsecured senior notes due April 1 , 2027 , $ 1.5 billion aggregate principal amount of 3.75 % unsecured senior notes due April 1 , 2030 , $ 1.0 billion aggregate principal amount of 4.125 % unsecured senior notes due April 1 , 2040 and $ 750 million aggregate principal amount of 4.25 % unsecured senior notes due April 1 , 2050 ( collectively , the “ 2020 Notes ” ) for total proceeds of approximately $ 3.95 billion , net of discounts and underwriting fees .",
+    "entities": [
+      {
+        "text": "750",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "3.625",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      },
+      {
+        "text": "3.75",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 750 (DebtInstrumentFaceAmount), 3.625 (DebtInstrumentInterestRateStatedPercentage), 3.75 (DebtInstrumentInterestRateStatedPercentage)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 750, 3.625, 3.75.",
+    "generated_alert": "Informational financial alert: 750, 3.625, 3.75."
+  },
+  {
+    "text": "Future principal payments due under the 2018 Term Loan as of March 31 , 2020 are as follows : 2020 Revolving Credit Facility Borrowings under the 2020 Revolving Credit Facility accrue interest at a variable rate equal to , at our discretion , based on the applicable corporate credit rating at the time , ( i ) a base rate ( as defined in the 2018 Credit Agreement , subject to a floor of 1.00 % per annum ) plus a margin of 0.375 % to 1.875 % per annum , which is reduced from a margin of 1.00 % to 2.50 % prior to the amendment , or ( ii ) the Eurodollar Rate ( subject to a floor of 0.00 % per annum ) plus a margin of 1.375 % to 2.875 % per annum , which is reduced from a margin of 2.00 % to 3.50 % prior to the amendment .",
+    "entities": [
+      {
+        "text": "0.375",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.875",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.00",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 0.375 (DebtInstrumentBasisSpreadOnVariableRate), 1.875 (DebtInstrumentBasisSpreadOnVariableRate), 1.00 (DebtInstrumentBasisSpreadOnVariableRate)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 0.375, 1.875, 1.00.",
+    "generated_alert": "Informational financial alert: 0.375 (DebtInstrumentBasisSpreadOnVariableRate), 1.875 (DebtInstrumentBasisSpreadOnVariableRate),"
+  },
+  {
+    "text": "On March 19 , 2020 , the Company amended the 2018 Credit Facility which , among other things , extended the maturity of both the 2018 Term Loan A and 2018 Revolving Credit Facility to the earlier of : ( i ) March 19 , 2025 or ( ii ) September 15 , 2023 if the outstanding principal on the 2024 Convertible Notes , as defined below , exceeds $ 350.0 million and the Company exceeds certain leverage ratios as of that date ; increased borrowings under the 2018 Term Loan A from $ 234.4 million to a total of $ 264.8 million ; increased the total available borrowing capacity under 2018 Revolving Credit Facility from $ 250.0 million to $ 282.5 million ; and reduced the interest rate for borrowings under both the 2018 Term Loan A and 2018 Revolving Credit Facility from either the eurocurrency rate plus a margin of 3.00 % or the base rate plus a margin of 2.00 % to either the eurocurrency rate plus a margin of 2.50 % or the base rate plus a margin of 1.50 % .",
+    "entities": [
+      {
+        "text": "350.0",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "234.4",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "264.8",
+        "label": "LongTermDebt"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 350.0 (DebtInstrumentFaceAmount), 234.4 (LineOfCreditFacilityMaximumBorrowingCapacity), 264.8 (LongTermDebt)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 350.0, 234.4, 264.8.",
+    "generated_alert": "Informational financial alert: 350.0 (DebtInstrumentFaceAmount), 234.4 (LineOfCreditFacilityMaximumBorrowingCapacity), 264"
+  },
+  {
+    "text": "The Bell Ring Term B Facility may be optionally prepaid at 101 % of the principal amount prepaid at any time during the first 12 months following the closing of the Bell Ring Term B Facility , and without premium or penalty thereafter . Borrowings under the Bell Ring Revolving Credit Facility bear interest , at the option of Bell Ring , at an annual rate equal to either the Eurodollar rate or the base rate ( determined as described above ) plus a margin , which initially were 4.25 % for Eurodollar rate - based loans and 3.25 % for base rate - based loans , and thereafter , will be determined by reference to the secured net leverage ratio , with the applicable margin for Eurodollar rate - based loans and base rate - based loans being ( i ) 4.25 % and 3.25 % , respectively , if the secured net leverage ratio is greater than or equal to 3.50:1.00 , ( ii ) 4.00 % and 3.00 % , respectively , if the secured net leverage ratio is less than 3.50:1.00 and greater than or equal to 2.50:1.00 or ( iii ) 3.75 % and 2.75 % , respectively , if the secured net leverage ratio is less than 2.50:1.00 .",
+    "entities": [
+      {
+        "text": "4.25",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "3.25",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "4.25",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 4.25 (DebtInstrumentBasisSpreadOnVariableRate), 3.25 (DebtInstrumentBasisSpreadOnVariableRate), 4.25 (DebtInstrumentBasisSpreadOnVariableRate)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 4.25, 3.25, 4.25.",
+    "generated_alert": "Informational financial alert: 4.25 (DebtInstrumentBasisSpreadOnVariableRate), 3.25 (DebtInstrumentBasisSpreadOnVariableRate), 4."
+  },
+  {
+    "text": "ITEM 1 FINANCIAL STATEMENTS Consolidated Income StatementConocoPhillipsMillions of Dollars Three Months Ended March 31 2020 2019 Revenues and Other Income Sales and other operating revenues $ 6,158 9,150 Equity in earnings of affiliates 234 188 Gain ( loss ) on dispositions ( 42 ) 17 Other income ( loss ) ( 1,539 ) 702 Total Revenues and Other Income 4,811 10,057 Costs and Expenses Purchased commodities 2,661 3,675 Production and operating expenses 1,173 1,271 Selling , general and administrative expenses ( 3 ) 153 Exploration expenses 188 110 Depreciation , depletion and amortization 1,411 1,546 Impairments 521 1 Taxes other than income taxes 250 275 Accretion on discounted liabilities 67 86 Interest and debt expense 202 233 Foreign currency transactions ( gain ) loss ( 90 ) 12 Other expenses ( 6 ) 8 Total Costs and Expenses 6,374 7,370 Income ( loss ) before income taxes ( 1,563 ) 2,687 Income tax provision 148 841 Net income ( loss ) ( 1,711 ) 1,846 Less : net income attributable to noncontrolling interests ( 28 ) ( 13 ) Net Income ( Loss ) Attributable to Conoco Phillips $ ( 1,739 ) 1,833 Net Income ( Loss ) Attributable to Conoco Phillips Per Share of Common Stock ( dollars ) Basic $ ( 1.60 ) 1.61 Diluted ( 1.60 ) 1.60 Average Common Shares Outstanding ( in thousands ) Basic 1,084,561 1,139,463 Diluted 1,084,561 1,146,515 See Notes to Consolidated Financial Statements .",
+    "entities": [
+      {
+        "text": "6,158",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "202",
+        "label": "AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 6,158 (DebtInstrumentFaceAmount), 202 (AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 6,158, 202.",
+    "generated_alert": "Informational financial alert: 6,158 (DebtInstrumentFaceAmount), 202 (AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount"
+  },
+  {
+    "text": "At March 31 , 2020 , there were no amounts outstanding under the Revolver Loan and we had incurred approximately $ 1.2 million of debt issuance costs , net , which are recorded in other assets , net on the consolidated balance sheets . Borrowings under the Second Amended and Restated Credit Agreement initially bear interest at floating rates equal to , at our option , either ( 1 ) LIBOR , plus a spread which ranges from ( a ) 1.05 % to 1.50 % ( with respect to the Revolver Loan ) and ( b ) 1.30 % to 1.90 % ( with respect to Term Loan A ) , in each case based on our consolidated leverage ratio , or ( 2 ) a base rate equal to the highest of ( a ) the prime rate , ( b ) the federal funds rate plus 50 bps or ( c ) LIBOR plus 100 bps , plus a spread which ranges from ( i ) 0.10 % to 0.50 % ( with respect to the Revolver Loan ) and ( ii ) 0.30 % to 0.90 % ( with respect to Term Loan A ) , in each case based on our consolidated leverage ratio . The Revolver Loan initially matures on January 9 , 2022 , subject to our option to extend the Revolver Loan up to two times , with each such extension for a six months period .",
+    "entities": [
+      {
+        "text": "1.05",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.50",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.30",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 1.05 (DebtInstrumentBasisSpreadOnVariableRate), 1.50 (DebtInstrumentBasisSpreadOnVariableRate), 1.30 (DebtInstrumentBasisSpreadOnVariableRate)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 1.05, 1.50, 1.30.",
+    "generated_alert": "Informational financial alert: 1.05 (DebtInstrumentBasisSpreadOnVariableRate), 1.50 (DebtInstrumentBasisSpreadOnVariableRate), 1."
+  },
+  {
+    "text": "At March 31 , 2020 , there were no amounts outstanding under the Revolver Loan and we had incurred approximately $ 1.2 million of debt issuance costs , net , which are recorded in other assets , net on the consolidated balance sheets . Borrowings under the Second Amended and Restated Credit Agreement initially bear interest at floating rates equal to , at our option , either ( 1 ) LIBOR , plus a spread which ranges from ( a ) 1.05 % to 1.50 % ( with respect to the Revolver Loan ) and ( b ) 1.30 % to 1.90 % ( with respect to Term Loan A ) , in each case based on our consolidated leverage ratio , or ( 2 ) a base rate equal to the highest of ( a ) the prime rate , ( b ) the federal funds rate plus 50 bps or ( c ) LIBOR plus 100 bps , plus a spread which ranges from ( i ) 0.10 % to 0.50 % ( with respect to the Revolver Loan ) and ( ii ) 0.30 % to 0.90 % ( with respect to Term Loan A ) , in each case based on our consolidated leverage ratio . The Revolver Loan initially matures on January 9 , 2022 , subject to our option to extend the Revolver Loan up to two times , with each such extension for a six months period .",
+    "entities": [
+      {
+        "text": "1.05",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.50",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.30",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 1.05 (DebtInstrumentBasisSpreadOnVariableRate), 1.50 (DebtInstrumentBasisSpreadOnVariableRate), 1.30 (DebtInstrumentBasisSpreadOnVariableRate)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 1.05, 1.50, 1.30.",
+    "generated_alert": "Informational financial alert: 1.05 (DebtInstrumentBasisSpreadOnVariableRate), 1.50 (DebtInstrumentBasisSpreadOnVariableRate), 1."
+  },
+  {
+    "text": "The Credit Facility originally provided for a $ 500 million senior secured revolving credit facility ( the \" Revolving Credit Facility \" ) , a $ 50 million U.S. dollar senior secured term loan A made available to the Company ( the \" USD Term Loan \" ) and a $ 250 million ( U.S. dollar equivalent ) Canadian dollar senior secured term loan A made available to BWXT Canada Ltd. ( the \" CAD Term Loan \" and together with the USD Term Loan , the \" Term Loans '' ) . The Amendment , among other things , ( 1 ) provided additional commitments to increase the Revolving Credit Facility by $ 250 million , such that the Revolving Credit Facility is now $ 750 million ; ( 2 ) extended the maturity date of the Revolving Credit Facility to March 24 , 2025 ; ( 3 ) removed BWXT Canada Ltd. as a borrower under the Revolving Credit Facility ; ( 4 ) modified the applicable margin for borrowings under the Revolving Credit Facility to be , at the Company 's option , either ( i ) the Eurocurrency rate plus a margin ranging from 1.0 % to 1.75 % per year or ( ii ) the base rate plus a margin ranging from 0.0 % to 0.75 % per year , in each case depending on the Company 's leverage ratio ; ( 5 ) modified the commitment fee on the unused portion of the Revolving Credit Facility to range from 0.15 % to 0.225 % per year , depending on the Company 's leverage ratio ; and ( 6 ) modified the letter of credit fee with respect to each financial letter of credit and performance letter of credit issued under the Revolving Credit Facility to range from 1.0 % to 1.75 % and 0.75 % to 1.05 % per year , respectively , in each case , depending on the Company 's leverage ratio . The Term Loans are scheduled to mature on May 24 , 2023 , and all obligations under the Revolving Credit Facility are scheduled to mature on March 24 , 2025 .",
+    "entities": [
+      {
+        "text": "500",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "50",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "250",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 500 (LineOfCreditFacilityMaximumBorrowingCapacity), 50 (LineOfCreditFacilityMaximumBorrowingCapacity), 250 (LineOfCreditFacilityMaximumBorrowingCapacity)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 500, 50, 250.",
+    "generated_alert": "Informational financial alert: 500 (LineOfCreditFacilityMaximumBorrowingCapacity), 50 (LineOfCreditFacilityMaximumBorrowingCapacity), 250"
+  },
+  {
+    "text": "During the second quarter of 2012 , the Company issued $ 170.0 million of unsecured notes , which funded in three tranches , $ 77.5 million at an interest rate of 3.66 percent , $ 55.0 million at an interest rate of 4.16 percent , and $ 37.5 million at an interest rate of 4.31 percent ( the “ 2012 Notes ” ) .",
+    "entities": [
+      {
+        "text": "170.0",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "77.5",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "3.66",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 170.0 (DebtInstrumentFaceAmount), 77.5 (DebtInstrumentFaceAmount), 3.66 (DebtInstrumentInterestRateStatedPercentage)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 170.0, 77.5, 3.66.",
+    "generated_alert": "Informational financial alert: 170.0 (DebtInstrumentFaceAmount), 77.5 (DebtInstrumentFaceAmount), 3.66 (DebtInstrumentInterest"
+  },
+  {
+    "text": "Senior Unsecured Notes We have $ 3.0 billion in aggregate principal amount of senior unsecured notes , consisting of the following : ( i ) $ 1.0 billion aggregate principal amount of 2.650 % senior notes due 2025 ; ( ii ) $ 1.25 billion aggregate principal amount of 3.200 % senior notes due 2029 ; and ( iii ) $ 750 million aggregate principal amount of 4.150 % senior notes due 2049 .",
+    "entities": [
+      {
+        "text": "1.0",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "2.650",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      },
+      {
+        "text": "1.25",
+        "label": "DebtInstrumentFaceAmount"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 1.0 (DebtInstrumentFaceAmount), 2.650 (DebtInstrumentInterestRateStatedPercentage), 1.25 (DebtInstrumentFaceAmount)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 1.0, 2.650, 1.25.",
+    "generated_alert": "Informational financial alert: 1.0 (DebtInstrumentFaceAmount), 2.650 (DebtInstrumentInterestRateStatedPercentage), 1.25 (Debt"
+  },
+  {
+    "text": "Coupled with Century Link ’ s prepayment on January 24 , 2020 of $ 1.25 billion of indebtedness outstanding under its Term Loan B facility ( using principally the net proceeds from its below - described sale the same day of $ 1.25 billion of its 4.000 % Senior Secured Notes due 2027 ) , the Amended Credit Agreement currently provides for approximately $ 8.699 billion in senior secured credit facilities , consisting of an approximately $ 1.166 billion Term Loan A credit facility , a $ 333 million Term Loan A-1 credit facility , a $ 5.0 billion Term Loan B credit facility and a $ 2.2 billion revolving credit facility ( collectively , the “ Amended Senior Secured Credit Facilities ” ) .",
+    "entities": [
+      {
+        "text": "1.25",
+        "label": "LongTermDebt"
+      },
+      {
+        "text": "4.000",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      },
+      {
+        "text": "8.699",
+        "label": "DebtInstrumentFaceAmount"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 1.25 (LongTermDebt), 4.000 (DebtInstrumentInterestRateStatedPercentage), 8.699 (DebtInstrumentFaceAmount)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 1.25, 4.000, 8.699.",
+    "generated_alert": "Informational financial alert: 1.25, 4.000, 8.699."
+  },
+  {
+    "text": "Borrowings under the 2017 Revolver bear interest , at the Company ’ s option , at a rate equal to ( a ) LIBOR plus a margin of between 1.50 % and 3.00 % or ( b ) a base rate ( determined by reference to the highest of ( i ) the administrative agent ’ s prime lending rate , ( ii ) the federal funds effective rate plus 50 basis points , ( iii ) the LIBOR rate for a one - month interest period plus 100 basis points and ( iv ) 0 % ) , plus a margin of between 0.50 % and 2.00 % , in each case based on the Consolidated Leverage Ratio ( as defined in the 2017 Credit Facility ) .",
+    "entities": [
+      {
+        "text": "1.50",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "3.00",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "50",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 1.50 (DebtInstrumentBasisSpreadOnVariableRate), 3.00 (DebtInstrumentBasisSpreadOnVariableRate), 50 (DebtInstrumentBasisSpreadOnVariableRate)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 1.50, 3.00, 50.",
+    "generated_alert": "Informational financial alert: 1.50 (DebtInstrumentBasisSpreadOnVariableRate), 3.00 (DebtInstrumentBasisSpreadOnVariableRate), 50"
+  },
+  {
+    "text": "As of March 31 , 2020 , the interest rate margin would have been 1.125 % for Parent Eurodollar loans and 0.125 % for ABR loans , and the commitment fee was 0.125 % , each determined by reference to the Company 's public debt ratings . TD Ameritrade Clearing , Inc. Senior Revolving Credit Facilities - As of March 31 , 2020 , TDAC had access to two senior unsecured committed revolving credit facilities with an aggregate principal amount of $ 1.45 billion , consisting of a $ 600 million ( the \" $ 600 Million Revolving Facility \" ) and an $ 850 million ( the \" $ 850 Million Revolving Facility \" ) senior revolving facility ( together , the \" TDAC Revolving Facilities \" ) .",
+    "entities": [
+      {
+        "text": "1.125",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "0.125",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.45",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 1.125 (DebtInstrumentBasisSpreadOnVariableRate), 0.125 (DebtInstrumentBasisSpreadOnVariableRate), 1.45 (LineOfCreditFacilityMaximumBorrowingCapacity)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 1.125, 0.125, 1.45.",
+    "generated_alert": "Informational financial alert: 1.125 (DebtInstrumentBasisSpreadOnVariableRate), 0.125 (DebtInstrumentBasisSpreadOnVariableRate),"
+  },
+  {
+    "text": "Based on the leverage ratio applicable at March 31 , 2020 , the margin for Eurocurrency rate and base rate or Canadian index rate term loans was 1.375 % and 0.375 % , respectively , the margin for Eurocurrency rate and base rate revolving loans was 1.25 % and 0.25 % , respectively , the letter of credit fee for financial letters of credit and performance letters of credit was 1.25 % and 0.825 % , respectively , and the commitment fee for the unused portion of the Revolving Credit Facility was 0.175 % . As of March 31 , 2020 , borrowings outstanding totaled $ 254.1 million and $ 280.0 million under the Term Loans and Revolving Credit Facility , respectively , and letters of credit issued under the Revolving Credit Facility totaled $ 65.7 million .",
+    "entities": [
+      {
+        "text": "1.375",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.25",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "0.25",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      }
+    ],
+    "sentiment": "negative",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 1.375 (DebtInstrumentBasisSpreadOnVariableRate), 1.25 (DebtInstrumentBasisSpreadOnVariableRate), 0.25 (DebtInstrumentBasisSpreadOnVariableRate)\nSentiment: negative",
+    "target_alert": "Financial risk alert: negative context detected around 1.375, 1.25, 0.25.",
+    "generated_alert": "Financial risk alert: DebtInstrumentBasisSpreadOnVariableRate, 1.375, 1.25 detected around DebtInstrumentBasisSpreadOnVariableRate."
+  },
+  {
+    "text": "During the year ended December 31 , 2019 the Company : • obtained one new Fund II construction loan , three new Fund IV mortgages and five new Fund V mortgages totaling $ 258.9 million with a weighted - average interest rate of LIBOR + 1.70 % collateralized by nine properties and maturing in 2022 through 2024 ; • refinanced three mortgages with existing balances totaling $ 69.0 million at a weighted - average rate of LIBOR + 2.08 % and maturities ranging from May 2019 to January 2021 with new mortgages totaling $ 71.8 million with a weighted - average rate of LIBOR + 1.86 % and maturities ranging from April 2022 through December 2024 ; • transferred a Fund III mortgage with a balance of $ 4.7 million and an interest rate of Prime + 0.5 % which was assumed by the purchasing venture in a property sale ( Note 2 ) .",
+    "entities": [
+      {
+        "text": "258.9",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "1.70",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "69.0",
+        "label": "DebtInstrumentFaceAmount"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 258.9 (DebtInstrumentFaceAmount), 1.70 (DebtInstrumentBasisSpreadOnVariableRate), 69.0 (DebtInstrumentFaceAmount)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 258.9, 1.70, 69.0.",
+    "generated_alert": "Informational financial alert: 258.9, 1.70, 69.0"
+  },
+  {
+    "text": "The Credit Agreement has a term of five years and matures on August 31 , 2023 . Loans will bear interest at a rate equal to ( i ) the London Interbank Offered Rate ( “ LIBOR ” ) plus the “ applicable rate ” or ( ii ) the “ base rate ” ( defined as the highest of ( a ) the Bank of America prime rate , ( b ) the Federal Funds rate plus one - half of one percent and ( c ) LIBOR plus one percent ) plus the “ applicable rate . ” The initial applicable rate was 1.00 % per annum for base rate loans and 2.00 % per annum for LIBOR rate loans , and thereafter will be determined in accordance with a pricing grid based on the Company ’ s Consolidated Leverage Ratio ( as defined in the Credit Agreement ) ranging from 1.75 % to 2.50 % per annum for LIBOR rate loans and from 0.75 % to 1.50 % per annum for base rate loans .",
+    "entities": [
+      {
+        "text": "one",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.00",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      },
+      {
+        "text": "2.00",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: one (DebtInstrumentBasisSpreadOnVariableRate), 1.00 (DebtInstrumentInterestRateStatedPercentage), 2.00 (DebtInstrumentInterestRateStatedPercentage)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around one, 1.00, 2.00.",
+    "generated_alert": "Informational financial alert: DebtInstrumentBasisSpreadOnVariableRate, 1.00 DebtInstrumentInterestRateStatedPercentage, 2.00 DebtInstrumentInterestRateStatedPercentage."
+  },
+  {
+    "text": "Long - term Debt and Credit Agreement The Company ’ s debt at March 31 , 2020 and December 31 , 2019 consisted of the following :  RESIDEO TECHNOLOGIES , INC . NOTES TO CONSOLIDATED INTERIM FINANCIAL STATEMENTS ( Dollars in millions , unless otherwise noted ) ( Unaudited ) In October of 2018 , the Company issued $ 400 million in principal amount of its 6.125 % senior unsecured notes ( the “ Senior Notes ” ) , entered into term loan facilities in the form of a seven - year LIBOR plus 2.25 % senior secured first - lien term B loan facility in an aggregate principal amount of $ 475 million and a five - year LIBOR plus 2.25 % senior secured first - lien term A loan facility in an aggregate principal amount of $ 350 million ( the “ Term Loans ” ) and established a five - year senior secured first - lien revolving credit facility in an aggregate principal amount of $ 350 million ( the \" Revolving Credit Facility \" ) .",
+    "entities": [
+      {
+        "text": "400",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "6.125",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      },
+      {
+        "text": "2.25",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 400 (DebtInstrumentFaceAmount), 6.125 (DebtInstrumentInterestRateStatedPercentage), 2.25 (DebtInstrumentBasisSpreadOnVariableRate)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 400, 6.125, 2.25.",
+    "generated_alert": "Informational financial alert: 400, 6.125, 2.25."
+  },
+  {
+    "text": "Subject to the satisfaction of certain criteria , borrowings under the ESH REIT Credit Facilities may be increased by an amount of up to $ 600.0 million , plus additional amounts , so long as , after giving effect to the incurrence of such incremental facility and the application of proceeds thereof , ESH REIT ’ s pro - forma senior loan - to - value ratio is less than or equal to 45 % . ESH REIT Term Facility - The ESH REIT Term Facility bears interest at a rate equal to ( i ) LIBOR plus 1.75 % for any period during which ESH REIT maintains a public corporate family rating better than or equal to BB ( with a stable or better outlook ) from S & P and Ba3 ( with a stable or better outlook ) from Moody ’ s ( a “ Level 1 Period ” ) or LIBOR plus 2.00 % for any period other than a Level 1 Period ; or ( ii ) a base rate ( determined by reference to the highest of ( A ) the prime lending rate , ( B ) the overnight federal funds rate plus 0.50 % or ( C ) the one - month adjusted LIBOR rate plus 1.00 % ) , plus 0.75 % during a Level 1 Period or 1.00 % for any period other than a Level 1 Period .",
+    "entities": [
+      {
+        "text": "600.0",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "1.75",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "2.00",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 600.0 (LineOfCreditFacilityMaximumBorrowingCapacity), 1.75 (DebtInstrumentBasisSpreadOnVariableRate), 2.00 (DebtInstrumentBasisSpreadOnVariableRate)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 600.0, 1.75, 2.00.",
+    "generated_alert": "Informational financial alert: LineOfCreditFacilityMaximumBorrowingCapacity, DebtInstrumentBasisSpreadOnVariableRate, DebtInstrumentBasisSpreadOnVariableRate."
+  },
+  {
+    "text": "Subject to the satisfaction of certain criteria , borrowings under the ESH REIT Credit Facilities may be increased by an amount of up to $ 600.0 million , plus additional amounts , so long as , after giving effect to the incurrence of such incremental facility and the application of proceeds thereof , ESH REIT ’ s pro - forma senior loan - to - value ratio is less than or equal to 45 % . ESH REIT Term Facility - The ESH REIT Term Facility bears interest at a rate equal to ( i ) LIBOR plus 1.75 % for any period during which ESH REIT maintains a public corporate family rating better than or equal to BB ( with a stable or better outlook ) from S & P and Ba3 ( with a stable or better outlook ) from Moody ’ s ( a “ Level 1 Period ” ) or LIBOR plus 2.00 % for any period other than a Level 1 Period ; or ( ii ) a base rate ( determined by reference to the highest of ( A ) the prime lending rate , ( B ) the overnight federal funds rate plus 0.50 % or ( C ) the one - month adjusted LIBOR rate plus 1.00 % ) , plus 0.75 % during a Level 1 Period or 1.00 % for any period other than a Level 1 Period .",
+    "entities": [
+      {
+        "text": "600.0",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "1.75",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "2.00",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 600.0 (LineOfCreditFacilityMaximumBorrowingCapacity), 1.75 (DebtInstrumentBasisSpreadOnVariableRate), 2.00 (DebtInstrumentBasisSpreadOnVariableRate)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 600.0, 1.75, 2.00.",
+    "generated_alert": "Informational financial alert: LineOfCreditFacilityMaximumBorrowingCapacity, DebtInstrumentBasisSpreadOnVariableRate, DebtInstrumentBasisSpreadOnVariableRate."
+  },
+  {
+    "text": "The Company 's 4.875 % , 5.75 % , 4.75 % , 5.625 % , 5.50 % and 10.00 % senior notes are classified as level 1 , as quoted prices are available in an active market for these notes .",
+    "entities": [
+      {
+        "text": "4.875",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      },
+      {
+        "text": "5.75",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      },
+      {
+        "text": "4.75",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 4.875 (DebtInstrumentInterestRateStatedPercentage), 5.75 (DebtInstrumentInterestRateStatedPercentage), 4.75 (DebtInstrumentInterestRateStatedPercentage)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 4.875, 5.75, 4.75.",
+    "generated_alert": "Informational financial alert: 4.875 (DebtInstrumentInterestRateStatedPercentage), 5.75 (DebtInstrumentInterestRateStatedPercentage), 4.7"
+  },
+  {
+    "text": "The Euro Notes included € 1.0 billion aggregate principal amount of 0.50 percent notes due 2027 , € 750 million aggregate principal amount of 1.125 percent notes due 2032 and € 500 million aggregate principal amount of 1.875 percent notes due 2040 .",
+    "entities": [
+      {
+        "text": "1.0",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "0.50",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      },
+      {
+        "text": "750",
+        "label": "DebtInstrumentFaceAmount"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 1.0 (DebtInstrumentFaceAmount), 0.50 (DebtInstrumentInterestRateStatedPercentage), 750 (DebtInstrumentFaceAmount)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 1.0, 0.50, 750.",
+    "generated_alert": "Informational financial alert: DebtInstrumentFaceAmount 1.0, DebtInstrumentInterestRateStatedPercentage 0.50, DebtInstrumentFaceAmount 750 detected."
+  },
+  {
+    "text": "The Euro Notes included € 1.0 billion aggregate principal amount of 0.50 percent notes due 2027 , € 750 million aggregate principal amount of 1.125 percent notes due 2032 and € 500 million aggregate principal amount of 1.875 percent notes due 2040 .",
+    "entities": [
+      {
+        "text": "1.0",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "0.50",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      },
+      {
+        "text": "750",
+        "label": "DebtInstrumentFaceAmount"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 1.0 (DebtInstrumentFaceAmount), 0.50 (DebtInstrumentInterestRateStatedPercentage), 750 (DebtInstrumentFaceAmount)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 1.0, 0.50, 750.",
+    "generated_alert": "Informational financial alert: DebtInstrumentFaceAmount 1.0, DebtInstrumentInterestRateStatedPercentage 0.50, DebtInstrumentFaceAmount 750 detected."
+  },
+  {
+    "text": "13 Debt issuances and repayments During the three months ended March 31 , 2020 , we issued $ 5.0 billion of debt , consisting of the 1.90 % 2025 Notes , the 2.20 % 2027 Notes , the 2.45 % 2030 Notes , the 3.15 % 2040 Notes and the 3.375 % 2050 Notes .",
+    "entities": [
+      {
+        "text": "5.0",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "1.90",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      },
+      {
+        "text": "2.20",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 5.0 (DebtInstrumentFaceAmount), 1.90 (DebtInstrumentInterestRateStatedPercentage), 2.20 (DebtInstrumentInterestRateStatedPercentage)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 5.0, 1.90, 2.20.",
+    "generated_alert": "Informational financial alert: 5.0, 1.90, 2.20"
+  },
+  {
+    "text": "( 5 ) Weighted - average borrowing costs as of March 31 , 2020 and December 31 , 2019 were USD L + 2.05 % / GBP L + 1.66 % / EUR L + 1.35 % and USD L + 2.07 % / GBP L + 1.75 % / EUR L + 1.36 % , respectively .",
+    "entities": [
+      {
+        "text": "2.05",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.66",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "1.35",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      }
+    ],
+    "sentiment": "neutral",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 2.05 (DebtInstrumentBasisSpreadOnVariableRate), 1.66 (DebtInstrumentBasisSpreadOnVariableRate), 1.35 (DebtInstrumentBasisSpreadOnVariableRate)\nSentiment: neutral",
+    "target_alert": "Informational financial alert: neutral context detected around 2.05, 1.66, 1.35.",
+    "generated_alert": "Informational financial alert: 2.05 (DebtInstrumentBasisSpreadOnVariableRate), 1.66 (DebtInstrumentBasisSpreadOnVariableRate), 1."
+  },
+  {
+    "text": "For the three months ended March 31 , 2020 and 2019 , the Company recorded selling , general and administrative expense of $ 811,000 and $ 266,000 , respectively , research and development expense of $ 202,000 and $ 65,000 , respectively , and cost of sales of $ 113,000 and $ 29,000 , respectively , related to performance units .",
+    "entities": [
+      {
+        "text": "811,000",
+        "label": "AllocatedShareBasedCompensationExpense"
+      },
+      {
+        "text": "266,000",
+        "label": "AllocatedShareBasedCompensationExpense"
+      },
+      {
+        "text": "202,000",
+        "label": "AllocatedShareBasedCompensationExpense"
+      }
+    ],
+    "sentiment": "negative",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 811,000 (AllocatedShareBasedCompensationExpense), 266,000 (AllocatedShareBasedCompensationExpense), 202,000 (AllocatedShareBasedCompensationExpense)\nSentiment: negative",
+    "target_alert": "Financial risk alert: negative context detected around 811,000, 266,000, 202,000.",
+    "generated_alert": "Financial risk alert: Negative financial alert detected around 811,000 (AllocatedShareBasedCompensationExpense), 266,000 (AllocatedShareBasedComp"
+  },
+  {
+    "text": "8 For the second quarter and first six months ended March 30 , 2019 , restructuring and other charges totaled $ 27.0 million and $ 45.5 million , respectively , of which $ 26.4 million and $ 43.0 million is attributable to restructuring charges , respectively , and $ 0.6 million and $ 2.5 million is related to headquarters relocation charges , respectively .",
+    "entities": [
+      {
+        "text": "27.0",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "45.5",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "26.4",
+        "label": "RestructuringCharges"
+      }
+    ],
+    "sentiment": "negative",
+    "prompt": "Generate a concise financial alert from the following information.\nEntities: 27.0 (RestructuringCharges), 45.5 (RestructuringCharges), 26.4 (RestructuringCharges)\nSentiment: negative",
+    "target_alert": "Financial risk alert: negative context detected around 27.0, 45.5, 26.4.",
+    "generated_alert": "Financial risk alert: Informational financial alert: 27.0 (RestructuringCharges), 45.5 (RestructuringCharges), 26.4 (Restr"
+  }
+]

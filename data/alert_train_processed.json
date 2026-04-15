@@ -10581,8 +10581,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.4167,
-        "neutral": 0.5808,
+        "negative": 0.4168,
+        "neutral": 0.5806,
         "positive": 0.0026
       }
     ]
@@ -13034,7 +13034,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.485,
+        "negative": 0.4849,
         "neutral": 0.5136,
         "positive": 0.0015
       }
@@ -15533,7 +15533,7 @@
       "negative",
       {
         "negative": 0.9389,
-        "neutral": 0.0459,
+        "neutral": 0.046,
         "positive": 0.0152
       }
     ]
@@ -18278,7 +18278,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.3424,
+        "negative": 0.3425,
         "neutral": 0.65,
         "positive": 0.0075
       }
@@ -27040,7 +27040,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.9035,
+        "negative": 0.9034,
         "neutral": 0.0674,
         "positive": 0.0292
       }
@@ -38973,7 +38973,7 @@
       "negative",
       {
         "negative": 0.9775,
-        "neutral": 0.0221,
+        "neutral": 0.0222,
         "positive": 0.0003
       }
     ]
@@ -39862,7 +39862,7 @@
       "negative",
       {
         "negative": 0.9775,
-        "neutral": 0.0221,
+        "neutral": 0.0222,
         "positive": 0.0003
       }
     ]
@@ -52121,7 +52121,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0084,
+        "negative": 0.0083,
         "neutral": 0.9911,
         "positive": 0.0005
       }
@@ -52978,7 +52978,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0084,
+        "negative": 0.0083,
         "neutral": 0.9911,
         "positive": 0.0005
       }
@@ -62180,7 +62180,7 @@
       "neutral",
       {
         "negative": 0.1429,
-        "neutral": 0.8544,
+        "neutral": 0.8545,
         "positive": 0.0027
       }
     ]
@@ -63133,7 +63133,7 @@
       "neutral",
       {
         "negative": 0.1429,
-        "neutral": 0.8544,
+        "neutral": 0.8545,
         "positive": 0.0027
       }
     ]
@@ -67453,8 +67453,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.6389,
-        "neutral": 0.3597,
+        "negative": 0.639,
+        "neutral": 0.3596,
         "positive": 0.0014
       }
     ]
@@ -67882,8 +67882,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.4584,
-        "neutral": 0.5402,
+        "negative": 0.4585,
+        "neutral": 0.5401,
         "positive": 0.0014
       }
     ]
@@ -68857,7 +68857,7 @@
       "neutral",
       {
         "negative": 0.0023,
-        "neutral": 0.9229,
+        "neutral": 0.9228,
         "positive": 0.0748
       }
     ]
@@ -71356,7 +71356,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0023,
+        "negative": 0.0024,
         "neutral": 0.9974,
         "positive": 0.0002
       }
@@ -102254,7 +102254,7 @@
       "neutral",
       {
         "negative": 0.0487,
-        "neutral": 0.9335,
+        "neutral": 0.9336,
         "positive": 0.0178
       }
     ]
@@ -106392,8 +106392,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.7828,
-        "neutral": 0.1909,
+        "negative": 0.7829,
+        "neutral": 0.1908,
         "positive": 0.0263
       }
     ]
@@ -118304,8 +118304,8 @@
       "positive",
       {
         "negative": 0.0117,
-        "neutral": 0.4615,
-        "positive": 0.5268
+        "neutral": 0.4616,
+        "positive": 0.5267
       }
     ]
   },
@@ -123745,8 +123745,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.118,
-        "neutral": 0.8574,
+        "negative": 0.1181,
+        "neutral": 0.8573,
         "positive": 0.0246
       }
     ]
@@ -124054,7 +124054,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0245,
+        "negative": 0.0244,
         "neutral": 0.9292,
         "positive": 0.0464
       }
@@ -124417,7 +124417,7 @@
       {
         "negative": 0.0013,
         "neutral": 0.862,
-        "positive": 0.1367
+        "positive": 0.1368
       }
     ]
   },
@@ -126857,8 +126857,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.1263,
-        "neutral": 0.8666,
+        "negative": 0.1262,
+        "neutral": 0.8667,
         "positive": 0.0071
       }
     ]
@@ -127784,7 +127784,7 @@
       "neutral",
       {
         "negative": 0.0047,
-        "neutral": 0.994,
+        "neutral": 0.9939,
         "positive": 0.0013
       }
     ]
@@ -128249,7 +128249,7 @@
       "neutral",
       {
         "negative": 0.0047,
-        "neutral": 0.994,
+        "neutral": 0.9939,
         "positive": 0.0013
       }
     ]
@@ -128717,7 +128717,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0183,
+        "negative": 0.0182,
         "neutral": 0.9563,
         "positive": 0.0254
       }
@@ -130160,8 +130160,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.1258,
-        "neutral": 0.8672,
+        "negative": 0.1257,
+        "neutral": 0.8673,
         "positive": 0.007
       }
     ]
@@ -130641,8 +130641,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.1258,
-        "neutral": 0.8672,
+        "negative": 0.1257,
+        "neutral": 0.8673,
         "positive": 0.007
       }
     ]
@@ -135195,7 +135195,7 @@
       "neutral",
       {
         "negative": 0.0069,
-        "neutral": 0.991,
+        "neutral": 0.9909,
         "positive": 0.0021
       }
     ]
@@ -135708,7 +135708,7 @@
       "neutral",
       {
         "negative": 0.0069,
-        "neutral": 0.991,
+        "neutral": 0.9909,
         "positive": 0.0021
       }
     ]
@@ -141629,7 +141629,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.9659,
+        "negative": 0.9658,
         "neutral": 0.0265,
         "positive": 0.0077
       }
@@ -149218,7 +149218,7 @@
       "neutral",
       {
         "negative": 0.0128,
-        "neutral": 0.9858,
+        "neutral": 0.9859,
         "positive": 0.0014
       }
     ]
@@ -150471,7 +150471,7 @@
       "neutral",
       {
         "negative": 0.0128,
-        "neutral": 0.9858,
+        "neutral": 0.9859,
         "positive": 0.0014
       }
     ]
@@ -159759,7 +159759,7 @@
       "neutral",
       {
         "negative": 0.0013,
-        "neutral": 0.993,
+        "neutral": 0.9931,
         "positive": 0.0056
       }
     ]
@@ -160338,7 +160338,7 @@
       {
         "negative": 0.0006,
         "neutral": 0.2539,
-        "positive": 0.7455
+        "positive": 0.7454
       }
     ]
   },
@@ -160916,7 +160916,7 @@
       {
         "negative": 0.0005,
         "neutral": 0.134,
-        "positive": 0.8656
+        "positive": 0.8655
       }
     ]
   },
@@ -167364,7 +167364,7 @@
       {
         "negative": 0.0015,
         "neutral": 0.9978,
-        "positive": 0.0007
+        "positive": 0.0006
       }
     ]
   },
@@ -174534,8 +174534,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.6519,
-        "neutral": 0.28,
+        "negative": 0.6518,
+        "neutral": 0.2801,
         "positive": 0.0681
       }
     ]
@@ -176565,7 +176565,7 @@
       {
         "negative": 0.005,
         "neutral": 0.9769,
-        "positive": 0.018
+        "positive": 0.0181
       }
     ]
   },
@@ -178748,7 +178748,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.9735,
+        "negative": 0.9734,
         "neutral": 0.0258,
         "positive": 0.0007
       }
@@ -181526,8 +181526,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.8176,
-        "neutral": 0.1764,
+        "negative": 0.8175,
+        "neutral": 0.1765,
         "positive": 0.006
       }
     ]
@@ -183394,9 +183394,9 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.909,
+        "negative": 0.9089,
         "neutral": 0.0389,
-        "positive": 0.0521
+        "positive": 0.0522
       }
     ]
   },
@@ -184365,7 +184365,7 @@
       "neutral",
       {
         "negative": 0.0743,
-        "neutral": 0.9164,
+        "neutral": 0.9165,
         "positive": 0.0093
       }
     ]
@@ -184861,7 +184861,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.9351,
+        "negative": 0.935,
         "neutral": 0.062,
         "positive": 0.0029
       }
@@ -185358,7 +185358,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.9351,
+        "negative": 0.935,
         "neutral": 0.062,
         "positive": 0.0029
       }
@@ -185861,7 +185861,7 @@
       {
         "negative": 0.0017,
         "neutral": 0.9946,
-        "positive": 0.0038
+        "positive": 0.0037
       }
     ]
   },
@@ -186377,7 +186377,7 @@
       "neutral",
       {
         "negative": 0.0065,
-        "neutral": 0.9857,
+        "neutral": 0.9858,
         "positive": 0.0078
       }
     ]
@@ -197945,8 +197945,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.1358,
-        "neutral": 0.8083,
+        "negative": 0.1357,
+        "neutral": 0.8084,
         "positive": 0.0559
       }
     ]
@@ -200533,7 +200533,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.9862,
+        "negative": 0.9861,
         "neutral": 0.0046,
         "positive": 0.0092
       }
@@ -240997,7 +240997,7 @@
       {
         "negative": 0.0002,
         "neutral": 0.9992,
-        "positive": 0.0006
+        "positive": 0.0005
       }
     ]
   },
@@ -241302,7 +241302,7 @@
       {
         "negative": 0.0002,
         "neutral": 0.9992,
-        "positive": 0.0006
+        "positive": 0.0005
       }
     ]
   },
@@ -243162,8 +243162,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.9324,
-        "neutral": 0.0352,
+        "negative": 0.9323,
+        "neutral": 0.0353,
         "positive": 0.0324
       }
     ]
@@ -243479,8 +243479,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.9324,
-        "neutral": 0.0352,
+        "negative": 0.9323,
+        "neutral": 0.0353,
         "positive": 0.0324
       }
     ]
@@ -256993,8 +256993,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.1047,
-        "neutral": 0.894,
+        "negative": 0.1046,
+        "neutral": 0.8941,
         "positive": 0.0013
       }
     ]
@@ -257410,8 +257410,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.1047,
-        "neutral": 0.894,
+        "negative": 0.1046,
+        "neutral": 0.8941,
         "positive": 0.0013
       }
     ]
@@ -262144,7 +262144,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0139,
+        "negative": 0.0138,
         "neutral": 0.979,
         "positive": 0.0071
       }
@@ -262665,7 +262665,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0139,
+        "negative": 0.0138,
         "neutral": 0.979,
         "positive": 0.0071
       }
@@ -290057,8 +290057,8 @@
       "neutral",
       {
         "negative": 0.0066,
-        "neutral": 0.7084,
-        "positive": 0.285
+        "neutral": 0.7082,
+        "positive": 0.2852
       }
     ]
   },
@@ -292582,8 +292582,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.3456,
-        "neutral": 0.6414,
+        "negative": 0.3457,
+        "neutral": 0.6412,
         "positive": 0.0131
       }
     ]
@@ -293891,8 +293891,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.2874,
-        "neutral": 0.7014,
+        "negative": 0.2875,
+        "neutral": 0.7013,
         "positive": 0.0112
       }
     ]
@@ -298032,7 +298032,7 @@
       "neutral",
       {
         "negative": 0.035,
-        "neutral": 0.9562,
+        "neutral": 0.9563,
         "positive": 0.0087
       }
     ]
@@ -298402,7 +298402,7 @@
       "neutral",
       {
         "negative": 0.035,
-        "neutral": 0.9562,
+        "neutral": 0.9563,
         "positive": 0.0087
       }
     ]
@@ -298780,7 +298780,7 @@
       "neutral",
       {
         "negative": 0.0246,
-        "neutral": 0.8683,
+        "neutral": 0.8684,
         "positive": 0.1071
       }
     ]
@@ -300873,8 +300873,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0924,
-        "neutral": 0.9002,
+        "negative": 0.0925,
+        "neutral": 0.9001,
         "positive": 0.0075
       }
     ]
@@ -301540,8 +301540,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.3756,
-        "neutral": 0.5776,
+        "negative": 0.3758,
+        "neutral": 0.5774,
         "positive": 0.0468
       }
     ]
@@ -301762,7 +301762,7 @@
       "neutral",
       {
         "negative": 0.0024,
-        "neutral": 0.9603,
+        "neutral": 0.9604,
         "positive": 0.0373
       }
     ]
@@ -302674,7 +302674,7 @@
       "neutral",
       {
         "negative": 0.0139,
-        "neutral": 0.9478,
+        "neutral": 0.9479,
         "positive": 0.0383
       }
     ]
@@ -304808,7 +304808,7 @@
       {
         "negative": 0.0008,
         "neutral": 0.026,
-        "positive": 0.9732
+        "positive": 0.9731
       }
     ]
   },
@@ -305301,7 +305301,7 @@
       "neutral",
       {
         "negative": 0.0068,
-        "neutral": 0.9883,
+        "neutral": 0.9884,
         "positive": 0.0048
       }
     ]
@@ -307621,8 +307621,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.8001,
-        "neutral": 0.1976,
+        "negative": 0.8002,
+        "neutral": 0.1975,
         "positive": 0.0023
       }
     ]
@@ -309525,7 +309525,7 @@
       "neutral",
       {
         "negative": 0.0142,
-        "neutral": 0.9838,
+        "neutral": 0.9839,
         "positive": 0.0019
       }
     ]
@@ -310946,7 +310946,7 @@
       "neutral",
       {
         "negative": 0.0212,
-        "neutral": 0.855,
+        "neutral": 0.8549,
         "positive": 0.1238
       }
     ]
@@ -314221,7 +314221,7 @@
       "neutral",
       {
         "negative": 0.0049,
-        "neutral": 0.9934,
+        "neutral": 0.9933,
         "positive": 0.0017
       }
     ]
@@ -315425,7 +315425,7 @@
       "neutral",
       {
         "negative": 0.0049,
-        "neutral": 0.9934,
+        "neutral": 0.9933,
         "positive": 0.0017
       }
     ]
@@ -321416,7 +321416,7 @@
       "negative",
       {
         "negative": 0.9364,
-        "neutral": 0.0613,
+        "neutral": 0.0612,
         "positive": 0.0024
       }
     ]
@@ -322704,7 +322704,7 @@
       "neutral",
       {
         "negative": 0.1801,
-        "neutral": 0.8149,
+        "neutral": 0.8148,
         "positive": 0.0051
       }
     ]
@@ -324023,9 +324023,9 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.5616,
+        "negative": 0.5615,
         "neutral": 0.0533,
-        "positive": 0.3852
+        "positive": 0.3853
       }
     ]
   },
@@ -326038,7 +326038,7 @@
       "neutral",
       {
         "negative": 0.0924,
-        "neutral": 0.8971,
+        "neutral": 0.897,
         "positive": 0.0106
       }
     ]
@@ -329836,8 +329836,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.2162,
-        "neutral": 0.7579,
+        "negative": 0.2161,
+        "neutral": 0.758,
         "positive": 0.0259
       }
     ]
@@ -332331,9 +332331,9 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.6212,
-        "neutral": 0.3107,
-        "positive": 0.0681
+        "negative": 0.621,
+        "neutral": 0.3108,
+        "positive": 0.0682
       }
     ]
   },
@@ -332689,7 +332689,7 @@
       "neutral",
       {
         "negative": 0.0106,
-        "neutral": 0.9888,
+        "neutral": 0.9887,
         "positive": 0.0006
       }
     ]
@@ -333046,7 +333046,7 @@
       "neutral",
       {
         "negative": 0.0674,
-        "neutral": 0.7905,
+        "neutral": 0.7904,
         "positive": 0.1422
       }
     ]
@@ -333403,7 +333403,7 @@
       "neutral",
       {
         "negative": 0.0106,
-        "neutral": 0.9888,
+        "neutral": 0.9887,
         "positive": 0.0006
       }
     ]
@@ -333760,7 +333760,7 @@
       "neutral",
       {
         "negative": 0.0674,
-        "neutral": 0.7905,
+        "neutral": 0.7904,
         "positive": 0.1422
       }
     ]
@@ -334855,7 +334855,7 @@
       "neutral",
       {
         "negative": 0.1233,
-        "neutral": 0.8547,
+        "neutral": 0.8548,
         "positive": 0.022
       }
     ]
@@ -336330,7 +336330,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.1427,
+        "negative": 0.1426,
         "neutral": 0.8459,
         "positive": 0.0114
       }
@@ -337441,7 +337441,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0224,
+        "negative": 0.0223,
         "neutral": 0.9773,
         "positive": 0.0004
       }
@@ -337814,8 +337814,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.9298,
-        "neutral": 0.0657,
+        "negative": 0.9297,
+        "neutral": 0.0658,
         "positive": 0.0045
       }
     ]
@@ -340846,8 +340846,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0091,
-        "neutral": 0.9637,
+        "negative": 0.0092,
+        "neutral": 0.9636,
         "positive": 0.0272
       }
     ]
@@ -341617,7 +341617,7 @@
       "neutral",
       {
         "negative": 0.0091,
-        "neutral": 0.9638,
+        "neutral": 0.9637,
         "positive": 0.0271
       }
     ]
@@ -343565,7 +343565,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.9187,
+        "negative": 0.9186,
         "neutral": 0.0575,
         "positive": 0.0239
       }
@@ -350129,8 +350129,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.1461,
-        "neutral": 0.8506,
+        "negative": 0.146,
+        "neutral": 0.8507,
         "positive": 0.0033
       }
     ]
@@ -350550,8 +350550,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.1461,
-        "neutral": 0.8506,
+        "negative": 0.146,
+        "neutral": 0.8507,
         "positive": 0.0033
       }
     ]
@@ -350971,8 +350971,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.1461,
-        "neutral": 0.8506,
+        "negative": 0.146,
+        "neutral": 0.8507,
         "positive": 0.0033
       }
     ]
@@ -367038,7 +367038,7 @@
       {
         "negative": 0.0064,
         "neutral": 0.9248,
-        "positive": 0.0689
+        "positive": 0.0688
       }
     ]
   },
@@ -382843,7 +382843,7 @@
       "neutral",
       {
         "negative": 0.007,
-        "neutral": 0.9924,
+        "neutral": 0.9923,
         "positive": 0.0007
       }
     ]
@@ -387256,7 +387256,7 @@
       "neutral",
       {
         "negative": 0.0053,
-        "neutral": 0.9941,
+        "neutral": 0.9942,
         "positive": 0.0006
       }
     ]
@@ -391780,7 +391780,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.9857,
+        "negative": 0.9858,
         "neutral": 0.0135,
         "positive": 0.0008
       }
@@ -409638,7 +409638,7 @@
       "neutral",
       {
         "negative": 0.0079,
-        "neutral": 0.9908,
+        "neutral": 0.9909,
         "positive": 0.0013
       }
     ]
@@ -410219,7 +410219,7 @@
       "neutral",
       {
         "negative": 0.0079,
-        "neutral": 0.9908,
+        "neutral": 0.9909,
         "positive": 0.0013
       }
     ]
@@ -410800,7 +410800,7 @@
       "neutral",
       {
         "negative": 0.0079,
-        "neutral": 0.9908,
+        "neutral": 0.9909,
         "positive": 0.0013
       }
     ]
@@ -411381,7 +411381,7 @@
       "neutral",
       {
         "negative": 0.0079,
-        "neutral": 0.9908,
+        "neutral": 0.9909,
         "positive": 0.0013
       }
     ]
@@ -414302,7 +414302,7 @@
       "negative",
       {
         "negative": 0.9373,
-        "neutral": 0.0517,
+        "neutral": 0.0518,
         "positive": 0.0109
       }
     ]
@@ -420264,8 +420264,8 @@
       "neutral",
       {
         "negative": 0.0695,
-        "neutral": 0.8427,
-        "positive": 0.0878
+        "neutral": 0.8428,
+        "positive": 0.0877
       }
     ]
   },
@@ -420868,7 +420868,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0918,
+        "negative": 0.0919,
         "neutral": 0.884,
         "positive": 0.0242
       }
@@ -425176,7 +425176,7 @@
       "neutral",
       {
         "negative": 0.0586,
-        "neutral": 0.9348,
+        "neutral": 0.9347,
         "positive": 0.0066
       }
     ]
@@ -425801,7 +425801,7 @@
       "neutral",
       {
         "negative": 0.0586,
-        "neutral": 0.9348,
+        "neutral": 0.9347,
         "positive": 0.0066
       }
     ]
@@ -426425,8 +426425,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.8374,
-        "neutral": 0.1073,
+        "negative": 0.8373,
+        "neutral": 0.1074,
         "positive": 0.0553
       }
     ]
@@ -427689,7 +427689,7 @@
       {
         "negative": 0.0287,
         "neutral": 0.934,
-        "positive": 0.0373
+        "positive": 0.0372
       }
     ]
   },
@@ -434109,7 +434109,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0916,
+        "negative": 0.0915,
         "neutral": 0.9059,
         "positive": 0.0026
       }
@@ -460679,7 +460679,7 @@
       {
         "negative": 0.0176,
         "neutral": 0.962,
-        "positive": 0.0203
+        "positive": 0.0204
       }
     ]
   },
@@ -466492,7 +466492,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0525,
+        "negative": 0.0526,
         "neutral": 0.9363,
         "positive": 0.0111
       }
@@ -497423,7 +497423,7 @@
       "neutral",
       {
         "negative": 0.0155,
-        "neutral": 0.9795,
+        "neutral": 0.9796,
         "positive": 0.005
       }
     ]
@@ -504927,8 +504927,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0436,
-        "neutral": 0.9305,
+        "negative": 0.0435,
+        "neutral": 0.9306,
         "positive": 0.0259
       }
     ]
@@ -510397,7 +510397,7 @@
       "negative",
       {
         "negative": 0.9766,
-        "neutral": 0.023,
+        "neutral": 0.0231,
         "positive": 0.0004
       }
     ]
@@ -513024,7 +513024,7 @@
       "neutral",
       {
         "negative": 0.1302,
-        "neutral": 0.8646,
+        "neutral": 0.8647,
         "positive": 0.0052
       }
     ]
@@ -513759,7 +513759,7 @@
       "neutral",
       {
         "negative": 0.005,
-        "neutral": 0.9244,
+        "neutral": 0.9245,
         "positive": 0.0706
       }
     ]
@@ -514004,7 +514004,7 @@
       "neutral",
       {
         "negative": 0.005,
-        "neutral": 0.9244,
+        "neutral": 0.9245,
         "positive": 0.0706
       }
     ]
@@ -517750,8 +517750,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.2975,
-        "neutral": 0.698,
+        "negative": 0.2974,
+        "neutral": 0.6981,
         "positive": 0.0045
       }
     ]
@@ -521119,7 +521119,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.9716,
+        "negative": 0.9715,
         "neutral": 0.0107,
         "positive": 0.0177
       }
@@ -528249,7 +528249,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0156,
+        "negative": 0.0155,
         "neutral": 0.9559,
         "positive": 0.0286
       }
@@ -532351,8 +532351,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.3297,
-        "neutral": 0.669,
+        "negative": 0.3295,
+        "neutral": 0.6692,
         "positive": 0.0013
       }
     ]
@@ -539273,8 +539273,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.2608,
-        "neutral": 0.5388,
+        "negative": 0.2607,
+        "neutral": 0.5389,
         "positive": 0.2004
       }
     ]
@@ -539602,8 +539602,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.2608,
-        "neutral": 0.5388,
+        "negative": 0.2607,
+        "neutral": 0.5389,
         "positive": 0.2004
       }
     ]
@@ -539932,7 +539932,7 @@
       "neutral",
       {
         "negative": 0.2581,
-        "neutral": 0.5413,
+        "neutral": 0.5414,
         "positive": 0.2006
       }
     ]
@@ -540260,7 +540260,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.7996,
+        "negative": 0.7995,
         "neutral": 0.1633,
         "positive": 0.0371
       }
@@ -546466,9 +546466,9 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.8176,
+        "negative": 0.8175,
         "neutral": 0.1299,
-        "positive": 0.0526
+        "positive": 0.0525
       }
     ]
   },
@@ -547538,7 +547538,7 @@
       "neutral",
       {
         "negative": 0.1481,
-        "neutral": 0.8466,
+        "neutral": 0.8467,
         "positive": 0.0053
       }
     ]
@@ -547900,7 +547900,7 @@
       {
         "negative": 0.0017,
         "neutral": 0.9905,
-        "positive": 0.0078
+        "positive": 0.0077
       }
     ]
   },
@@ -548261,7 +548261,7 @@
       {
         "negative": 0.0017,
         "neutral": 0.9905,
-        "positive": 0.0078
+        "positive": 0.0077
       }
     ]
   },
@@ -557043,7 +557043,7 @@
       "neutral",
       {
         "negative": 0.0014,
-        "neutral": 0.9922,
+        "neutral": 0.9921,
         "positive": 0.0065
       }
     ]
@@ -557440,7 +557440,7 @@
       "neutral",
       {
         "negative": 0.0014,
-        "neutral": 0.9922,
+        "neutral": 0.9921,
         "positive": 0.0065
       }
     ]
@@ -560235,7 +560235,7 @@
       "neutral",
       {
         "negative": 0.0257,
-        "neutral": 0.9687,
+        "neutral": 0.9686,
         "positive": 0.0056
       }
     ]
@@ -561451,7 +561451,7 @@
       {
         "negative": 0.9116,
         "neutral": 0.0597,
-        "positive": 0.0286
+        "positive": 0.0287
       }
     ]
   },
@@ -566004,8 +566004,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.921,
-        "neutral": 0.0641,
+        "negative": 0.9209,
+        "neutral": 0.0642,
         "positive": 0.0149
       }
     ]
@@ -571140,9 +571140,9 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.1056,
+        "negative": 0.1055,
         "neutral": 0.4972,
-        "positive": 0.3972
+        "positive": 0.3973
       }
     ]
   },
@@ -576886,7 +576886,7 @@
       "negative",
       {
         "negative": 0.7883,
-        "neutral": 0.2101,
+        "neutral": 0.2102,
         "positive": 0.0015
       }
     ]
@@ -581035,7 +581035,7 @@
       "neutral",
       {
         "negative": 0.2188,
-        "neutral": 0.697,
+        "neutral": 0.6969,
         "positive": 0.0843
       }
     ]
@@ -582906,7 +582906,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0464,
+        "negative": 0.0463,
         "neutral": 0.9481,
         "positive": 0.0056
       }
@@ -584315,7 +584315,7 @@
       {
         "negative": 0.0086,
         "neutral": 0.9519,
-        "positive": 0.0395
+        "positive": 0.0394
       }
     ]
   },
@@ -610409,7 +610409,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0628,
+        "negative": 0.0629,
         "neutral": 0.9349,
         "positive": 0.0023
       }
@@ -618889,7 +618889,7 @@
       "neutral",
       {
         "negative": 0.0026,
-        "neutral": 0.9954,
+        "neutral": 0.9955,
         "positive": 0.0019
       }
     ]
@@ -620047,7 +620047,7 @@
       "negative",
       {
         "negative": 0.9445,
-        "neutral": 0.0541,
+        "neutral": 0.054,
         "positive": 0.0015
       }
     ]
@@ -620632,7 +620632,7 @@
       "neutral",
       {
         "negative": 0.0102,
-        "neutral": 0.9887,
+        "neutral": 0.9888,
         "positive": 0.0011
       }
     ]
@@ -621217,7 +621217,7 @@
       "neutral",
       {
         "negative": 0.0102,
-        "neutral": 0.9887,
+        "neutral": 0.9888,
         "positive": 0.0011
       }
     ]
@@ -631345,7 +631345,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0309,
+        "negative": 0.0308,
         "neutral": 0.9627,
         "positive": 0.0064
       }
@@ -631964,7 +631964,7 @@
       {
         "negative": 0.0108,
         "neutral": 0.9686,
-        "positive": 0.0205
+        "positive": 0.0206
       }
     ]
   },
@@ -632581,7 +632581,7 @@
       {
         "negative": 0.0108,
         "neutral": 0.9686,
-        "positive": 0.0205
+        "positive": 0.0206
       }
     ]
   },
@@ -641405,8 +641405,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.9384,
-        "neutral": 0.0604,
+        "negative": 0.9385,
+        "neutral": 0.0603,
         "positive": 0.0012
       }
     ]
@@ -644647,7 +644647,7 @@
       "negative",
       {
         "negative": 0.9341,
-        "neutral": 0.0647,
+        "neutral": 0.0646,
         "positive": 0.0013
       }
     ]
@@ -650881,7 +650881,7 @@
       {
         "negative": 0.0118,
         "neutral": 0.9765,
-        "positive": 0.0116
+        "positive": 0.0117
       }
     ]
   },
@@ -651590,7 +651590,7 @@
       {
         "negative": 0.0118,
         "neutral": 0.9765,
-        "positive": 0.0116
+        "positive": 0.0117
       }
     ]
   },
@@ -655202,7 +655202,7 @@
       "neutral",
       {
         "negative": 0.0052,
-        "neutral": 0.9866,
+        "neutral": 0.9867,
         "positive": 0.0081
       }
     ]
@@ -666829,7 +666829,7 @@
       "neutral",
       {
         "negative": 0.0013,
-        "neutral": 0.9351,
+        "neutral": 0.935,
         "positive": 0.0636
       }
     ]
@@ -675614,8 +675614,8 @@
       "neutral",
       {
         "negative": 0.0513,
-        "neutral": 0.8839,
-        "positive": 0.0648
+        "neutral": 0.8838,
+        "positive": 0.0649
       }
     ]
   },
@@ -676767,8 +676767,8 @@
       "neutral",
       {
         "negative": 0.0093,
-        "neutral": 0.9233,
-        "positive": 0.0674
+        "neutral": 0.9234,
+        "positive": 0.0673
       }
     ]
   },
@@ -677976,7 +677976,7 @@
       "negative",
       {
         "negative": 0.9457,
-        "neutral": 0.0442,
+        "neutral": 0.0441,
         "positive": 0.0101
       }
     ]
@@ -731967,8 +731967,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.6142,
-        "neutral": 0.3847,
+        "negative": 0.6141,
+        "neutral": 0.3848,
         "positive": 0.0012
       }
     ]
@@ -733737,7 +733737,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.052,
+        "negative": 0.0519,
         "neutral": 0.9384,
         "positive": 0.0096
       }
@@ -734091,7 +734091,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0879,
+        "negative": 0.0878,
         "neutral": 0.9116,
         "positive": 0.0006
       }
@@ -737277,8 +737277,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.3107,
-        "neutral": 0.6787,
+        "negative": 0.3106,
+        "neutral": 0.6788,
         "positive": 0.0106
       }
     ]
@@ -739233,7 +739233,7 @@
       "positive",
       {
         "negative": 0.1029,
-        "neutral": 0.2155,
+        "neutral": 0.2156,
         "positive": 0.6816
       }
     ]
@@ -739413,8 +739413,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.4354,
-        "neutral": 0.5509,
+        "negative": 0.4353,
+        "neutral": 0.551,
         "positive": 0.0137
       }
     ]
@@ -740318,9 +740318,9 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0216,
+        "negative": 0.0215,
         "neutral": 0.8357,
-        "positive": 0.1428
+        "positive": 0.1427
       }
     ]
   },
@@ -740500,7 +740500,7 @@
       "neutral",
       {
         "negative": 0.0729,
-        "neutral": 0.9264,
+        "neutral": 0.9265,
         "positive": 0.0006
       }
     ]
@@ -740681,7 +740681,7 @@
       "neutral",
       {
         "negative": 0.3962,
-        "neutral": 0.587,
+        "neutral": 0.5871,
         "positive": 0.0167
       }
     ]
@@ -741223,7 +741223,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.992,
+        "negative": 0.9919,
         "neutral": 0.0032,
         "positive": 0.0049
       }
@@ -741949,7 +741949,7 @@
       {
         "negative": 0.0463,
         "neutral": 0.5699,
-        "positive": 0.3839
+        "positive": 0.3838
       }
     ]
   },
@@ -742128,7 +742128,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0057,
+        "negative": 0.0056,
         "neutral": 0.9885,
         "positive": 0.0059
       }
@@ -743576,9 +743576,9 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.1827,
+        "negative": 0.1826,
         "neutral": 0.7427,
-        "positive": 0.0746
+        "positive": 0.0747
       }
     ]
   },
@@ -744300,7 +744300,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.6328,
+        "negative": 0.6327,
         "neutral": 0.3634,
         "positive": 0.0038
       }
@@ -745567,7 +745567,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0057,
+        "negative": 0.0056,
         "neutral": 0.9885,
         "positive": 0.0059
       }
@@ -745929,7 +745929,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.2169,
+        "negative": 0.2168,
         "neutral": 0.7696,
         "positive": 0.0136
       }
@@ -747204,7 +747204,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.9745,
+        "negative": 0.9744,
         "neutral": 0.0233,
         "positive": 0.0023
       }
@@ -748869,7 +748869,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.7227,
+        "negative": 0.7226,
         "neutral": 0.2744,
         "positive": 0.0029
       }
@@ -750164,8 +750164,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.4876,
-        "neutral": 0.4658,
+        "negative": 0.4875,
+        "neutral": 0.4659,
         "positive": 0.0466
       }
     ]
@@ -751459,7 +751459,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.9672,
+        "negative": 0.9671,
         "neutral": 0.0325,
         "positive": 0.0003
       }
@@ -751645,7 +751645,7 @@
       "negative",
       {
         "negative": 0.5816,
-        "neutral": 0.396,
+        "neutral": 0.3961,
         "positive": 0.0223
       }
     ]
@@ -753680,8 +753680,8 @@
       "positive",
       {
         "negative": 0.0154,
-        "neutral": 0.4597,
-        "positive": 0.5249
+        "neutral": 0.4596,
+        "positive": 0.525
       }
     ]
   },
@@ -754600,8 +754600,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.4931,
-        "neutral": 0.5064,
+        "negative": 0.4929,
+        "neutral": 0.5065,
         "positive": 0.0006
       }
     ]
@@ -754971,7 +754971,7 @@
       "negative",
       {
         "negative": 0.5434,
-        "neutral": 0.4285,
+        "neutral": 0.4286,
         "positive": 0.028
       }
     ]
@@ -756450,8 +756450,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.4742,
-        "neutral": 0.4987,
+        "negative": 0.4741,
+        "neutral": 0.4988,
         "positive": 0.027
       }
     ]
@@ -757562,7 +757562,7 @@
       {
         "negative": 0.0135,
         "neutral": 0.8081,
-        "positive": 0.1783
+        "positive": 0.1784
       }
     ]
   },
@@ -758672,7 +758672,7 @@
       {
         "negative": 0.0035,
         "neutral": 0.5003,
-        "positive": 0.4962
+        "positive": 0.4963
       }
     ]
   },
@@ -759037,7 +759037,7 @@
       "neutral",
       {
         "negative": 0.0025,
-        "neutral": 0.94,
+        "neutral": 0.9401,
         "positive": 0.0574
       }
     ]
@@ -762624,7 +762624,7 @@
       "neutral",
       {
         "negative": 0.1129,
-        "neutral": 0.8864,
+        "neutral": 0.8865,
         "positive": 0.0006
       }
     ]
@@ -763001,7 +763001,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.4227,
+        "negative": 0.4226,
         "neutral": 0.5744,
         "positive": 0.003
       }
@@ -763190,7 +763190,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.7923,
+        "negative": 0.7924,
         "neutral": 0.096,
         "positive": 0.1117
       }
@@ -763568,7 +763568,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0891,
+        "negative": 0.089,
         "neutral": 0.8215,
         "positive": 0.0895
       }
@@ -763946,8 +763946,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0756,
-        "neutral": 0.9237,
+        "negative": 0.0755,
+        "neutral": 0.9238,
         "positive": 0.0007
       }
     ]
@@ -764135,8 +764135,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.5718,
-        "neutral": 0.4278,
+        "negative": 0.5717,
+        "neutral": 0.428,
         "positive": 0.0004
       }
     ]
@@ -764513,8 +764513,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.7543,
-        "neutral": 0.2442,
+        "negative": 0.7542,
+        "neutral": 0.2443,
         "positive": 0.0014
       }
     ]
@@ -764891,8 +764891,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.2228,
-        "neutral": 0.7765,
+        "negative": 0.2227,
+        "neutral": 0.7766,
         "positive": 0.0007
       }
     ]
@@ -765080,8 +765080,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.1987,
-        "neutral": 0.7997,
+        "negative": 0.1986,
+        "neutral": 0.7998,
         "positive": 0.0016
       }
     ]
@@ -765647,8 +765647,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.2995,
-        "neutral": 0.6867,
+        "negative": 0.2993,
+        "neutral": 0.6868,
         "positive": 0.0139
       }
     ]
@@ -766404,7 +766404,7 @@
       "neutral",
       {
         "negative": 0.0221,
-        "neutral": 0.9684,
+        "neutral": 0.9685,
         "positive": 0.0094
       }
     ]
@@ -766782,7 +766782,7 @@
       "neutral",
       {
         "negative": 0.0268,
-        "neutral": 0.8703,
+        "neutral": 0.8702,
         "positive": 0.1029
       }
     ]
@@ -766972,7 +766972,7 @@
       {
         "negative": 0.0451,
         "neutral": 0.9078,
-        "positive": 0.0471
+        "positive": 0.0472
       }
     ]
   },
@@ -767161,7 +767161,7 @@
       {
         "negative": 0.0642,
         "neutral": 0.3302,
-        "positive": 0.6056
+        "positive": 0.6057
       }
     ]
   },
@@ -767537,8 +767537,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.3534,
-        "neutral": 0.6147,
+        "negative": 0.3535,
+        "neutral": 0.6146,
         "positive": 0.0319
       }
     ]
@@ -767728,7 +767728,7 @@
       {
         "negative": 0.0428,
         "neutral": 0.7402,
-        "positive": 0.217
+        "positive": 0.2171
       }
     ]
   },
@@ -768483,7 +768483,7 @@
       "neutral",
       {
         "negative": 0.3278,
-        "neutral": 0.6681,
+        "neutral": 0.668,
         "positive": 0.0041
       }
     ]
@@ -769429,7 +769429,7 @@
       {
         "negative": 0.0751,
         "neutral": 0.8394,
-        "positive": 0.0854
+        "positive": 0.0855
       }
     ]
   },
@@ -769616,8 +769616,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.5358,
-        "neutral": 0.4638,
+        "negative": 0.5356,
+        "neutral": 0.464,
         "positive": 0.0004
       }
     ]
@@ -769805,7 +769805,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.1224,
+        "negative": 0.1223,
         "neutral": 0.8771,
         "positive": 0.0006
       }
@@ -769995,7 +769995,7 @@
       "negative",
       {
         "negative": 0.907,
-        "neutral": 0.0917,
+        "neutral": 0.0918,
         "positive": 0.0012
       }
     ]
@@ -771128,8 +771128,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0354,
-        "neutral": 0.9571,
+        "negative": 0.0353,
+        "neutral": 0.9572,
         "positive": 0.0075
       }
     ]
@@ -771506,8 +771506,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.2882,
-        "neutral": 0.7051,
+        "negative": 0.288,
+        "neutral": 0.7053,
         "positive": 0.0067
       }
     ]
@@ -771695,7 +771695,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.1979,
+        "negative": 0.1978,
         "neutral": 0.8001,
         "positive": 0.002
       }
@@ -772073,8 +772073,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0969,
-        "neutral": 0.8857,
+        "negative": 0.0968,
+        "neutral": 0.8858,
         "positive": 0.0174
       }
     ]
@@ -772264,7 +772264,7 @@
       {
         "negative": 0.9266,
         "neutral": 0.0073,
-        "positive": 0.066
+        "positive": 0.0661
       }
     ]
   },
@@ -773018,8 +773018,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.6885,
-        "neutral": 0.3108,
+        "negative": 0.6883,
+        "neutral": 0.311,
         "positive": 0.0007
       }
     ]
@@ -774173,7 +774173,7 @@
       "neutral",
       {
         "negative": 0.0224,
-        "neutral": 0.9775,
+        "neutral": 0.9774,
         "positive": 0.0001
       }
     ]
@@ -775718,7 +775718,7 @@
       {
         "negative": 0.9681,
         "neutral": 0.0177,
-        "positive": 0.0142
+        "positive": 0.0143
       }
     ]
   },
@@ -776102,7 +776102,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.67,
+        "negative": 0.6699,
         "neutral": 0.3278,
         "positive": 0.0022
       }
@@ -777260,7 +777260,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.7789,
+        "negative": 0.7788,
         "neutral": 0.2196,
         "positive": 0.0015
       }
@@ -777647,7 +777647,7 @@
       "neutral",
       {
         "negative": 0.0484,
-        "neutral": 0.8014,
+        "neutral": 0.8015,
         "positive": 0.1501
       }
     ]
@@ -778225,8 +778225,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.7932,
-        "neutral": 0.2062,
+        "negative": 0.7931,
+        "neutral": 0.2063,
         "positive": 0.0006
       }
     ]
@@ -778418,8 +778418,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.3891,
-        "neutral": 0.6085,
+        "negative": 0.389,
+        "neutral": 0.6086,
         "positive": 0.0024
       }
     ]
@@ -778804,9 +778804,9 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0747,
+        "negative": 0.0746,
         "neutral": 0.8649,
-        "positive": 0.0604
+        "positive": 0.0605
       }
     ]
   },
@@ -780541,7 +780541,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.6758,
+        "negative": 0.6757,
         "neutral": 0.322,
         "positive": 0.0022
       }
@@ -781314,7 +781314,7 @@
       "neutral",
       {
         "negative": 0.2376,
-        "neutral": 0.7509,
+        "neutral": 0.751,
         "positive": 0.0114
       }
     ]
@@ -781894,7 +781894,7 @@
       {
         "negative": 0.0254,
         "neutral": 0.9734,
-        "positive": 0.0011
+        "positive": 0.0012
       }
     ]
   },
@@ -782085,8 +782085,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.8599,
-        "neutral": 0.1395,
+        "negative": 0.8598,
+        "neutral": 0.1396,
         "positive": 0.0006
       }
     ]
@@ -782664,8 +782664,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.8144,
-        "neutral": 0.1851,
+        "negative": 0.8143,
+        "neutral": 0.1852,
         "positive": 0.0005
       }
     ]
@@ -783051,8 +783051,8 @@
       "neutral",
       {
         "negative": 0.0016,
-        "neutral": 0.8746,
-        "positive": 0.1237
+        "neutral": 0.8747,
+        "positive": 0.1236
       }
     ]
   },
@@ -783243,7 +783243,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.2022,
+        "negative": 0.2023,
         "neutral": 0.7919,
         "positive": 0.0059
       }
@@ -784796,7 +784796,7 @@
       "negative",
       {
         "negative": 0.6637,
-        "neutral": 0.3318,
+        "neutral": 0.3319,
         "positive": 0.0045
       }
     ]
@@ -785189,8 +785189,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.444,
-        "neutral": 0.5556,
+        "negative": 0.4437,
+        "neutral": 0.5558,
         "positive": 0.0004
       }
     ]
@@ -785386,8 +785386,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.31,
-        "neutral": 0.6896,
+        "negative": 0.3099,
+        "neutral": 0.6897,
         "positive": 0.0004
       }
     ]
@@ -785780,7 +785780,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.7982,
+        "negative": 0.7981,
         "neutral": 0.2012,
         "positive": 0.0006
       }
@@ -785977,8 +785977,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.123,
-        "neutral": 0.8767,
+        "negative": 0.1229,
+        "neutral": 0.8768,
         "positive": 0.0003
       }
     ]
@@ -786174,7 +786174,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.7364,
+        "negative": 0.7363,
         "neutral": 0.2631,
         "positive": 0.0005
       }
@@ -787751,7 +787751,7 @@
       "neutral",
       {
         "negative": 0.1486,
-        "neutral": 0.8475,
+        "neutral": 0.8476,
         "positive": 0.0039
       }
     ]
@@ -788144,8 +788144,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.3609,
-        "neutral": 0.6382,
+        "negative": 0.3607,
+        "neutral": 0.6384,
         "positive": 0.0009
       }
     ]
@@ -788538,8 +788538,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.1609,
-        "neutral": 0.8376,
+        "negative": 0.1608,
+        "neutral": 0.8377,
         "positive": 0.0015
       }
     ]
@@ -788735,9 +788735,9 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.7556,
+        "negative": 0.7555,
         "neutral": 0.0034,
-        "positive": 0.241
+        "positive": 0.2411
       }
     ]
   },
@@ -789130,7 +789130,7 @@
       "neutral",
       {
         "negative": 0.4496,
-        "neutral": 0.5478,
+        "neutral": 0.5479,
         "positive": 0.0026
       }
     ]
@@ -789326,8 +789326,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.5094,
-        "neutral": 0.4901,
+        "negative": 0.5093,
+        "neutral": 0.4902,
         "positive": 0.0005
       }
     ]
@@ -789917,8 +789917,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.1098,
-        "neutral": 0.8876,
+        "negative": 0.1097,
+        "neutral": 0.8877,
         "positive": 0.0026
       }
     ]
@@ -790114,8 +790114,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0665,
-        "neutral": 0.9296,
+        "negative": 0.0664,
+        "neutral": 0.9297,
         "positive": 0.0039
       }
     ]
@@ -791099,8 +791099,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.4337,
-        "neutral": 0.5657,
+        "negative": 0.4336,
+        "neutral": 0.5658,
         "positive": 0.0006
       }
     ]
@@ -791296,8 +791296,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.9482,
-        "neutral": 0.0499,
+        "negative": 0.9481,
+        "neutral": 0.05,
         "positive": 0.0019
       }
     ]
@@ -792085,7 +792085,7 @@
       "positive",
       {
         "negative": 0.0001,
-        "neutral": 0.0237,
+        "neutral": 0.0238,
         "positive": 0.9761
       }
     ]
@@ -792675,8 +792675,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.3347,
-        "neutral": 0.665,
+        "negative": 0.3346,
+        "neutral": 0.6651,
         "positive": 0.0003
       }
     ]
@@ -793266,8 +793266,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.6226,
-        "neutral": 0.3768,
+        "negative": 0.6225,
+        "neutral": 0.3769,
         "positive": 0.0006
       }
     ]
@@ -794647,7 +794647,7 @@
       {
         "negative": 0.0271,
         "neutral": 0.8591,
-        "positive": 0.1138
+        "positive": 0.1139
       }
     ]
   },
@@ -795040,8 +795040,8 @@
       "neutral",
       {
         "negative": 0.0816,
-        "neutral": 0.8972,
-        "positive": 0.0212
+        "neutral": 0.8973,
+        "positive": 0.0211
       }
     ]
   },
@@ -795236,7 +795236,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0456,
+        "negative": 0.0455,
         "neutral": 0.9539,
         "positive": 0.0005
       }
@@ -795433,7 +795433,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.6187,
+        "negative": 0.6186,
         "neutral": 0.3799,
         "positive": 0.0015
       }
@@ -795630,8 +795630,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.2661,
-        "neutral": 0.733,
+        "negative": 0.2659,
+        "neutral": 0.7332,
         "positive": 0.001
       }
     ]
@@ -796813,7 +796813,7 @@
       "neutral",
       {
         "negative": 0.3061,
-        "neutral": 0.6874,
+        "neutral": 0.6875,
         "positive": 0.0064
       }
     ]
@@ -797009,8 +797009,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.291,
-        "neutral": 0.7085,
+        "negative": 0.2909,
+        "neutral": 0.7086,
         "positive": 0.0005
       }
     ]
@@ -797797,7 +797797,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0181,
+        "negative": 0.018,
         "neutral": 0.9569,
         "positive": 0.025
       }
@@ -798193,7 +798193,7 @@
       {
         "negative": 0.7918,
         "neutral": 0.0026,
-        "positive": 0.2056
+        "positive": 0.2057
       }
     ]
   },
@@ -800753,7 +800753,7 @@
       "neutral",
       {
         "negative": 0.3631,
-        "neutral": 0.6321,
+        "neutral": 0.632,
         "positive": 0.0049
       }
     ]
@@ -803144,9 +803144,9 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.5604,
-        "neutral": 0.0616,
-        "positive": 0.3779
+        "negative": 0.5603,
+        "neutral": 0.0617,
+        "positive": 0.3781
       }
     ]
   },
@@ -805154,8 +805154,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0458,
-        "neutral": 0.9533,
+        "negative": 0.0457,
+        "neutral": 0.9534,
         "positive": 0.0009
       }
     ]
@@ -805355,9 +805355,9 @@
     "sa_output": [
       "positive",
       {
-        "negative": 0.1991,
-        "neutral": 0.3612,
-        "positive": 0.4397
+        "negative": 0.199,
+        "neutral": 0.3611,
+        "positive": 0.4398
       }
     ]
   },
@@ -805757,8 +805757,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.4023,
-        "neutral": 0.5972,
+        "negative": 0.4021,
+        "neutral": 0.5973,
         "positive": 0.0005
       }
     ]
@@ -806360,7 +806360,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0357,
+        "negative": 0.0356,
         "neutral": 0.9456,
         "positive": 0.0188
       }
@@ -806561,8 +806561,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.6722,
-        "neutral": 0.2926,
+        "negative": 0.6721,
+        "neutral": 0.2927,
         "positive": 0.0352
       }
     ]
@@ -806963,8 +806963,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.279,
-        "neutral": 0.7205,
+        "negative": 0.2788,
+        "neutral": 0.7207,
         "positive": 0.0005
       }
     ]
@@ -807767,8 +807767,8 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.8395,
-        "neutral": 0.1602,
+        "negative": 0.8394,
+        "neutral": 0.1603,
         "positive": 0.0002
       }
     ]
@@ -807968,8 +807968,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.1485,
-        "neutral": 0.85,
+        "negative": 0.1484,
+        "neutral": 0.8501,
         "positive": 0.0015
       }
     ]
@@ -808773,7 +808773,7 @@
       "negative",
       {
         "negative": 0.9697,
-        "neutral": 0.0303,
+        "neutral": 0.0302,
         "positive": 0.0001
       }
     ]
@@ -808973,8 +808973,8 @@
     "sa_output": [
       "positive",
       {
-        "negative": 0.0445,
-        "neutral": 0.3796,
+        "negative": 0.0444,
+        "neutral": 0.3797,
         "positive": 0.5759
       }
     ]
@@ -809174,7 +809174,7 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.0383,
+        "negative": 0.0382,
         "neutral": 0.591,
         "positive": 0.3708
       }
@@ -809576,7 +809576,7 @@
     "sa_output": [
       "negative",
       {
-        "negative": 0.8831,
+        "negative": 0.883,
         "neutral": 0.1167,
         "positive": 0.0002
       }
@@ -809778,7 +809778,7 @@
       "negative",
       {
         "negative": 0.8935,
-        "neutral": 0.1039,
+        "neutral": 0.1038,
         "positive": 0.0026
       }
     ]
@@ -810380,8 +810380,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.4495,
-        "neutral": 0.5,
+        "negative": 0.4494,
+        "neutral": 0.5001,
         "positive": 0.0505
       }
     ]
@@ -810581,8 +810581,8 @@
     "sa_output": [
       "neutral",
       {
-        "negative": 0.1093,
-        "neutral": 0.8904,
+        "negative": 0.1092,
+        "neutral": 0.8905,
         "positive": 0.0003
       }
     ]
