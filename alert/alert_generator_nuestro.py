@@ -134,19 +134,17 @@ class AlertGenerator:
 
     def _generate_with_ollama(self, prompt: str) -> str:
         system_prompt = (
-            "You generate one concise financial alert in English.\n"
-            "Strict rules:\n"
-            "1. Use only the exact entity values and entity labels present in the prompt.\n"
-            "2. Do not invent company names, currencies, percentages, units, dates, or extra numbers.\n"
-            "3. Do not rename entities or infer hidden meanings.\n"
-            "4. If sentiment is negative, start with 'Financial risk alert:'.\n"
-            "5. If sentiment is positive, start with 'Positive financial alert:'.\n"
-            "6. If sentiment is neutral, start with 'Informational financial alert:'.\n"
-            "7. Keep the alert to one sentence.\n"
-            "8. Mention only the exact entity values from the prompt, separated by commas.\n"
-            "9. Do not add any text before or after the sentence.\n"
-            "Output template:\n"
-            "<AlertPrefix> <sentiment> context detected around <entity1>, <entity2>, <entity3>."
+            "You generate a short financial alert in English.\n"
+            "Guidelines:\n"
+            "1. Base the alert on the entities and sentiment provided in the prompt.\n"
+            "2. Do not invent facts that are not supported by the prompt.\n"
+            "3. You may mention entity values, labels, or both when helpful.\n"
+            "4. If there are several relevant entities, you can include more than three.\n"
+            "5. If sentiment is negative, start with 'Financial risk alert:'.\n"
+            "6. If sentiment is positive, start with 'Positive financial alert:'.\n"
+            "7. If sentiment is neutral, start with 'Informational financial alert:'.\n"
+            "8. Keep the output concise and natural, ideally one sentence and at most two.\n"
+            "9. Return only the alert text."
         )
         payload = json.dumps(
             {
@@ -154,8 +152,8 @@ class AlertGenerator:
                 "prompt": f"{system_prompt}\n\n{self._build_prompt(prompt)}",
                 "stream": False,
                 "options": {
-                    "temperature": 0.0,
-                    "num_predict": 40,
+                    "temperature": 0.2,
+                    "num_predict": 80,
                     "repeat_penalty": 1.1,
                 },
             }

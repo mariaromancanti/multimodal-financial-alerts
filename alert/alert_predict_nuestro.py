@@ -15,7 +15,7 @@ def predict_alert_from_outputs(
     sa_output,
     use_text=False,
     relevant_labels=None,
-    max_entities=3,
+    max_entities=None,
 ):
     example = prepare_alert_example(
         text=text,

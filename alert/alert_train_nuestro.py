@@ -26,7 +26,7 @@ def train_alert_generator(
     val_sa_outputs,
     use_text=False,
     relevant_labels=None,
-    max_entities=3,
+    max_entities=None,
     output_dir="./alert_generator",
     num_train_epochs=1,
     train_batch_size=2,

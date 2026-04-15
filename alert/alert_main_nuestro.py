@@ -94,31 +94,6 @@ def unpack_examples(examples):
     return texts, ner_outputs, sa_outputs
 
 
-# def build_ner_model(device):
-#     token_vocab_path = PROJECT_ROOT / "vocab" / "token_to_idx.json"
-#     tag_vocab_path = PROJECT_ROOT / "vocab" / "tag_to_idx.json"
-#     model_path = PROJECT_ROOT / "ner" / "models" / "bilstm_ner.pt"
-
-#     ner_vocab, tag_to_idx, idx_to_tag = load_vocabularies(
-#         str(token_vocab_path),
-#         str(tag_vocab_path),
-#     )
-
-#     if "<OOV>" not in ner_vocab and "<UNK>" in ner_vocab:
-#         ner_vocab["<OOV>"] = ner_vocab["<UNK>"]
-
-#     model = BiLSTMNER(
-#         vocab_size=len(ner_vocab),
-#         embedding_dim=100,
-#         hidden_dim=128,
-#         tagset_size=len(tag_to_idx),
-#         dropout=0.2,
-#     ).to(device)
-#     model.load_state_dict(torch.load(model_path, map_location=device))
-#     model.eval()
-
-#     return model, ner_vocab, idx_to_tag
-
 def build_ner_model(device):
     import json
     import torch
@@ -296,7 +271,7 @@ def main(
             val_ner_outputs=val_ner_outputs,
             val_sa_outputs=val_sa_outputs,
             use_text=False,
-            max_entities=3,
+            max_entities=None,
             output_dir=alert_model_dir,
         )
         print("Alert generator training finished.")
@@ -315,7 +290,7 @@ def main(
                 ner_output=example["ner_output"],
                 sa_output=example["sa_output"],
                 use_text=False,
-                max_entities=3,
+                max_entities=None,
             )
             val_predictions.append(prediction)
 

@@ -143,7 +143,7 @@ def bio_to_entities(ner_output: Optional[List[Tuple[str, str]]]) -> List[Dict[st
 def filter_relevant_entities(
     entities: List[Dict[str, str]],
     relevant_labels: Optional[set] = None,
-    max_entities: int = 3
+    max_entities: Optional[int] = None
 ) -> List[Dict[str, str]]:
     """
     Filtra entidades para quedarte solo con las más útiles en alert generation.
@@ -152,6 +152,9 @@ def filter_relevant_entities(
         relevant_labels = DEFAULT_RELEVANT_LABELS
 
     filtered = [ent for ent in entities if ent["label"] in relevant_labels]
+    if max_entities is None or max_entities <= 0:
+        return filtered
+
     return filtered[:max_entities]
 
 
@@ -179,7 +182,7 @@ def build_prompt(
     Por defecto usa NER + SA, que es el caso base del proyecto.
     """
     lines = [
-        "Generate a concise financial alert from the following information."
+        "Generate a clear financial alert in English from the following information."
     ]
 
     if use_text and text:
@@ -222,7 +225,7 @@ def prepare_alert_example(
     sa_output,
     use_text: bool = False,
     relevant_labels: Optional[set] = None,
-    max_entities: int = 3
+    max_entities: Optional[int] = None
 ) -> Dict[str, object]:
     """
     Prepara un ejemplo completo para alert generation.
@@ -273,7 +276,7 @@ def prepare_alert_dataset(
     sa_outputs: List,
     use_text: bool = False,
     relevant_labels: Optional[set] = None,
-    max_entities: int = 3
+    max_entities: Optional[int] = None
 ) -> Tuple[List[str], List[str], List[Dict[str, object]]]:
     """
     Prepara un dataset completo para entrenamiento del generador.
