@@ -42,7 +42,7 @@ def extract_sentiment_label(sa_output) -> Optional[str]:
     if sa_output is None:
         return None
 
-    if isinstance(sa_output, tuple):
+    if isinstance(sa_output, (tuple, list)):
         label = sa_output[0]
     else:
         label = sa_output
@@ -171,6 +171,45 @@ def format_entities_for_prompt(entities: List[Dict[str, str]]) -> str:
     )
 
 
+def build_combination_prompt(
+    *,
+    entities: Optional[List[Dict[str, str]]] = None,
+    sentiment: Optional[str] = None,
+    caption: Optional[str] = None,
+    text: Optional[str] = None,
+    include_ner: bool = False,
+    include_sa: bool = False,
+    include_caption: bool = False,
+    include_text: bool = False,
+) -> str:
+    """
+    Construye un prompt adaptable a distintas combinaciones de información.
+    """
+    lines = [
+        "Generate a clear financial alert in English from the following available information."
+    ]
+    if include_ner:
+        lines.append(
+            "If entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to."
+        )
+
+    if include_text and text:
+        lines.append(f"Article: {clean_text(text)}")
+
+    if include_ner:
+        lines.append(f"Entities: {format_entities_for_prompt(entities or [])}")
+
+    if include_sa:
+        sentiment_value = normalize_sentiment(sentiment) if sentiment is not None else None
+        lines.append(f"Sentiment: {sentiment_value or 'Not provided'}")
+
+    if include_caption:
+        cleaned_caption = clean_text(caption) if caption else None
+        lines.append(f"Image caption: {cleaned_caption or 'No image caption available.'}")
+
+    return "\n".join(lines)
+
+
 def build_prompt(
     entities: List[Dict[str, str]],
     sentiment: str,
@@ -181,17 +220,14 @@ def build_prompt(
     Construye el prompt para el generador.
     Por defecto usa NER + SA, que es el caso base del proyecto.
     """
-    lines = [
-        "Generate a clear financial alert in English from the following information."
-    ]
-
-    if use_text and text:
-        lines.append(f"Article: {text}")
-
-    lines.append(f"Entities: {format_entities_for_prompt(entities)}")
-    lines.append(f"Sentiment: {sentiment}")
-
-    return "\n".join(lines)
+    return build_combination_prompt(
+        entities=entities,
+        sentiment=sentiment,
+        text=text,
+        include_ner=True,
+        include_sa=True,
+        include_text=use_text,
+    )
 
 
 def build_target_alert(

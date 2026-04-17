@@ -162,6 +162,7 @@ def main(
     alert_backend="ollama",
     ollama_url="http://127.0.0.1:11434/api/generate",
     do_train=False,
+    validation_limit=200,
 ):
     ner_device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     sa_device = ner_device
@@ -179,24 +180,44 @@ def main(
     if alert_model_dir is None:
         alert_model_dir = str(PROJECT_ROOT / "alert_generator")
 
+    if alert_backend == "ollama":
+        if do_train:
+            raise RuntimeError(
+                "Ollama backend does not require local fine-tuning in this pipeline. "
+                "Run with do_train=False."
+            )
+
+        alert_generator = AlertGenerator(
+            model_name=alert_model_name,
+            device=alert_device,
+            backend="ollama",
+            ollama_url=ollama_url,
+        )
+        print(f"Validating Ollama model '{alert_model_name}'...")
+        alert_generator.validate_ollama_configuration()
+    else:
+        alert_generator = None
+
     ner_model, ner_vocab, ner_idx_to_tag = build_ner_model(ner_device)
     sa_model, sa_token_to_idx, sa_idx_to_sentiment = build_sa_model(sa_device)
 
-    print("Building processed train dataset...")
-    train_examples = build_alert_dataset_from_models(
-        input_json_path=train_json_path,
-        output_json_path=processed_train_json_path,
-        ner_model=ner_model,
-        sa_model=sa_model,
-        ner_vocab=ner_vocab,
-        ner_idx_to_tag=ner_idx_to_tag,
-        ner_device=ner_device,
-        sa_token_to_idx=sa_token_to_idx,
-        sa_idx_to_sentiment=sa_idx_to_sentiment,
-        sa_device=sa_device,
-        predict_ner_fn=predict_ner,
-        predict_sa_fn=predict_sentiment,
-    )
+    train_examples = []
+    if do_train:
+        print("Building processed train dataset...")
+        train_examples = build_alert_dataset_from_models(
+            input_json_path=train_json_path,
+            output_json_path=processed_train_json_path,
+            ner_model=ner_model,
+            sa_model=sa_model,
+            ner_vocab=ner_vocab,
+            ner_idx_to_tag=ner_idx_to_tag,
+            ner_device=ner_device,
+            sa_token_to_idx=sa_token_to_idx,
+            sa_idx_to_sentiment=sa_idx_to_sentiment,
+            sa_device=sa_device,
+            predict_ner_fn=predict_ner,
+            predict_sa_fn=predict_sentiment,
+        )
 
     print("Building processed validation dataset...")
     val_examples = build_alert_dataset_from_models(
@@ -213,6 +234,11 @@ def main(
         predict_ner_fn=predict_ner,
         predict_sa_fn=predict_sentiment,
     )
+    if validation_limit is not None:
+        val_examples = val_examples[:validation_limit]
+        os.makedirs(os.path.dirname(processed_val_json_path), exist_ok=True)
+        with open(processed_val_json_path, "w", encoding="utf-8") as f:
+            json.dump(val_examples, f, ensure_ascii=False, indent=2)
 
     print(f"Processed train examples: {len(train_examples)}")
     print(f"Processed validation examples: {len(val_examples)}")
@@ -221,18 +247,7 @@ def main(
     val_texts, val_ner_outputs, val_sa_outputs = unpack_examples(val_examples)
 
     if alert_backend == "ollama":
-        if do_train:
-            raise RuntimeError(
-                "Ollama backend does not require local fine-tuning in this pipeline. "
-                "Run with do_train=False."
-            )
-
-        alert_generator = AlertGenerator(
-            model_name=alert_model_name,
-            device=alert_device,
-            backend="ollama",
-            ollama_url=ollama_url,
-        )
+        pass
     elif do_train:
         alert_generator = AlertGenerator(
             model_name=alert_model_name,
@@ -270,7 +285,7 @@ def main(
             val_texts=val_texts,
             val_ner_outputs=val_ner_outputs,
             val_sa_outputs=val_sa_outputs,
-            use_text=False,
+            use_text=True,
             max_entities=None,
             output_dir=alert_model_dir,
         )
@@ -289,7 +304,7 @@ def main(
                 text=example["text"],
                 ner_output=example["ner_output"],
                 sa_output=example["sa_output"],
-                use_text=False,
+                use_text=True,
                 max_entities=None,
             )
             val_predictions.append(prediction)

@@ -1,7 +1,8 @@
 import json
 from pathlib import Path
 from typing import List, Optional
-from urllib.error import URLError
+from urllib.parse import urlparse
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 import torch
@@ -97,6 +98,43 @@ class AlertGenerator:
             prompt_with_prefix = f"{prompt_with_prefix}\nAlert:"
         return prompt_with_prefix
 
+    def _get_ollama_tags_url(self) -> str:
+        parsed = urlparse(self.ollama_url)
+        return f"{parsed.scheme}://{parsed.netloc}/api/tags"
+
+    def validate_ollama_configuration(self) -> None:
+        if self.backend != "ollama":
+            return
+
+        tags_url = self._get_ollama_tags_url()
+        request = Request(tags_url, method="GET")
+
+        try:
+            with urlopen(request, timeout=30) as response:
+                data = json.loads(response.read().decode("utf-8"))
+        except HTTPError as exc:
+            raise RuntimeError(
+                f"Could not validate Ollama models because {tags_url} returned HTTP {exc.code}."
+            ) from exc
+        except URLError as exc:
+            raise RuntimeError(
+                f"Could not reach Ollama at {tags_url}. Make sure Ollama is running."
+            ) from exc
+
+        available_models = {
+            model.get("name", "").strip()
+            for model in data.get("models", [])
+            if model.get("name")
+        }
+
+        if self.model_name not in available_models:
+            available_text = ", ".join(sorted(available_models)) if available_models else "none"
+            raise RuntimeError(
+                f"Ollama model '{self.model_name}' is not installed. "
+                f"Available models: {available_text}. "
+                f"Install it with: ollama pull {self.model_name}"
+            )
+
     def _generate_with_hf(self, prompt: str, max_new_tokens: int = 40) -> str:
         self.model.eval()
         prompt_with_prefix = self._build_prompt(prompt)
@@ -136,15 +174,17 @@ class AlertGenerator:
         system_prompt = (
             "You generate a short financial alert in English.\n"
             "Guidelines:\n"
-            "1. Base the alert on the entities and sentiment provided in the prompt.\n"
+            "1. Base the alert only on the information provided in the prompt, such as entities, sentiment, article text, or image caption.\n"
             "2. Do not invent facts that are not supported by the prompt.\n"
-            "3. You may mention entity values, labels, or both when helpful.\n"
+            "3. If entities are provided, explicitly mention the most relevant ones in the alert so the user can clearly see which entities are involved.\n"
             "4. If there are several relevant entities, you can include more than three.\n"
             "5. If sentiment is negative, start with 'Financial risk alert:'.\n"
             "6. If sentiment is positive, start with 'Positive financial alert:'.\n"
             "7. If sentiment is neutral, start with 'Informational financial alert:'.\n"
-            "8. Keep the output concise and natural, ideally one sentence and at most two.\n"
-            "9. Return only the alert text."
+            "8. If sentiment is not provided, start with 'Financial alert:'.\n"
+            "9. You may mention entity values, labels, caption details, or both when helpful.\n"
+            "10. Keep the output concise and natural, ideally one sentence and at most two.\n"
+            "11. Return only the alert text."
         )
         payload = json.dumps(
             {
@@ -169,10 +209,31 @@ class AlertGenerator:
         try:
             with urlopen(request, timeout=120) as response:
                 data = json.loads(response.read().decode("utf-8"))
+        except HTTPError as exc:
+            error_body = exc.read().decode("utf-8", errors="replace").strip()
+            error_message = error_body
+
+            try:
+                parsed_error = json.loads(error_body)
+                error_message = parsed_error.get("error", error_body)
+            except json.JSONDecodeError:
+                pass
+
+            if exc.code == 404:
+                raise RuntimeError(
+                    f"Ollama returned HTTP 404 for model '{self.model_name}' at "
+                    f"{self.ollama_url}. This usually means the model is not installed "
+                    f"or the endpoint is wrong. Ollama message: {error_message}"
+                ) from exc
+
+            raise RuntimeError(
+                f"Ollama request failed with HTTP {exc.code} at {self.ollama_url}. "
+                f"Ollama message: {error_message}"
+            ) from exc
         except URLError as exc:
             raise RuntimeError(
-                "Could not reach Ollama at http://127.0.0.1:11434. "
-                "Make sure Ollama is running and the model is installed."
+                f"Could not reach Ollama at {self.ollama_url}. "
+                "Make sure Ollama is running."
             ) from exc
 
         text = data.get("response", "").strip()

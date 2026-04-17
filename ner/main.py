@@ -1,7 +1,7 @@
 import os
 import torch
 
-from PROCESING_DATOS import generate_reduced_data
+from datos_orginales.PROCESING_DATOS import generate_reduced_data
 from build_ner_vocab import generate_vocab
 from bidireccional_modelo import BiLSTMNER
 from evaluate_nuestro import predict_ner
