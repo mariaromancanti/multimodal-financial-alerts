@@ -1,0 +1,638 @@
+[
+  {
+    "source_dataset": "selected_alert_train_examples_with_captions",
+    "text": "17 - 00217-UT to amend and extend the Company 's Revolving Credit Facility ( \" RCF \" ) , issue up to $ 350.0 million in long - term debt and to redeem and refinance the $ 63.5 million 2009 Series A 7.25 % Pollution Control Bonds ( \" PCBs \" ) and the $ 37.1 million 2009 Series B 7.25 % PCBs .",
+    "entities": [
+      {
+        "text": "350.0",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "63.5",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "7.25",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      },
+      {
+        "text": "37.1",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "7.25",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      }
+    ],
+    "sentiment": "positive",
+    "caption": null,
+    "prompt": "Generate a clear financial alert in English from the following available information.\nIf entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to.\nArticle: 17 - 00217-UT to amend and extend the Company 's Revolving Credit Facility ( \" RCF \" ) , issue up to $ 350.0 million in long - term debt and to redeem and refinance the $ 63.5 million 2009 Series A 7.25 % Pollution Control Bonds ( \" PCBs \" ) and the $ 37.1 million 2009 Series B 7.25 % PCBs .\nEntities: 350.0 (DebtInstrumentFaceAmount), 63.5 (DebtInstrumentFaceAmount), 7.25 (DebtInstrumentInterestRateStatedPercentage), 37.1 (DebtInstrumentFaceAmount), 7.25 (DebtInstrumentInterestRateStatedPercentage)\nSentiment: positive",
+    "generated_alert": "Positive financial alert: The Company has amended and extended its Revolving Credit Facility, issuing up to $350 million in long-term debt while redeeming and refinancing the $63.5 million 2009 Series A 7.25% Pollution Control Bonds and the $37.1 million 2009 Series B 7.25% PCBs"
+  },
+  {
+    "source_dataset": "selected_alert_train_examples_with_captions",
+    "text": "2 increased the Company ’ s borrowing under Term Loan A from $ 608 million to $ 1 billion and increased the Company ’ s borrowing capacity under the Revolving Credit Facility from $ 800 million to $ 1 billion .",
+    "entities": [
+      {
+        "text": "608",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "1",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "800",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "1",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      }
+    ],
+    "sentiment": "positive",
+    "caption": null,
+    "prompt": "Generate a clear financial alert in English from the following available information.\nIf entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to.\nArticle: 2 increased the Company ’ s borrowing under Term Loan A from $ 608 million to $ 1 billion and increased the Company ’ s borrowing capacity under the Revolving Credit Facility from $ 800 million to $ 1 billion .\nEntities: 608 (LineOfCreditFacilityMaximumBorrowingCapacity), 1 (LineOfCreditFacilityMaximumBorrowingCapacity), 800 (LineOfCreditFacilityMaximumBorrowingCapacity), 1 (LineOfCreditFacilityMaximumBorrowingCapacity)\nSentiment: positive",
+    "generated_alert": "Positive financial alert: Company increased its borrowing under Term Loan A from $608 million to $1 billion and expanded its Revolving Credit Facility capacity from $800 million to $1 billion."
+  },
+  {
+    "source_dataset": "selected_alert_train_examples_with_captions",
+    "text": "Furthermore , with respect to the 2020 Delayed - Draw Term Loan , the applicable margin ( as determined based on our long - term debt credit rating ) for any LIBOR rate loans will increase from a range of 75.0 and 97.5 basis points to a range of 155.0 and 180.0 basis points and for any base rate loans from 0.0 to a range of 55.0 and 80.0 basis points .",
+    "entities": [
+      {
+        "text": "75.0",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "97.5",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "155.0",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "180.0",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "0.0",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "55.0",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "80.0",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      }
+    ],
+    "sentiment": "positive",
+    "caption": null,
+    "prompt": "Generate a clear financial alert in English from the following available information.\nIf entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to.\nArticle: Furthermore , with respect to the 2020 Delayed - Draw Term Loan , the applicable margin ( as determined based on our long - term debt credit rating ) for any LIBOR rate loans will increase from a range of 75.0 and 97.5 basis points to a range of 155.0 and 180.0 basis points and for any base rate loans from 0.0 to a range of 55.0 and 80.0 basis points .\nEntities: 75.0 (DebtInstrumentBasisSpreadOnVariableRate), 97.5 (DebtInstrumentBasisSpreadOnVariableRate), 155.0 (DebtInstrumentBasisSpreadOnVariableRate), 180.0 (DebtInstrumentBasisSpreadOnVariableRate), 0.0 (DebtInstrumentBasisSpreadOnVariableRate), 55.0 (DebtInstrumentBasisSpreadOnVariableRate), 80.0 (DebtInstrumentBasisSpreadOnVariableRate)\nSentiment: positive",
+    "generated_alert": "Positive financial alert: The applicable margin for the 2020 Delayed-Draw Term Loan will increase to a more favorable range of 155.0 and 180.0 basis points for LIBOR rate loans, and from 0.0 to a range of 55.0 and 80.0 basis points for base rate loans, improving the financial"
+  },
+  {
+    "source_dataset": "selected_alert_train_examples_with_captions",
+    "text": "In May 2017 , the Company amended the credit agreement governing its unsecured revolving credit facility ( the \" Credit Facility \" ) to increase the maximum borrowings from $ 1.8 billion to $ 2.0 billion and extend the maturity on $ 1.4 billion of the Credit Facility from June 2020 to June 2022 , with $ 160 million maturing in June 2018 and the remaining $ 50 million maturing in June 2020 .",
+    "entities": [
+      {
+        "text": "1.8",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "2.0",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "1.4",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "160",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "50",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      }
+    ],
+    "sentiment": "positive",
+    "caption": null,
+    "prompt": "Generate a clear financial alert in English from the following available information.\nIf entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to.\nArticle: In May 2017 , the Company amended the credit agreement governing its unsecured revolving credit facility ( the \" Credit Facility \" ) to increase the maximum borrowings from $ 1.8 billion to $ 2.0 billion and extend the maturity on $ 1.4 billion of the Credit Facility from June 2020 to June 2022 , with $ 160 million maturing in June 2018 and the remaining $ 50 million maturing in June 2020 .\nEntities: 1.8 (LineOfCreditFacilityMaximumBorrowingCapacity), 2.0 (LineOfCreditFacilityMaximumBorrowingCapacity), 1.4 (LineOfCreditFacilityMaximumBorrowingCapacity), 160 (LineOfCreditFacilityMaximumBorrowingCapacity), 50 (LineOfCreditFacilityMaximumBorrowingCapacity)\nSentiment: positive",
+    "generated_alert": "Positive financial alert: The Company's credit agreement was amended in May 2017 to increase the maximum borrowings from $1.8 billion to $2.0 billion and extend the maturity of $1.4 billion of the Credit Facility, with $160 million maturing in June 2018 and the remaining $50 million maturing in June 20"
+  },
+  {
+    "source_dataset": "selected_alert_train_examples_with_captions",
+    "text": "Facility being increased from $ 285.0 million to $ 313.5 million and ( y ) the ABL Canadian Facility being increased from $ 75.0 million to $ 82.5 million . On November 16 , 2018 , Ply Gem Midco entered into an incremental asset - based revolving credit facility of $ 215.0 million in connection with the Merger , which upsized the Current ABL Facility to $ 611.0 million in the aggregate , and with ( x ) the ABL U.S.",
+    "entities": [
+      {
+        "text": "285.0",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "313.5",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "75.0",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "82.5",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "611.0",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      }
+    ],
+    "sentiment": "positive",
+    "caption": null,
+    "prompt": "Generate a clear financial alert in English from the following available information.\nIf entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to.\nArticle: Facility being increased from $ 285.0 million to $ 313.5 million and ( y ) the ABL Canadian Facility being increased from $ 75.0 million to $ 82.5 million . On November 16 , 2018 , Ply Gem Midco entered into an incremental asset - based revolving credit facility of $ 215.0 million in connection with the Merger , which upsized the Current ABL Facility to $ 611.0 million in the aggregate , and with ( x ) the ABL U.S.\nEntities: 285.0 (LineOfCreditFacilityMaximumBorrowingCapacity), 313.5 (LineOfCreditFacilityMaximumBorrowingCapacity), 75.0 (LineOfCreditFacilityMaximumBorrowingCapacity), 82.5 (LineOfCreditFacilityMaximumBorrowingCapacity), 611.0 (LineOfCreditFacilityMaximumBorrowingCapacity)\nSentiment: positive",
+    "generated_alert": "Positive financial alert: Ply Gem Midco's LineOfCreditFacilityMaximumBorrowingCapacity increased from $285.0 million to $313.5 million and the ABL Canadian Facility increased from $75.0 million to $82.5 million, as announced on November 16, 2018 for the Merger."
+  },
+  {
+    "source_dataset": "selected_alert_train_examples_with_captions",
+    "text": "In addition , with respect to the Revolving Credit Facility and for any Adjusted Four Quarters in which the consolidated net leverage ratio is greater than the Unadjusted Maximum Ratio , the applicable margin ( as determined based on our long - term debt credit rating ) for any LIBOR rate loans will increase from a range of 80.5 and 117.5 basis points to a range of 118.0 and 155.0 basis points and for any base rate loans from a range of 0.0 and 17.5 basis points to a range of 18.0 and 55.0 basis points .",
+    "entities": [
+      {
+        "text": "80.5",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "117.5",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "118.0",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "155.0",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "0.0",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "17.5",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "18.0",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      },
+      {
+        "text": "55.0",
+        "label": "DebtInstrumentBasisSpreadOnVariableRate"
+      }
+    ],
+    "sentiment": "positive",
+    "caption": null,
+    "prompt": "Generate a clear financial alert in English from the following available information.\nIf entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to.\nArticle: In addition , with respect to the Revolving Credit Facility and for any Adjusted Four Quarters in which the consolidated net leverage ratio is greater than the Unadjusted Maximum Ratio , the applicable margin ( as determined based on our long - term debt credit rating ) for any LIBOR rate loans will increase from a range of 80.5 and 117.5 basis points to a range of 118.0 and 155.0 basis points and for any base rate loans from a range of 0.0 and 17.5 basis points to a range of 18.0 and 55.0 basis points .\nEntities: 80.5 (DebtInstrumentBasisSpreadOnVariableRate), 117.5 (DebtInstrumentBasisSpreadOnVariableRate), 118.0 (DebtInstrumentBasisSpreadOnVariableRate), 155.0 (DebtInstrumentBasisSpreadOnVariableRate), 0.0 (DebtInstrumentBasisSpreadOnVariableRate), 17.5 (DebtInstrumentBasisSpreadOnVariableRate), 18.0 (DebtInstrumentBasisSpreadOnVariableRate), 55.0 (DebtInstrumentBasisSpreadOnVariableRate)\nSentiment: positive",
+    "generated_alert": "Positive financial alert: The applicable margin for LIBOR rate loans will increase from a range of 80.5 to 117.5 basis points to a range of 118.0 to 155.0 basis points, and for base rate loans from a range of 0.0 to 17.5 basis points to a range of 18"
+  },
+  {
+    "source_dataset": "selected_alert_train_examples_with_captions",
+    "text": "The total borrowing limit under the amended credit agreements was increased to $ 3.1 billion , with the following changes : • Maturity extended from June 2021 to June 2024 . • Borrowing limit for Xcel Energy was increased from $ 1.0 billion to $ 1.25 billion • Borrowing limit for SPS was increased from $ 400 million to $ 500 million • Added swingline subfacility for Xcel Energy up to $ 75 million Xcel Energy Inc. , NSP - Minnesota , PSCo , and SPS each have the right to request an extension of the revolving credit facility termination date for two additional one year periods .",
+    "entities": [
+      {
+        "text": "3.1",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "1.0",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "1.25",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "400",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "500",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "75",
+        "label": "DebtInstrumentFaceAmount"
+      }
+    ],
+    "sentiment": "positive",
+    "caption": null,
+    "prompt": "Generate a clear financial alert in English from the following available information.\nIf entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to.\nArticle: The total borrowing limit under the amended credit agreements was increased to $ 3.1 billion , with the following changes : • Maturity extended from June 2021 to June 2024 . • Borrowing limit for Xcel Energy was increased from $ 1.0 billion to $ 1.25 billion • Borrowing limit for SPS was increased from $ 400 million to $ 500 million • Added swingline subfacility for Xcel Energy up to $ 75 million Xcel Energy Inc. , NSP - Minnesota , PSCo , and SPS each have the right to request an extension of the revolving credit facility termination date for two additional one year periods .\nEntities: 3.1 (LineOfCreditFacilityMaximumBorrowingCapacity), 1.0 (LineOfCreditFacilityMaximumBorrowingCapacity), 1.25 (LineOfCreditFacilityMaximumBorrowingCapacity), 400 (LineOfCreditFacilityMaximumBorrowingCapacity), 500 (LineOfCreditFacilityMaximumBorrowingCapacity), 75 (DebtInstrumentFaceAmount)\nSentiment: positive",
+    "generated_alert": "Positive financial alert: The total borrowing limit under the amended credit agreements increased to $3.1 billion, with significant increases for Xcel Energy ($1.25 billion) and SPS ($500 million). Maturity was extended from June 2021 to June 2024, and a new swingline subfacility of up to $75 million was added for"
+  },
+  {
+    "source_dataset": "selected_alert_train_examples_with_captions",
+    "text": "The amended credit agreements have substantially the same terms and conditions as the prior credit agreements with the following exceptions : • Maturity extended from June 2021 to June 2024 . • Borrowing limit for Xcel Energy was increased from $ 1.0 billion to $ 1.25 billion • Borrowing limit for SPS was increased from $ 400 million to $ 500 million • Added swingline subfacility for Xcel Energy up to $ 75 million Xcel Energy Inc. , NSP - Minnesota , PSCo , and SPS each have the right to request an extension of the revolving credit facility termination date for two additional one year periods .",
+    "entities": [
+      {
+        "text": "1.0",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "1.25",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "400",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "500",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "75",
+        "label": "DebtInstrumentFaceAmount"
+      }
+    ],
+    "sentiment": "positive",
+    "caption": null,
+    "prompt": "Generate a clear financial alert in English from the following available information.\nIf entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to.\nArticle: The amended credit agreements have substantially the same terms and conditions as the prior credit agreements with the following exceptions : • Maturity extended from June 2021 to June 2024 . • Borrowing limit for Xcel Energy was increased from $ 1.0 billion to $ 1.25 billion • Borrowing limit for SPS was increased from $ 400 million to $ 500 million • Added swingline subfacility for Xcel Energy up to $ 75 million Xcel Energy Inc. , NSP - Minnesota , PSCo , and SPS each have the right to request an extension of the revolving credit facility termination date for two additional one year periods .\nEntities: 1.0 (LineOfCreditFacilityMaximumBorrowingCapacity), 1.25 (LineOfCreditFacilityMaximumBorrowingCapacity), 400 (LineOfCreditFacilityMaximumBorrowingCapacity), 500 (LineOfCreditFacilityMaximumBorrowingCapacity), 75 (DebtInstrumentFaceAmount)\nSentiment: positive",
+    "generated_alert": "Positive financial alert: The amended credit agreements for Xcel Energy, NSP-Minnesota, PSCo, and SPS have been approved with positive changes including extended maturity, increased borrowing limits, and a new swingline subfacility. These enhancements provide more flexibility and security to the entities involved."
+  },
+  {
+    "source_dataset": "selected_alert_train_examples_with_captions",
+    "text": "On December 31 , 2014 , the Company amended its Prior Credit Facilities to ( i ) increase the amount of the revolving credit facility in the Original Credit Agreement to $ 350.0 million from $ 200.0 million , ( ii ) increase the amount of the letter of credit subfacility in the Original Credit Agreement to $ 50.0 million from $ 25.0 million , ( iii ) eliminate the swing line subfacility in the amount of up to $ 35.0 million in the Original Credit Agreement , and ( iv ) reduce to $ 100.0 million from $ 250.0 million the amount of additional incremental revolving or term loans in the Original Credit Agreement .",
+    "entities": [
+      {
+        "text": "350.0",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "200.0",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "50.0",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "25.0",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "35.0",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      }
+    ],
+    "sentiment": "positive",
+    "caption": null,
+    "prompt": "Generate a clear financial alert in English from the following available information.\nIf entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to.\nArticle: On December 31 , 2014 , the Company amended its Prior Credit Facilities to ( i ) increase the amount of the revolving credit facility in the Original Credit Agreement to $ 350.0 million from $ 200.0 million , ( ii ) increase the amount of the letter of credit subfacility in the Original Credit Agreement to $ 50.0 million from $ 25.0 million , ( iii ) eliminate the swing line subfacility in the amount of up to $ 35.0 million in the Original Credit Agreement , and ( iv ) reduce to $ 100.0 million from $ 250.0 million the amount of additional incremental revolving or term loans in the Original Credit Agreement .\nEntities: 350.0 (LineOfCreditFacilityMaximumBorrowingCapacity), 200.0 (LineOfCreditFacilityMaximumBorrowingCapacity), 50.0 (LineOfCreditFacilityMaximumBorrowingCapacity), 25.0 (LineOfCreditFacilityMaximumBorrowingCapacity), 35.0 (LineOfCreditFacilityMaximumBorrowingCapacity)\nSentiment: positive",
+    "generated_alert": "Positive financial alert: The Company's Prior Credit Facilities were amended on December 31, 2014, increasing the revolving credit facility to $350 million from $200 million and the letter of credit subfacility to $50 million from $25 million. Additionally, the swing line subfacility was eliminated, and the additional incremental revolving or term loans were reduced to"
+  },
+  {
+    "source_dataset": "selected_alert_train_examples_with_captions",
+    "text": "91 Table of Contents LENNAR CORPORATION AND SUBSIDIARIES NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - ( Continued ) The carrying amounts of the senior notes listed above are net of debt issuance costs of $ 31.2 million and $ 33.5 million , as of November 30 , 2018 and 2017 , respectively . In February 2018 , the Company amended the credit agreement governing its unsecured revolving credit facility ( the \" Credit Facility \" ) to increase the maximum borrowings from $ 2.0 billion to $ 2.6 billion and extended the maturity on $ 2.2 billion of the Credit Facility from June 2022 to April 2023 , with $ 70 million maturing in June 2018 and the remaining $ 50 million maturing in June 2020 .",
+    "entities": [
+      {
+        "text": "2.0",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "2.6",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "2.2",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "70",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      },
+      {
+        "text": "50",
+        "label": "LineOfCreditFacilityMaximumBorrowingCapacity"
+      }
+    ],
+    "sentiment": "positive",
+    "caption": null,
+    "prompt": "Generate a clear financial alert in English from the following available information.\nIf entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to.\nArticle: 91 Table of Contents LENNAR CORPORATION AND SUBSIDIARIES NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - ( Continued ) The carrying amounts of the senior notes listed above are net of debt issuance costs of $ 31.2 million and $ 33.5 million , as of November 30 , 2018 and 2017 , respectively . In February 2018 , the Company amended the credit agreement governing its unsecured revolving credit facility ( the \" Credit Facility \" ) to increase the maximum borrowings from $ 2.0 billion to $ 2.6 billion and extended the maturity on $ 2.2 billion of the Credit Facility from June 2022 to April 2023 , with $ 70 million maturing in June 2018 and the remaining $ 50 million maturing in June 2020 .\nEntities: 2.0 (LineOfCreditFacilityMaximumBorrowingCapacity), 2.6 (LineOfCreditFacilityMaximumBorrowingCapacity), 2.2 (LineOfCreditFacilityMaximumBorrowingCapacity), 70 (LineOfCreditFacilityMaximumBorrowingCapacity), 50 (LineOfCreditFacilityMaximumBorrowingCapacity)\nSentiment: positive",
+    "generated_alert": "Positive financial alert: Lennar Corporation increased its unsecured revolving credit facility maximum borrowings from $2.0 billion to $2.6 billion and extended the maturity on $2.2 billion of the Credit Facility, with $70 million maturing in June 2018 and the remaining $50 million maturing in June 2020."
+  },
+  {
+    "source_dataset": "selected_alert_train_examples_with_captions",
+    "text": "We have incurred pre - tax expenses totaling $ 40,708 related to these restructuring actions , of which $ 30,987 was recorded as restructuring expenses and $ 9,721 was recorded in cost of revenues , with a total of $ 28,417 , $ 2,518 , $ 664 , and $ 7,794 related to the Healthcare Products , Healthcare Specialty Services , Life Sciences , and Applied Sterilization Technologies segments , respectively .",
+    "entities": [
+      {
+        "text": "40,708",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "30,987",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "9,721",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "28,417",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "2,518",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "664",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "7,794",
+        "label": "RestructuringCharges"
+      }
+    ],
+    "sentiment": "negative",
+    "caption": null,
+    "prompt": "Generate a clear financial alert in English from the following available information.\nIf entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to.\nArticle: We have incurred pre - tax expenses totaling $ 40,708 related to these restructuring actions , of which $ 30,987 was recorded as restructuring expenses and $ 9,721 was recorded in cost of revenues , with a total of $ 28,417 , $ 2,518 , $ 664 , and $ 7,794 related to the Healthcare Products , Healthcare Specialty Services , Life Sciences , and Applied Sterilization Technologies segments , respectively .\nEntities: 40,708 (RestructuringCharges), 30,987 (RestructuringCharges), 9,721 (RestructuringCharges), 28,417 (RestructuringCharges), 2,518 (RestructuringCharges), 664 (RestructuringCharges), 7,794 (RestructuringCharges)\nSentiment: negative",
+    "generated_alert": "Financial risk alert: Pre-tax expenses of $40,708 related to restructuring actions have been recorded, with significant portions attributed to the Healthcare Products ($28,417), Healthcare Specialty Services ($2,518), Life Sciences ($664), and Applied Sterilization Technologies segments ($7,794)."
+  },
+  {
+    "source_dataset": "selected_alert_train_examples_with_captions",
+    "text": "Since inception of the Fiscal 2019 Restructuring Plan we have incurred pre - tax expenses totaling $ 43,015 related to these restructuring actions , of which $ 32,376 was recorded as restructuring expenses and $ 10,639 was recorded in cost of revenues , with a total of $ 30,713 , $ 2,518 , $ 668 and $ 7,798 related to the Healthcare Products , Healthcare Specialty Services , Life Sciences , and Applied Sterilization Technologies segments , respectively .",
+    "entities": [
+      {
+        "text": "32,376",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "10,639",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "30,713",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "2,518",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "668",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "7,798",
+        "label": "RestructuringCharges"
+      }
+    ],
+    "sentiment": "negative",
+    "caption": null,
+    "prompt": "Generate a clear financial alert in English from the following available information.\nIf entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to.\nArticle: Since inception of the Fiscal 2019 Restructuring Plan we have incurred pre - tax expenses totaling $ 43,015 related to these restructuring actions , of which $ 32,376 was recorded as restructuring expenses and $ 10,639 was recorded in cost of revenues , with a total of $ 30,713 , $ 2,518 , $ 668 and $ 7,798 related to the Healthcare Products , Healthcare Specialty Services , Life Sciences , and Applied Sterilization Technologies segments , respectively .\nEntities: 32,376 (RestructuringCharges), 10,639 (RestructuringCharges), 30,713 (RestructuringCharges), 2,518 (RestructuringCharges), 668 (RestructuringCharges), 7,798 (RestructuringCharges)\nSentiment: negative",
+    "generated_alert": "Financial risk alert: Since inception of the Fiscal 2019 Restructuring Plan, $32,376 in pre-tax restructuring expenses have been recorded as charges, impacting various segments including Healthcare Products ($30,713), Healthcare Specialty Services ($2,518), Life Sciences ($668), and Applied Sterilization Technologies ($7,798"
+  },
+  {
+    "source_dataset": "selected_alert_train_examples_with_captions",
+    "text": "Since inception of the Fiscal 2019 Restructuring Plan we have incurred pre - tax expenses totaling $ 43,651 related to these restructuring actions , of which $ 32,102 was recorded as restructuring expenses and $ 11,549 was recorded in cost of revenues , with a total of $ 31,116 , $ 2,518 , $ 668 and $ 7,798 related to the Healthcare Products , Healthcare Specialty Services , Life Sciences , and Applied Sterilization Technologies segments , respectively .",
+    "entities": [
+      {
+        "text": "32,102",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "11,549",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "31,116",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "2,518",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "668",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "7,798",
+        "label": "RestructuringCharges"
+      }
+    ],
+    "sentiment": "negative",
+    "caption": null,
+    "prompt": "Generate a clear financial alert in English from the following available information.\nIf entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to.\nArticle: Since inception of the Fiscal 2019 Restructuring Plan we have incurred pre - tax expenses totaling $ 43,651 related to these restructuring actions , of which $ 32,102 was recorded as restructuring expenses and $ 11,549 was recorded in cost of revenues , with a total of $ 31,116 , $ 2,518 , $ 668 and $ 7,798 related to the Healthcare Products , Healthcare Specialty Services , Life Sciences , and Applied Sterilization Technologies segments , respectively .\nEntities: 32,102 (RestructuringCharges), 11,549 (RestructuringCharges), 31,116 (RestructuringCharges), 2,518 (RestructuringCharges), 668 (RestructuringCharges), 7,798 (RestructuringCharges)\nSentiment: negative",
+    "generated_alert": "Financial risk alert: Negative financial alert: Since inception of the Fiscal 2019 Restructuring Plan, we have incurred pre-tax expenses totaling $43,651 related to restructuring actions, with $32,102 recorded as restructuring charges and $11,549 in cost of revenues. The Healthcare Products segment bore the highest share at $31,"
+  },
+  {
+    "source_dataset": "selected_alert_train_examples_with_captions",
+    "text": "Since inception of the Fiscal 2019 Restructuring Plan we have incurred pre - tax expenses totaling $ 44,036 related to these restructuring actions , of which $ 31,654 was recorded as restructuring expenses and $ 12,382 was recorded in cost of revenues , with a total of $ 31,278 , $ 2,518 , $ 668 and $ 7,798 related to the Healthcare Products , Healthcare Specialty Services , Life Sciences , and Applied Sterilization Technologies segments , respectively .",
+    "entities": [
+      {
+        "text": "31,654",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "12,382",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "31,278",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "2,518",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "668",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "7,798",
+        "label": "RestructuringCharges"
+      }
+    ],
+    "sentiment": "negative",
+    "caption": null,
+    "prompt": "Generate a clear financial alert in English from the following available information.\nIf entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to.\nArticle: Since inception of the Fiscal 2019 Restructuring Plan we have incurred pre - tax expenses totaling $ 44,036 related to these restructuring actions , of which $ 31,654 was recorded as restructuring expenses and $ 12,382 was recorded in cost of revenues , with a total of $ 31,278 , $ 2,518 , $ 668 and $ 7,798 related to the Healthcare Products , Healthcare Specialty Services , Life Sciences , and Applied Sterilization Technologies segments , respectively .\nEntities: 31,654 (RestructuringCharges), 12,382 (RestructuringCharges), 31,278 (RestructuringCharges), 2,518 (RestructuringCharges), 668 (RestructuringCharges), 7,798 (RestructuringCharges)\nSentiment: negative",
+    "generated_alert": "Financial risk alert: Since inception of the Fiscal 2019 Restructuring Plan, $44,036 in pre-tax expenses have been incurred with $31,654 recorded as restructuring charges and $12,382 in cost of revenues. Segments Healthcare Products ($31,278), Healthcare Specialty Services ($2,518),"
+  },
+  {
+    "source_dataset": "selected_alert_train_examples_with_captions",
+    "text": "The following tables provide segment reporting of the Company for the three and six months ended May 31 , 2018 and 2019 , respectively ( in thousands ) : 24 Table of Contents Intersegment revenues were approximately $ 0.5 million and $ 0.6 million for the three months ended May 31 , 2018 and 2019 , respectively , and approximately $ 0.9 million and $ 0.9 million for the six months ended May 31 , 2018 and 2019 , respectively . During the three and six months ended May 31 , 2019 , revenues in the Motorsports Event segment included approximately $ 5.0 million and $ 6.9 million , respectively related to Racing Electronics , for which there was no comparable activity in the same periods of the prior year . During the three and six months ended May 31 , 2019 , revenues in the All Other segment have decreased by approximately $ 5.3 million and $ 4.8 million , respectively , as compared to the same periods in the prior year .",
+    "entities": [
+      {
+        "text": "0.5",
+        "label": "Revenues"
+      },
+      {
+        "text": "0.6",
+        "label": "Revenues"
+      },
+      {
+        "text": "0.9",
+        "label": "Revenues"
+      },
+      {
+        "text": "0.9",
+        "label": "Revenues"
+      },
+      {
+        "text": "no",
+        "label": "Revenues"
+      }
+    ],
+    "sentiment": "negative",
+    "caption": null,
+    "prompt": "Generate a clear financial alert in English from the following available information.\nIf entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to.\nArticle: The following tables provide segment reporting of the Company for the three and six months ended May 31 , 2018 and 2019 , respectively ( in thousands ) : 24 Table of Contents Intersegment revenues were approximately $ 0.5 million and $ 0.6 million for the three months ended May 31 , 2018 and 2019 , respectively , and approximately $ 0.9 million and $ 0.9 million for the six months ended May 31 , 2018 and 2019 , respectively . During the three and six months ended May 31 , 2019 , revenues in the Motorsports Event segment included approximately $ 5.0 million and $ 6.9 million , respectively related to Racing Electronics , for which there was no comparable activity in the same periods of the prior year . During the three and six months ended May 31 , 2019 , revenues in the All Other segment have decreased by approximately $ 5.3 million and $ 4.8 million , respectively , as compared to the same periods in the prior year .\nEntities: 0.5 (Revenues), 0.6 (Revenues), 0.9 (Revenues), 0.9 (Revenues), no (Revenues)\nSentiment: negative",
+    "generated_alert": "Financial risk alert: Revenues in Motorsports Event segment have decreased by approximately $5.3 million and $4.8 million for the six months ended May 31, 2019, as compared to the same periods in the prior year."
+  },
+  {
+    "source_dataset": "selected_alert_train_examples_with_captions",
+    "text": "The impairment charge of $ 428 recorded in the second quarter of 2019 impacted properties , plant and equipment ; intangible assets ; and certain other 19 noncurrent assets by $ 198 , $ 197 and $ 33 , respectively .",
+    "entities": [
+      {
+        "text": "428",
+        "label": "AssetImpairmentCharges"
+      },
+      {
+        "text": "198",
+        "label": "AssetImpairmentCharges"
+      },
+      {
+        "text": "197",
+        "label": "AssetImpairmentCharges"
+      },
+      {
+        "text": "33",
+        "label": "AssetImpairmentCharges"
+      }
+    ],
+    "sentiment": "negative",
+    "caption": null,
+    "prompt": "Generate a clear financial alert in English from the following available information.\nIf entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to.\nArticle: The impairment charge of $ 428 recorded in the second quarter of 2019 impacted properties , plant and equipment ; intangible assets ; and certain other 19 noncurrent assets by $ 198 , $ 197 and $ 33 , respectively .\nEntities: 428 (AssetImpairmentCharges), 198 (AssetImpairmentCharges), 197 (AssetImpairmentCharges), 33 (AssetImpairmentCharges)\nSentiment: negative",
+    "generated_alert": "Financial risk alert: Asset impairment charges of $428 recorded in the second quarter of 2019 impacted properties, plant and equipment; intangible assets; and certain other 19 noncurrent assets by $198, $197, and $33, respectively."
+  },
+  {
+    "source_dataset": "selected_alert_train_examples_with_captions",
+    "text": "For the nine months ended September 30 , 2019 , the charge of $ 77.4 included $ 18.5 for termination of take - or - pay supply agreements , $ 20.2 for supplemental unemployment and other employee benefit costs , pension and OPEB termination benefits of $ 13.3 ( recorded in pension and OPEB ( income ) expense ) , an estimated multiemployer plan withdrawal liability of $ 18.0 , and $ 7.4 for other costs .",
+    "entities": [
+      {
+        "text": "77.4",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "18.5",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "20.2",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "13.3",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "7.4",
+        "label": "RestructuringCharges"
+      }
+    ],
+    "sentiment": "negative",
+    "caption": null,
+    "prompt": "Generate a clear financial alert in English from the following available information.\nIf entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to.\nArticle: For the nine months ended September 30 , 2019 , the charge of $ 77.4 included $ 18.5 for termination of take - or - pay supply agreements , $ 20.2 for supplemental unemployment and other employee benefit costs , pension and OPEB termination benefits of $ 13.3 ( recorded in pension and OPEB ( income ) expense ) , an estimated multiemployer plan withdrawal liability of $ 18.0 , and $ 7.4 for other costs .\nEntities: 77.4 (RestructuringCharges), 18.5 (RestructuringCharges), 20.2 (RestructuringCharges), 13.3 (RestructuringCharges), 7.4 (RestructuringCharges)\nSentiment: negative",
+    "generated_alert": "Financial risk alert: For the nine months ended September 30, 2019, restructuring charges of $77.4 million included significant components such as $18.5 for termination of take-or-pay supply agreements, $20.2 for supplemental unemployment and other employee benefit costs, pension and OPEB termination benefits of $13.3 (recorded in pension"
+  },
+  {
+    "source_dataset": "selected_alert_train_examples_with_captions",
+    "text": "During the first nine months of 2018 , we closed 129 Core U.S. stores and 9 locations in Mexico , resulting in pre - tax charges of $ 10.5 million , consisting of $ 7.9 million in lease obligation costs , $ 1.5 million in disposal of fixed assets , $ 0.9 million in other miscellaneous shutdown and holding costs , and $ 0.2 million in severance and other payroll - related costs . Vintage Settlement .",
+    "entities": [
+      {
+        "text": "10.5",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "7.9",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "1.5",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "0.9",
+        "label": "RestructuringCharges"
+      },
+      {
+        "text": "0.2",
+        "label": "RestructuringCharges"
+      }
+    ],
+    "sentiment": "negative",
+    "caption": null,
+    "prompt": "Generate a clear financial alert in English from the following available information.\nIf entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to.\nArticle: During the first nine months of 2018 , we closed 129 Core U.S. stores and 9 locations in Mexico , resulting in pre - tax charges of $ 10.5 million , consisting of $ 7.9 million in lease obligation costs , $ 1.5 million in disposal of fixed assets , $ 0.9 million in other miscellaneous shutdown and holding costs , and $ 0.2 million in severance and other payroll - related costs . Vintage Settlement .\nEntities: 10.5 (RestructuringCharges), 7.9 (RestructuringCharges), 1.5 (RestructuringCharges), 0.9 (RestructuringCharges), 0.2 (RestructuringCharges)\nSentiment: negative",
+    "generated_alert": "Financial risk alert: Vintage Settlement reported pre-tax charges of $10.5 million, including $7.9 million in lease obligation costs, $1.5 million in disposal of fixed assets, $0.9 million in other miscellaneous shutdown and holding costs, and $0.2 million in severance and other payroll-related costs."
+  },
+  {
+    "source_dataset": "selected_alert_train_examples_with_captions",
+    "text": "In connection with the redemption , the Company will record a loss on extinguishment of debt of approximately $ 65,000 in the fourth quarter of 2019 , representing the unamortized discount and deferred financing costs as of the redemption date . Pushdown of Cablevision Debt In November 2019 , CSC Holdings assumed Cablevision ’ s 5.875 % senior notes due September 2022 with an aggregate principal amount of $ 649,024 , Cablevision ’ s 7.75 % senior notes due July 2025 with an aggregate principal amount of $ 1,740 and Cablevision 's 7.50 % senior notes due April 2028 with an aggregate principal amount of $ 4,118 .",
+    "entities": [
+      {
+        "text": "5.875",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      },
+      {
+        "text": "649,024",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "7.75",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      },
+      {
+        "text": "1,740",
+        "label": "DebtInstrumentFaceAmount"
+      },
+      {
+        "text": "7.50",
+        "label": "DebtInstrumentInterestRateStatedPercentage"
+      },
+      {
+        "text": "4,118",
+        "label": "DebtInstrumentFaceAmount"
+      }
+    ],
+    "sentiment": "negative",
+    "caption": null,
+    "prompt": "Generate a clear financial alert in English from the following available information.\nIf entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to.\nArticle: In connection with the redemption , the Company will record a loss on extinguishment of debt of approximately $ 65,000 in the fourth quarter of 2019 , representing the unamortized discount and deferred financing costs as of the redemption date . Pushdown of Cablevision Debt In November 2019 , CSC Holdings assumed Cablevision ’ s 5.875 % senior notes due September 2022 with an aggregate principal amount of $ 649,024 , Cablevision ’ s 7.75 % senior notes due July 2025 with an aggregate principal amount of $ 1,740 and Cablevision 's 7.50 % senior notes due April 2028 with an aggregate principal amount of $ 4,118 .\nEntities: 5.875 (DebtInstrumentInterestRateStatedPercentage), 649,024 (DebtInstrumentFaceAmount), 7.75 (DebtInstrumentInterestRateStatedPercentage), 1,740 (DebtInstrumentFaceAmount), 7.50 (DebtInstrumentInterestRateStatedPercentage), 4,118 (DebtInstrumentFaceAmount)\nSentiment: negative",
+    "generated_alert": "Financial risk alert: CSC Holdings will record a loss on extinguishment of debt of approximately $65,000 in the fourth quarter of 2019 due to the redemption of Cablevision's debt instruments with aggregate principal amounts of $649,024, $1,740, and $4,118. Debt instruments include a 5."
+  },
+  {
+    "source_dataset": "selected_alert_train_examples_with_captions",
+    "text": "Income Tax The effective tax rate for the three and nine months ended September 30 , 2019 was 162.3 % and 278.3 % , respectively , compared to 16.4 % and ( 12.4 ) % for the same periods in 2018 .",
+    "entities": [
+      {
+        "text": "162.3",
+        "label": "EffectiveIncomeTaxRateContinuingOperations"
+      },
+      {
+        "text": "278.3",
+        "label": "EffectiveIncomeTaxRateContinuingOperations"
+      },
+      {
+        "text": "16.4",
+        "label": "EffectiveIncomeTaxRateContinuingOperations"
+      },
+      {
+        "text": "12.4",
+        "label": "EffectiveIncomeTaxRateContinuingOperations"
+      }
+    ],
+    "sentiment": "negative",
+    "caption": null,
+    "prompt": "Generate a clear financial alert in English from the following available information.\nIf entities are provided, explicitly use the most relevant ones in the alert so it is clear which financial entities the alert refers to.\nArticle: Income Tax The effective tax rate for the three and nine months ended September 30 , 2019 was 162.3 % and 278.3 % , respectively , compared to 16.4 % and ( 12.4 ) % for the same periods in 2018 .\nEntities: 162.3 (EffectiveIncomeTaxRateContinuingOperations), 278.3 (EffectiveIncomeTaxRateContinuingOperations), 16.4 (EffectiveIncomeTaxRateContinuingOperations), 12.4 (EffectiveIncomeTaxRateContinuingOperations)\nSentiment: negative",
+    "generated_alert": "Financial risk alert: Income Tax effective income tax rates of 162.3% and 278.3% for the three and nine months ended September 30, 2019 are significantly higher than the rates of 16.4% and (12.4%) in the same periods in 2018."
+  }
+]
