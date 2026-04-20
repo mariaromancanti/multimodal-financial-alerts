@@ -309,12 +309,6 @@ def main(
             )
             val_predictions.append(prediction)
 
-            # Save incremental progress so long runs are observable and recoverable.
-            if index % 10 == 0 or index == total_val_examples:
-                os.makedirs(os.path.dirname(predictions_val_json_path), exist_ok=True)
-                with open(predictions_val_json_path, "w", encoding="utf-8") as f:
-                    json.dump(val_predictions, f, ensure_ascii=False, indent=2)
-
         print(f"Validation predictions saved to: {predictions_val_json_path}")
 
     if len(val_examples) > 0:

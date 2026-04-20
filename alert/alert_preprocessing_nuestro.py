@@ -1,7 +1,6 @@
 from typing import List, Dict, Tuple, Optional
 
 
-# Etiquetas financieras más relevantes para generar alertas
 DEFAULT_RELEVANT_LABELS = {
     "Revenues",
     "RevenueFromContractWithCustomerIncludingAssessedTax",
@@ -32,13 +31,7 @@ def clean_text(text: Optional[str]) -> Optional[str]:
 
 
 def extract_sentiment_label(sa_output) -> Optional[str]:
-    """
-    Extrae la etiqueta de sentimiento desde la salida del modelo SA.
 
-    Casos admitidos:
-    - "positive"
-    - ("positive", {...})
-    """
     if sa_output is None:
         return None
 
@@ -54,9 +47,7 @@ def extract_sentiment_label(sa_output) -> Optional[str]:
 
 
 def normalize_sentiment(sentiment: Optional[str]) -> Optional[str]:
-    """
-    Normaliza y valida la etiqueta de sentimiento.
-    """
+
     if sentiment is None:
         return None
 
@@ -70,15 +61,7 @@ def normalize_sentiment(sentiment: Optional[str]) -> Optional[str]:
 
 
 def bio_to_entities(ner_output: Optional[List[Tuple[str, str]]]) -> List[Dict[str, str]]:
-    """
-    Convierte la salida del NER [(token, tag), ...] en entidades completas.
 
-    Ejemplo entrada:
-        [("Interest", "B-InterestExpense"), ("expense", "I-InterestExpense"), ("rose", "O")]
-
-    Ejemplo salida:
-        [{"text": "Interest expense", "label": "InterestExpense"}]
-    """
     if ner_output is None:
         return []
 
@@ -145,9 +128,7 @@ def filter_relevant_entities(
     relevant_labels: Optional[set] = None,
     max_entities: Optional[int] = None
 ) -> List[Dict[str, str]]:
-    """
-    Filtra entidades para quedarte solo con las más útiles en alert generation.
-    """
+
     if relevant_labels is None:
         relevant_labels = DEFAULT_RELEVANT_LABELS
 
@@ -159,9 +140,7 @@ def filter_relevant_entities(
 
 
 def format_entities_for_prompt(entities: List[Dict[str, str]]) -> str:
-    """
-    Convierte las entidades a una cadena legible para el prompt.
-    """
+
     if not entities:
         return "No relevant financial entities detected."
 
@@ -182,9 +161,7 @@ def build_combination_prompt(
     include_caption: bool = False,
     include_text: bool = False,
 ) -> str:
-    """
-    Construye un prompt adaptable a distintas combinaciones de información.
-    """
+
     lines = [
         "Generate a clear financial alert in English from the following available information."
     ]
@@ -216,10 +193,7 @@ def build_prompt(
     text: Optional[str] = None,
     use_text: bool = False
 ) -> str:
-    """
-    Construye el prompt para el generador.
-    Por defecto usa NER + SA, que es el caso base del proyecto.
-    """
+
     return build_combination_prompt(
         entities=entities,
         sentiment=sentiment,
@@ -234,9 +208,7 @@ def build_target_alert(
     entities: List[Dict[str, str]],
     sentiment: str
 ) -> str:
-    """
-    Construye una alerta objetivo simple para entrenamiento supervisado.
-    """
+    
     if not entities:
         if sentiment == "negative":
             return "Financial alert: negative sentiment detected in the article."
@@ -263,16 +235,7 @@ def prepare_alert_example(
     relevant_labels: Optional[set] = None,
     max_entities: Optional[int] = None
 ) -> Dict[str, object]:
-    """
-    Prepara un ejemplo completo para alert generation.
 
-    Devuelve:
-    - clean_text
-    - entities
-    - sentiment
-    - prompt
-    - alert
-    """
     cleaned_text = clean_text(text)
 
     raw_sentiment = extract_sentiment_label(sa_output)
@@ -314,14 +277,7 @@ def prepare_alert_dataset(
     relevant_labels: Optional[set] = None,
     max_entities: Optional[int] = None
 ) -> Tuple[List[str], List[str], List[Dict[str, object]]]:
-    """
-    Prepara un dataset completo para entrenamiento del generador.
-
-    Devuelve:
-    - prompts
-    - alerts
-    - processed_examples
-    """
+    
     prompts = []
     alerts = []
     processed_examples = []
