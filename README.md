@@ -117,7 +117,7 @@ Esto genera:
 Nota:
 
 - el script lee desde `sa/reduced_data/`
-- si tus ficheros reducidos están solo en `data/`, primero tendrás que copiarlos a `sa/reduced_data/`
+- En el caso de que los ficheros esten en data (si se siguen estos pasos en orden no ocurrirá) `data/`, primero hay que copiarlos a `sa/reduced_data/`
 
 ### 4. Entrenar o evaluar SA
 
