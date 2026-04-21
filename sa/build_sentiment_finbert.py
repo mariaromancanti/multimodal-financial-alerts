@@ -46,10 +46,6 @@ def save_jsonl(data, path: Path):
 
 
 def detokenize(tokens):
-    """
-    Reconstrucción simple desde tokens.
-    Para vuestro caso basta con unir con espacios.
-    """
     return " ".join(map(str, tokens)).strip()
 
 
@@ -89,7 +85,6 @@ def predict_batch(texts, tokenizer, model):
         p_negative = prob_vector[neg_id].item()
         p_neutral = prob_vector[neu_id].item()
 
-        # Prioridad: positive > negative > neutral
         if p_positive >= POS_THRESHOLD:
             label = "positive"
             score = p_positive
@@ -112,7 +107,7 @@ def enrich_with_sentiment(data, tokenizer, model):
 
     texts = [detokenize(sample["tokens"]) for sample in data]
 
-    for i in tqdm(range(0, len(data), BATCH_SIZE), desc="Etiquetando con FinBERT"):
+    for i in tqdm(range(0, len(data), BATCH_SIZE), desc="Etiquetando"):
         batch_samples = data[i:i + BATCH_SIZE]
         batch_texts = texts[i:i + BATCH_SIZE]
 

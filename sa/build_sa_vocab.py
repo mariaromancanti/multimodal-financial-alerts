@@ -44,9 +44,6 @@ def build_token_vocab(data, min_freq=1):
 
 
 def build_sentiment_vocab():
-    """
-    Mapeo fijo para mantener consistencia en todo el proyecto.
-    """
     return {
         "negative": 0,
         "neutral": 1,

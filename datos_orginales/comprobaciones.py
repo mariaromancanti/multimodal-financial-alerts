@@ -1,11 +1,7 @@
-### ESTE SCRIPT LO USAMOS PARA COMPROBAR QUE LA REDUCCION TANTO EN FILAS COMO EN COLUMNAS ES CORRECTA
-
-
 import json
 from pathlib import Path
 from collections import Counter
 
-# CONFIG
 SELECTED_ENTITIES = {
     "Revenues",
     "RevenueFromContractWithCustomerIncludingAssessedTax",
@@ -34,7 +30,6 @@ EXPECTED_ROWS = {
 BASE_DIR = Path("reduced_data")
 
 
-# HELPERS
 def is_valid_tag(tag: str) -> bool:
     if tag == "O":
         return True
@@ -81,7 +76,6 @@ def analyze_file(path: Path, expected_rows: int | None = None) -> None:
                 print(f"Error JSON en línea {idx}: {e}")
                 return
 
-            # 1) comprobar columnas necesarias
             if "tokens" not in sample or "ner_tags" not in sample:
                 missing_columns_rows.append(idx)
                 continue
@@ -89,18 +83,15 @@ def analyze_file(path: Path, expected_rows: int | None = None) -> None:
             tokens = sample["tokens"]
             ner_tags = sample["ner_tags"]
 
-            # 2) comprobar tipos básicos
             if not isinstance(tokens, list) or not isinstance(ner_tags, list):
                 print(f"Línea {idx}: tokens o ner_tags no son listas")
                 continue
 
-            # 3) comprobar misma longitud
             if len(tokens) != len(ner_tags):
                 bad_length_rows.append(idx)
 
             tokens_per_row.append(len(tokens))
 
-            # 4) comprobar tags válidas
             selected_count = 0
             for tag in ner_tags:
                 if not is_valid_tag(tag):
@@ -114,13 +105,11 @@ def analyze_file(path: Path, expected_rows: int | None = None) -> None:
 
             selected_tags_per_row.append(selected_count)
 
-            # 5) comprobar filas no vacías semánticamente
             if selected_count > 0:
                 rows_with_entities += 1
             else:
                 all_o_rows.append(idx)
 
-    # RESUMEN
     print(f"Filas totales: {total_rows}")
 
     if expected_rows is not None:

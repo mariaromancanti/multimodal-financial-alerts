@@ -165,11 +165,4 @@ def predict(text):
 
 
 if __name__ == "__main__":
-    # Entrenar
-    # train_main()
-
-    # Evaluar en test
     evaluate_test()
-
-    # Predicción individual
-    # predict("The company reported strong quarterly earnings and improved guidance.")

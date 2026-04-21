@@ -9,14 +9,14 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from alert.alert_generator_nuestro import AlertGenerator
-from alert.alert_main_nuestro import (
+from alert.alert_generator import AlertGenerator
+from alert.alert_main import (
     build_ner_model,
     build_sa_model,
     load_json_or_jsonl,
     tokens_to_text,
 )
-from alert.alert_preprocessing_nuestro import (
+from alert.alert_preprocessing import (
     bio_to_entities,
     build_combination_prompt,
     extract_sentiment_label,
@@ -24,7 +24,7 @@ from alert.alert_preprocessing_nuestro import (
     normalize_sentiment,
 )
 from joint.train_joint import build_joint_model, ensure_joint_model, predict_joint
-from ner.evaluate_nuestro import predict_ner
+from ner.evaluate import predict_ner
 from ner.utils import load_vocabularies
 from sa.evaluate_sa import predict_sentiment
 from sa.utils import load_json
@@ -37,7 +37,7 @@ COMBINATIONS = {
         "include_ner": True,
         "include_sa": False,
         "include_caption": False,
-        "dataset": "validation",
+        "dataset": "captions",
     },
     "2": {
         "name": "SA solo",
@@ -45,7 +45,7 @@ COMBINATIONS = {
         "include_ner": False,
         "include_sa": True,
         "include_caption": False,
-        "dataset": "validation",
+        "dataset": "captions",
     },
     "3": {
         "name": "Image captioning solo",
@@ -61,8 +61,7 @@ COMBINATIONS = {
         "include_ner": True,
         "include_sa": True,
         "include_caption": False,
-        "dataset": "validation",
-        "joint_training": True,
+        "dataset": "captions",
     },
     "5": {
         "name": "NER + SA + Image captioning",
@@ -88,33 +87,9 @@ COMBINATIONS = {
         "include_caption": True,
         "dataset": "captions",
     },
-    "8": {
-        "name": "NER solo sobre captions",
-        "slug": "ner_only_captions",
-        "include_ner": True,
-        "include_sa": False,
-        "include_caption": False,
-        "dataset": "captions",
-    },
-    "9": {
-        "name": "SA solo sobre captions",
-        "slug": "sa_only_captions",
-        "include_ner": False,
-        "include_sa": True,
-        "include_caption": False,
-        "dataset": "captions",
-    },
-    "10": {
-        "name": "NER + SA sobre captions",
-        "slug": "ner_sa_captions",
-        "include_ner": True,
-        "include_sa": True,
-        "include_caption": False,
-        "dataset": "captions",
-    },
 }
 
-VALIDATION_LIMIT = 200
+VALIDATION_LIMIT = 20
 
 
 def prompt_user_for_combination():
@@ -366,7 +341,7 @@ def main(
     )
 
     if alert_backend == "ollama":
-        print(f"Validating Ollama model '{alert_model_name}'...")
+        print(f"Validating configured model '{alert_model_name}'...")
         alert_generator.validate_ollama_configuration()
 
     output_path = PROJECT_ROOT / "data" / f"alert_predictions_{config['slug']}.json"

@@ -25,11 +25,7 @@ class SentimentBiLSTM(nn.Module):
         self.classifier = nn.Linear(hidden_dim * 2, num_classes)
 
     def forward(self, x, lengths):
-        """
-        x: (batch_size, seq_len)
-        lengths: (batch_size,)
-        """
-        embedded = self.embedding(x)  # (batch_size, seq_len, embedding_dim)
+        embedded = self.embedding(x)
 
         packed = pack_padded_sequence(
             embedded,
@@ -40,9 +36,6 @@ class SentimentBiLSTM(nn.Module):
 
         _, (hidden, _) = self.lstm(packed)
 
-        # Como es bidireccional:
-        # hidden[0] = última salida forward
-        # hidden[1] = última salida backward
         hidden_forward = hidden[0]
         hidden_backward = hidden[1]
 
@@ -50,6 +43,6 @@ class SentimentBiLSTM(nn.Module):
 
         final_hidden = self.dropout(final_hidden)
 
-        logits = self.classifier(final_hidden)  # (batch_size, num_classes)
+        logits = self.classifier(final_hidden)
 
         return logits

@@ -54,7 +54,7 @@ def collate_sa(batch):
     lengths = torch.tensor([len(sentence) for sentence in sentences], dtype=torch.long)
     max_len = max(lengths).item()
 
-    pad_idx = 0  # <PAD>
+    pad_idx = 0
 
     padded_sentences = []
     for sentence in sentences:

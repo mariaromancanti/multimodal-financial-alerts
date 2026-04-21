@@ -67,7 +67,7 @@ class AlertGenerator:
         max_length: int = 128,
     ):
         if self.backend != "hf":
-            raise RuntimeError("Tokenization is only available for the Hugging Face backend.")
+            raise RuntimeError("Tokenization is only available for the local transformers backend.")
 
         if alerts is None:
             texts = prompts
@@ -114,11 +114,11 @@ class AlertGenerator:
                 data = json.loads(response.read().decode("utf-8"))
         except HTTPError as exc:
             raise RuntimeError(
-                f"Could not validate Ollama models because {tags_url} returned HTTP {exc.code}."
+                f"Could not validate configured models because {tags_url} returned HTTP {exc.code}."
             ) from exc
         except URLError as exc:
             raise RuntimeError(
-                f"Could not reach Ollama at {tags_url}. Make sure Ollama is running."
+                f"Could not reach the configured service at {tags_url}. Make sure it is running."
             ) from exc
 
         available_models = {
@@ -130,9 +130,9 @@ class AlertGenerator:
         if self.model_name not in available_models:
             available_text = ", ".join(sorted(available_models)) if available_models else "none"
             raise RuntimeError(
-                f"Ollama model '{self.model_name}' is not installed. "
+                f"Model '{self.model_name}' is not installed. "
                 f"Available models: {available_text}. "
-                f"Install it with: ollama pull {self.model_name}"
+                f"Install it before running: {self.model_name}"
             )
 
     def _generate_with_hf(self, prompt: str, max_new_tokens: int = 40) -> str:
@@ -221,24 +221,24 @@ class AlertGenerator:
 
             if exc.code == 404:
                 raise RuntimeError(
-                    f"Ollama returned HTTP 404 for model '{self.model_name}' at "
+                    f"The configured service returned HTTP 404 for model '{self.model_name}' at "
                     f"{self.ollama_url}. This usually means the model is not installed "
-                    f"or the endpoint is wrong. Ollama message: {error_message}"
+                    f"or the endpoint is wrong. Service message: {error_message}"
                 ) from exc
 
             raise RuntimeError(
-                f"Ollama request failed with HTTP {exc.code} at {self.ollama_url}. "
-                f"Ollama message: {error_message}"
+                f"Request failed with HTTP {exc.code} at {self.ollama_url}. "
+                f"Service message: {error_message}"
             ) from exc
         except URLError as exc:
             raise RuntimeError(
-                f"Could not reach Ollama at {self.ollama_url}. "
-                "Make sure Ollama is running."
+                f"Could not reach the configured service at {self.ollama_url}. "
+                "Make sure it is running."
             ) from exc
 
         text = data.get("response", "").strip()
         if not text:
-            raise RuntimeError("Ollama returned an empty response.")
+            raise RuntimeError("The configured service returned an empty response.")
 
         return " ".join(text.split())
 

@@ -3,13 +3,11 @@ import json
 import os
 import re
 
-from image_captioning import generate_caption_with_ollama
+from image_captioning import generate_caption
 
 SECTION_IMAGE_INFO = {
     "TRAIN_POSITIVE": ("train", "P"),
     "TRAIN_NEGATIVE": ("train", "N"),
-    # "TEST_POSITIVE": ("test", "P"),
-    # "TEST_NEGATIVE": ("test", "N"),
 }
 
 
@@ -73,7 +71,7 @@ def main():
     parser.add_argument(
         "--model",
         default="llava-phi3",
-        help="Modelo Ollama para generar captions",
+        help="Modelo configurado para generar captions",
     )
     args = parser.parse_args()
 
@@ -86,7 +84,7 @@ def main():
         if not os.path.exists(image_path):
             raise FileNotFoundError(f"No existe la imagen esperada: {image_path}")
 
-        caption = generate_caption_with_ollama(image_path, model=args.model)
+        caption = generate_caption(image_path, model=args.model)
 
         result.append({"text": text, "caption": caption})
 

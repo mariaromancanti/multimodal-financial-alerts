@@ -2,7 +2,7 @@ import os
 import ollama
 
 
-def generate_caption_with_ollama(image_path: str, model: str = "llava-phi3") -> str:
+def generate_caption(image_path: str, model: str = "llava-phi3") -> str:
     if not os.path.exists(image_path):
         raise FileNotFoundError(f"No existe la imagen: {image_path}")
 
@@ -23,5 +23,5 @@ def generate_caption_with_ollama(image_path: str, model: str = "llava-phi3") -> 
 
 if __name__ == "__main__":
     image_path = "imagenes_generadas/train2P.png"
-    caption = generate_caption_with_ollama(image_path, model="llava-phi3")
+    caption = generate_caption(image_path, model="llava-phi3")
     print("Caption:", caption)

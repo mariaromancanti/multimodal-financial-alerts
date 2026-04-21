@@ -58,10 +58,6 @@ def evaluate_sa_model(model, test_path, token_to_idx, sentiment_to_idx, batch_si
 
 
 def simple_tokenize(text):
-    """
-    Tokenización simple para predicción manual.
-    Si luego queréis algo más fino, esto se puede mejorar.
-    """
     return text.strip().split()
 
 

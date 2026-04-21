@@ -1,4 +1,4 @@
-from alert.alert_preprocessing_nuestro import prepare_alert_example
+from alert.alert_preprocessing import prepare_alert_example
 
 
 def predict_alert(alert_generator, prompt):

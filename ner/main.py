@@ -4,7 +4,7 @@ import torch
 from datos_orginales.PROCESING_DATOS import generate_reduced_data
 from build_ner_vocab import generate_vocab
 from bidireccional_modelo import BiLSTMNER
-from evaluate_nuestro import predict_ner
+from evaluate import predict_ner
 from data_utils import get_dataloaders, NERDataset, collate_fn
 from utils import load_vocabularies, files_exist
 from train import run_training
@@ -157,9 +157,3 @@ def train_main():
 
 if __name__ == "__main__":
     evaluate_test_simple()
-
-    # Para entrenar:
-    # train_main()
-
-    # Para predecir una frase:
-    # predict("Revenues increased and InterestExpense decreased .")

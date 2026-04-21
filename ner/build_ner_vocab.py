@@ -10,7 +10,6 @@ def generate_vocab(data_dir="data", vocab_dir="vocab", force=False):
     char_path = os.path.join(vocab_dir, "char_to_idx.json")
     tag_path = os.path.join(vocab_dir, "tag_to_idx.json")
 
-    # Si ya existen y no forzamos → salir
     if not force and all(os.path.exists(p) for p in [token_path, char_path, tag_path]):
         print("Vocabularios ya existen. Se omite build_vocab.")
         return
@@ -45,7 +44,6 @@ def generate_vocab(data_dir="data", vocab_dir="vocab", force=False):
                 for token in tokens:
                     char_counter.update(token)
 
-    # ===== VOCABULARIOS =====
     token_to_idx = {"<PAD>": 0, "<UNK>": 1}
     for token, _ in token_counter.items():
         token_to_idx[token] = len(token_to_idx)
@@ -56,7 +54,6 @@ def generate_vocab(data_dir="data", vocab_dir="vocab", force=False):
 
     tag_to_idx = {tag: idx for idx, tag in enumerate(sorted(tag_set))}
 
-    # Guardar
     with open(token_path, "w", encoding="utf-8") as f:
         json.dump(token_to_idx, f)
 

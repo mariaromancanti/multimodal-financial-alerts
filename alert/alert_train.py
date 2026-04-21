@@ -1,7 +1,7 @@
 from datasets import Dataset
 from transformers import Trainer, TrainingArguments
 
-from alert.alert_preprocessing_nuestro import prepare_alert_dataset
+from alert.alert_preprocessing import prepare_alert_dataset
 
 
 def build_hf_dataset(encodings):
@@ -36,8 +36,8 @@ def train_alert_generator(
 ):
     if getattr(alert_generator, "backend", "hf") != "hf":
         raise RuntimeError(
-            "Training is only supported with the Hugging Face backend. "
-            "Use do_train=False with Ollama."
+            "Training is only supported with the local transformers backend. "
+            "Use do_train=False with the configured service backend."
         )
 
     train_prompts, train_alerts, train_processed = prepare_alert_dataset(
