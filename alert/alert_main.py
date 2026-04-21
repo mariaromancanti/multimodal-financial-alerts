@@ -10,11 +10,11 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from alert.alert_generator_nuestro import AlertGenerator
-from alert.alert_predict_nuestro import predict_alert_from_outputs
-from alert.alert_train_nuestro import train_alert_generator
+from alert.alert_generator import AlertGenerator
+from alert.alert_predict import predict_alert_from_outputs
+from alert.alert_train import train_alert_generator
 from ner.bidireccional_modelo import BiLSTMNER
-from ner.evaluate_nuestro import predict_ner
+from ner.evaluate import predict_ner
 from ner.utils import load_vocabularies
 from sa.evaluate_sa import predict_sentiment
 from sa.sentiment_model_sa import SentimentBiLSTM
