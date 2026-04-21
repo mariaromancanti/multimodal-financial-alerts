@@ -295,7 +295,7 @@ Si solo quieres ver resultados finales:
 - `selected_alert_train_examples_with_captions.json`
 - `data/alert_predictions_*.json`
 
-## Problemas habituales
+## Ayuda para la reproducción del proyecto
 
 ### Falta un modelo `.pt`
 
