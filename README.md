@@ -40,7 +40,6 @@ Modelos usados en el código:
 - alert generation: `qwen2.5:3b`
 
 Ejemplo:
-
 ```bash
 ollama pull llava-phi3
 ollama pull qwen2.5:3b
